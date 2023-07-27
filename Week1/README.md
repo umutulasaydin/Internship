@@ -36,30 +36,30 @@ or not
 
 ### Terms I Learned
 
--Pragmatic Programmer (Book)
-*Broken Window Theory
-*Stone Soup
+-Pragmatic Programmer (Book):\
+*Broken Window Theory\
+*Stone Soup\
 *Boil Frog
 
--ASP .Net Core
-*Dependency Injection
-*Middleware
-*Routing
-*Dependicies
-*Models
-*Controllers
-*Database
-*Migrations
-*Logging
+-ASP .Net Core:\
+*Dependency Injection\
+*Middleware\
+*Routing\
+*Dependicies\
+*Models\
+*Controllers\
+*Database\
+*Migrations\
+*Logging\
 *Swagger
 
--General
-*API
-*MVC Architecture
-*Authenticate
-*Jwt Token
-*Cache-in Memory
-*Refresh Token
-*Salting
-*Swagger
+-General:\
+*API\
+*MVC Architecture\
+*Authenticate\
+*Jwt Token\
+*Cache-in Memory\
+*Refresh Token\
+*Salting\
+*Swagger\
 *Postman
