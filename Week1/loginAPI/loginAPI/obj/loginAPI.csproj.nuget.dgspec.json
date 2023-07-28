@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week1\\loginAPI\\loginAPI\\loginAPI.csproj": {}
+    "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week1\\loginApi\\loginAPI\\loginAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week1\\loginAPI\\loginAPI\\loginAPI.csproj": {
+    "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week1\\loginApi\\loginAPI\\loginAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week1\\loginAPI\\loginAPI\\loginAPI.csproj",
+        "projectUniqueName": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week1\\loginApi\\loginAPI\\loginAPI.csproj",
         "projectName": "loginAPI",
-        "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week1\\loginAPI\\loginAPI\\loginAPI.csproj",
+        "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week1\\loginApi\\loginAPI\\loginAPI.csproj",
         "packagesPath": "C:\\Users\\umut2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week1\\loginAPI\\loginAPI\\obj\\",
+        "outputPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week1\\loginApi\\loginAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -30,8 +30,8 @@ namespace loginAPI.Controllers
             _cache = cache;
         }
 
-        [HttpPost("Signup")]
-        public IActionResult Signup(UserLogin sign)
+        [HttpPost("SignUpRequest")]
+        public IActionResult SignupRequest(UserSignUp sign)
         {
             _logger.LogInformation("Signup called!");
             var user = _db.Users.FirstOrDefault(o => o.username == sign.username);
@@ -42,8 +42,13 @@ namespace loginAPI.Controllers
                 {
                     username = sign.username,
                     password = hash(sign.password+_saltkey),
+                    email = sign.email,
+                    name = sign.name,
+                    surname = sign.surname,
+                    phone = sign.phone,
                     refreshToken = "",
-                    expiryTime = DateTime.Now
+                    expiryTime = DateTime.Now,
+                    active = false
                 };
                 _db.Users.Add(user);
                 _db.SaveChanges();
@@ -54,8 +59,9 @@ namespace loginAPI.Controllers
             return BadRequest("Sign Up Failed");
         }
 
-        [HttpPost("Login")]
-        public IActionResult Login(UserLogin login)
+     
+        [HttpPost("LoginRequest")]
+        public LoginResponse LoginRequest(UserLogin login)
         {
             _logger.LogInformation("Login called!");
             var user = _db.Users.FirstOrDefault(o => o.username == login.username && o.password == hash(login.password+_saltkey));
@@ -63,47 +69,84 @@ namespace loginAPI.Controllers
             if (user == null)
             {
                 _logger.LogInformation("Login failed!");
-                return NotFound("User not found!");
+                return null;
             }
 
-
-            var refreshToken = GenerateRefresh();
-            user.refreshToken = hash(refreshToken + _saltkey);
-            user.expiryTime = DateTime.Now.AddHours(1);
-            _db.Update(user);
-            _db.SaveChanges();
-
-
-            if(!_cache.TryGetValue(user.username, out string token))
+            if (user.active == false)
             {
-                _logger.LogInformation("There is no token in cache!");
-                token = Generate(user);
-                var cacheEntryOptions = new MemoryCacheEntryOptions().SetSlidingExpiration(TimeSpan.FromMinutes(5));
-                _cache.Set(user.username, token, cacheEntryOptions);
-                _logger.LogInformation("Token created. " + DateTime.Now.ToString() + "!");
+                var refreshToken = GenerateRefreshToken();
+                user.refreshToken = hash(refreshToken + _saltkey);
+                user.expiryTime = DateTime.Now.AddHours(1);
+                user.active = true;
+                _db.Update(user);
+                _db.SaveChanges();
+
+
+                if (!_cache.TryGetValue(user.username, out string token))
+                {
+                    _logger.LogInformation("There is no token in cache!");
+                    token = GenerateJwtToken(user);
+                    var cacheEntryOptions = new MemoryCacheEntryOptions().SetSlidingExpiration(TimeSpan.FromMinutes(5));
+                    _cache.Set(user.username, token, cacheEntryOptions);
+                    _logger.LogInformation("Token created. " + DateTime.Now.ToString() + "!");
+                }
+                else
+                {
+                    _logger.LogInformation("There is a token in cache. Time is extended " + DateTime.Now.ToString() + "!");
+                }
+
+                Tokens tokens = new Tokens();
+                tokens.accessToken = token;
+                tokens.refreshToken = refreshToken;
+                LoginResponse loginResponse = new LoginResponse();
+                loginResponse.tokens = tokens;
+                loginResponse.user = user;
+                return loginResponse;
             }
-            else
-            {
-                _logger.LogInformation("There is a token in cache. Time is extended " + DateTime.Now.ToString() + "!");
-            }
 
-            IDictionary<string, string> tokens = new Dictionary<string, string>
-            {
-                { "accessToken", token },
-                { "refreshToken", refreshToken }
-            };
-            return Ok(tokens);
+            return null;
         }
 
-        [HttpGet("Ping")]
-        public IActionResult Ping()
+        [HttpPost("LogoutRequest")]
+        public IActionResult LogoutRequest([FromBody]string token)
+        {
+            _logger.LogInformation("Logout called!");
+            string username = GetInfoFromToken(token);
+
+            if (_cache.TryGetValue(username, out string value))
+            {
+                _logger.LogInformation("There is a token in cache!");
+                if (value == token)
+                {
+                    var user = _db.Users.FirstOrDefault(o => o.username == username);
+                    user.active = false;
+                    user.refreshToken = "";
+                    user.expiryTime = DateTime.Now;
+                    _db.Users.Update(user);
+                    _db.SaveChanges();
+                    _logger.LogInformation("Matched!");
+                    return Ok("Logout successful");
+                }
+                else
+                {
+                    _logger.LogInformation("Not matched!");
+                    return Unauthorized("Token is expired");
+                }
+            }
+            _logger.LogInformation("There is no token in cache!");
+            return Unauthorized("Token is expired");
+        }
+    
+
+        [HttpGet("PingRequest")]
+        public IActionResult PingRequest()
         {
             _logger.LogInformation("Ping!");
             return Ok("Pong");
         }
 
-        [HttpPost("Refresh")]
-        public IActionResult Refresh(Tokens tokens)
+        [HttpPost("RefreshRequest")]
+        public IActionResult RefreshRequest(Tokens tokens)
         {
             _logger.LogInformation("Refresh called!");
             string accessToken = tokens.accessToken;
@@ -113,14 +156,14 @@ namespace loginAPI.Controllers
 
             var user = _db.Users.FirstOrDefault(o=> o.username == username);
 
-            if (user == null || user.refreshToken != hash(refreshToken + _saltkey) || user.expiryTime <= DateTime.Now) 
+            if (user == null || user.refreshToken != hash(refreshToken + _saltkey) || user.expiryTime <= DateTime.Now || user.active == false) 
             {
                 _logger.LogInformation("Invalid tokens!");
                 return BadRequest("Invalid tokens");
             }
 
-            var newAccessToken = Generate(user);
-            var newRefreshToken = GenerateRefresh();
+            var newAccessToken = GenerateJwtToken(user);
+            var newRefreshToken = GenerateRefreshToken();
 
             user.refreshToken = hash(newRefreshToken + _saltkey);
             user.expiryTime = DateTime.Now.AddHours(1);
@@ -139,8 +182,9 @@ namespace loginAPI.Controllers
             return Ok(newTokens);
         }
 
-        [HttpPost("Check")]
-        public IActionResult Check([FromBody] string token)
+       
+        [HttpPost("CheckTokenRequest")]
+        public IActionResult CheckToken([FromBody] string token)
         {
             _logger.LogInformation("Check called!");
             string username = GetInfoFromToken(token);
@@ -178,7 +222,7 @@ namespace loginAPI.Controllers
             return builder.ToString();
         }
 
-        private string Generate(User user)
+        private string GenerateJwtToken(User user)
         {
             _logger.LogInformation("Jwt token generator called!");
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_conf["Jwt:Key"]));
@@ -198,7 +242,7 @@ namespace loginAPI.Controllers
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
-        private string GenerateRefresh()
+        private string GenerateRefreshToken()
         {
             _logger.LogInformation("Refresh token generator called!");
             var rnd = new byte[64];

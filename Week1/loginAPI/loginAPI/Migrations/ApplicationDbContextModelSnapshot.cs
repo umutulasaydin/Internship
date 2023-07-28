@@ -27,14 +27,33 @@ namespace loginAPI.Migrations
                     b.Property<string>("username")
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<bool>("active")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("expiryTime")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("refreshToken")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("surname")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YgbIwDEzNm6yTAYMUJHwq80VYBdtA677E73dPJs7mlm1nLzSw9vFBa8iA9OAc152VpCAudXbijBbLja6G3m6ag==",
+  "dgSpecHash": "MUW+6CC7NBAiknE1G8w994YeAeIVQ2HUpbKkhuTMz9Otlj2ljLBO3IwllwlgbeW/k+UT/4J3WPQgp+zXUo/PLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week1\\loginAPI\\loginAPI\\loginAPI.csproj",
+  "projectFilePath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week1\\loginApi\\loginAPI\\loginAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\umut2\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

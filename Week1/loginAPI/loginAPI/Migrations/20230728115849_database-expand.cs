@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace loginAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class DatabaseInitialize : Migration
+    public partial class databaseexpand : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -17,8 +17,13 @@ namespace loginAPI.Migrations
                 {
                     username = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     password = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    surname = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     refreshToken = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    expiryTime = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    expiryTime = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    active = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {

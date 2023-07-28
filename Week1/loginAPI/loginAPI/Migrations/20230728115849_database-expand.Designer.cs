@@ -12,8 +12,8 @@ using loginAPI.Data;
 namespace loginAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230727105000_DatabaseInitialize")]
-    partial class DatabaseInitialize
+    [Migration("20230728115849_database-expand")]
+    partial class databaseexpand
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -30,14 +30,33 @@ namespace loginAPI.Migrations
                     b.Property<string>("username")
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<bool>("active")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("expiryTime")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("refreshToken")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("surname")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
