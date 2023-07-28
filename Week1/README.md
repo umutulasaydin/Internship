@@ -1,4 +1,5 @@
 # Monday
+
 ## Pragmatic Programmer
 -Broken Window Theory
 -Stone Soup
@@ -12,7 +13,10 @@
 -Routing\
 -Models\
 -Controllers\
+
+
 # Tuesday
+
 ## ASP .NET Core
 -Continue to learn ASP .NET Core basics\
 -Started to basic API Project\
@@ -20,19 +24,28 @@
 -Database connection\
 -Migrations\
 -MVC Architecture\
+
+
 # Wednesday
+
 ## Theoretical Information and Implementation
 -Signup Login\
 -Jwt Token\
 -Authenticate\
 -Cache-in Memory\
 -Logging\
+
+
 # Thursday
+
 ## Theoretical Information and Implementation
 -Refresh token\
 -Salting\
 -Swagger and Postman\
+
+
 # Friday
+
 -Code Review\
 -Changes in the project according to code review\
 ## Angular
@@ -43,6 +56,7 @@
 -Directives\
 -Services\
 -HTTP Request\
+
 
 # General Flow
 
