@@ -1,9 +1,9 @@
 # Monday
 
 ## Pragmatic Programmer
--Broken Window Theory
--Stone Soup
--Boil Frog
+-Broken Window Theory\
+-Stone Soup\
+-Boil Frog\
 ## ASP .NET Core
 -Setting up the necessary environment\
 -Project files and general structure\
