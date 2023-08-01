@@ -1,17 +1,19 @@
 using BaseRequest.Helpers;
-using BaseRequest.BaseRequest;
 using BaseRequest.Models;
-using BaseRequest.Service;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddScoped<BaseRequest<BaseResponse<Student>, Student>, StudentService>();
-builder.Services.AddScoped<BaseRequest<BaseResponse<Teacher>, Teacher>, TeacherService>();
-builder.Services.AddSingleton<ConnectionHelper>();
 
+builder.Services.AddSingleton<ConnectionHelper>();
+builder.Services.AddLogging(i => {
+    i.ClearProviders();
+    i.AddConsole();
+}
+    );
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
