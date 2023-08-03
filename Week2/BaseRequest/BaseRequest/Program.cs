@@ -1,5 +1,4 @@
 using BaseRequest.Helpers;
-using BaseRequest.Models;
 
 
 var builder = WebApplication.CreateBuilder(args);

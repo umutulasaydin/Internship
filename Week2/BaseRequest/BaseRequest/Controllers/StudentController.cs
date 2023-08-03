@@ -18,10 +18,32 @@ namespace BaseRequest.Controllers
         }
 
         [HttpPost]
-        public BaseResponse<Student> Get(XRequest request) {
+        public async Task<BaseResponse<Student>> Get(XRequest request) {
             _logger.LogInformation("Get function called. Dataset: " + request.dataset + " ClientCode: " + request.clientCode + " PosName: " + request.posName);
-            return request.get(_connectionHelper);
+            return await request.getAll(_connectionHelper);
             
         }
+
+        [HttpPost("{id}")]
+        public async Task<BaseResponse<Student>> GetOne(XRequest request, int id)
+        {
+            _logger.LogInformation("Get One function called. Dataset: " + request.dataset + " ClientCode: " + request.clientCode + " PosName: " + request.posName);
+            return await request.getOne(_connectionHelper, id);
+        }
+
+        [HttpPost("Add")]
+        public async Task<BaseResponse<Student>> Add(AddItem item)
+        {
+            _logger.LogInformation("Add function called. Dataset: " + item.request.dataset + " ClientCode: " + item.request.clientCode + " PosName: " + item.request.posName);
+            return await item.request.Insert(_connectionHelper, item.student);
+        }
+        
+        [HttpDelete("{id}")]
+        public async Task<BaseResponse<Student>> Delete(XRequest request, int id)
+        {
+            _logger.LogInformation("Delete function called. Dataset: " + request.dataset + " ClientCode: " + request.clientCode + " PosName: " + request.posName);
+            return await request.Delete(_connectionHelper, id);
+        }
+        
     }
 }
