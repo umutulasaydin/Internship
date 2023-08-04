@@ -7,11 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NLog" Version="5.2.2" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\..\Core\Core\CouponManagementService.Core.csproj" />
+    <ProjectReference Include="..\..\Framework\Framework\CouponManagementService.FrameWork.csproj" />
+    <ProjectReference Include="..\..\WebApi\WebApi\CouponManagementService.WebApi.csproj" />
   </ItemGroup>
 
 </Project>

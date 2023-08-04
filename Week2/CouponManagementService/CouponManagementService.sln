@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementService.Starter", "Starter\Starter\CouponManagementService.Starter.csproj", "{84B55D62-0508-459D-B7C0-E64C3666A8DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CouponManagementService.Starter", "Starter\Starter\CouponManagementService.Starter.csproj", "{84B55D62-0508-459D-B7C0-E64C3666A8DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementService.WebApi", "WebApi\WebApi\CouponManagementService.WebApi.csproj", "{C4DE9DF0-D7BF-44EA-885D-F16FEA022504}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CouponManagementService.WebApi", "WebApi\WebApi\CouponManagementService.WebApi.csproj", "{C4DE9DF0-D7BF-44EA-885D-F16FEA022504}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementService.Core", "Core\Core\CouponManagementService.Core.csproj", "{F14921D3-6FE1-40C8-B89B-44230094ABB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CouponManagementService.Core", "Core\Core\CouponManagementService.Core.csproj", "{F14921D3-6FE1-40C8-B89B-44230094ABB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementService.FrameWork", "Framework\Framework\CouponManagementService.FrameWork.csproj", "{EA8AE470-E55B-4300-9AAF-7484CFE3B454}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CouponManagementService.FrameWork", "Framework\Framework\CouponManagementService.FrameWork.csproj", "{EA8AE470-E55B-4300-9AAF-7484CFE3B454}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Core", "3-Core", "{15B69DA6-3C72-4E38-93EB-3525C2FDEFD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Starter", "1-Starter", "{D98CCF87-52AB-4C20-88C1-7D323682196F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Api", "2-Api", "{668FA81F-E9C0-4C41-AFCC-7618E90D46F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Framework", "4-Framework", "{5C1B1721-AD1F-4D7B-8456-493CB97596F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +44,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84B55D62-0508-459D-B7C0-E64C3666A8DB} = {D98CCF87-52AB-4C20-88C1-7D323682196F}
+		{C4DE9DF0-D7BF-44EA-885D-F16FEA022504} = {668FA81F-E9C0-4C41-AFCC-7618E90D46F5}
+		{F14921D3-6FE1-40C8-B89B-44230094ABB9} = {15B69DA6-3C72-4E38-93EB-3525C2FDEFD6}
+		{EA8AE470-E55B-4300-9AAF-7484CFE3B454} = {5C1B1721-AD1F-4D7B-8456-493CB97596F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1801231-AF7A-492A-952B-AFB38676B895}

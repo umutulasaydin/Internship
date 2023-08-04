@@ -443,9 +443,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week2\\CouponManagementService\\Framework\\Framework\\Framework.csproj",
-      "projectName": "Framework",
-      "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week2\\CouponManagementService\\Framework\\Framework\\Framework.csproj",
+      "projectUniqueName": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week2\\CouponManagementService\\Framework\\Framework\\CouponManagementService.FrameWork.csproj",
+      "projectName": "CouponManagementService.FrameWork",
+      "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week2\\CouponManagementService\\Framework\\Framework\\CouponManagementService.FrameWork.csproj",
       "packagesPath": "C:\\Users\\umut2\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week2\\CouponManagementService\\Framework\\Framework\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,0 +1,87 @@
+2023-08-03 10:51:20.9239 Info Message Template Auto Format enabled
+2023-08-03 10:51:21.0699 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 10:51:21.0699 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-08-03 10:51:21.2070 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 12:40:36.8618 Info Message Template Auto Format enabled
+2023-08-03 12:40:36.9832 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 12:40:36.9832 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-08-03 12:40:37.0193 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 12:44:10.2440 Info Message Template Auto Format enabled
+2023-08-03 12:44:10.3572 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 12:44:10.3572 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-08-03 12:44:10.3969 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 12:52:43.8882 Info Message Template Auto Format enabled
+2023-08-03 12:52:44.0149 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 12:52:44.0149 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-08-03 12:52:44.0443 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 13:03:12.4582 Info Message Template Auto Format enabled
+2023-08-03 13:03:12.5321 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 13:03:12.5321 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-08-03 13:03:12.5657 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 14:32:49.3104 Info Message Template Auto Format enabled
+2023-08-03 14:32:49.4317 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 14:32:49.4317 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-08-03 14:32:49.4996 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 14:34:24.8572 Info Message Template Auto Format enabled
+2023-08-03 14:34:25.0473 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 14:34:25.0473 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-08-03 14:34:25.0939 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 14:40:30.3685 Info Message Template Auto Format enabled
+2023-08-03 14:40:30.5129 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 14:40:30.5129 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-08-03 14:40:30.5621 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 14:41:40.4511 Info Message Template Auto Format enabled
+2023-08-03 14:41:40.5660 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 14:41:40.5660 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-08-03 14:41:40.5941 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 14:46:44.7903 Info Message Template Auto Format enabled
+2023-08-03 14:46:44.9577 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 14:46:44.9614 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-08-03 14:46:45.0358 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 14:48:34.5836 Info Message Template Auto Format enabled
+2023-08-03 14:48:34.6586 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 14:48:34.6586 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-08-03 14:48:34.6832 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 14:51:12.4614 Info Message Template Auto Format enabled
+2023-08-03 14:51:12.5655 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 14:51:12.5655 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2023-08-03 14:51:12.5915 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 14:53:03.7478 Info Message Template Auto Format enabled
+2023-08-03 14:53:03.8139 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 14:53:03.8435 Info Validating config: TargetNames=alldata, ConfigItems=21, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 15:00:15.9051 Info Message Template Auto Format enabled
+2023-08-03 15:00:15.9713 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 15:00:15.9932 Info Validating config: TargetNames=alldata, ConfigItems=21, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 16:14:23.7777 Info Message Template Auto Format enabled
+2023-08-03 16:14:23.8477 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 16:14:23.8814 Info Validating config: TargetNames=alldata, ConfigItems=21, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 16:16:57.6400 Info Message Template Auto Format enabled
+2023-08-03 16:16:57.7459 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 16:16:57.8107 Info Validating config: TargetNames=alldata, ConfigItems=21, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 16:20:25.2403 Info Message Template Auto Format enabled
+2023-08-03 16:20:25.3409 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 16:20:25.3773 Info Validating config: TargetNames=alldata, ConfigItems=21, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 16:27:47.8286 Info Message Template Auto Format enabled
+2023-08-03 16:27:48.2292 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 16:27:48.3687 Info Validating config: TargetNames=alldata, ConfigItems=21, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 16:28:30.5357 Info Message Template Auto Format enabled
+2023-08-03 16:28:30.6011 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 16:28:30.6253 Info Validating config: TargetNames=alldata, ConfigItems=21, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 16:32:44.6533 Info Message Template Auto Format enabled
+2023-08-03 16:32:44.7244 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 16:32:44.7493 Info Validating config: TargetNames=alldata, ConfigItems=21, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 16:34:20.0248 Info Message Template Auto Format enabled
+2023-08-03 16:34:20.1586 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 16:34:20.2263 Info Validating config: TargetNames=alldata, ConfigItems=21, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 16:37:15.4557 Info Message Template Auto Format enabled
+2023-08-03 16:37:15.5540 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 16:37:15.5794 Info Validating config: TargetNames=alldata, ConfigItems=21, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 17:04:26.8654 Info Message Template Auto Format enabled
+2023-08-03 17:04:26.9310 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 17:04:26.9533 Info Validating config: TargetNames=alldata, ConfigItems=21, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-03 17:07:34.7060 Info Message Template Auto Format enabled
+2023-08-03 17:07:34.8520 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-03 17:07:34.8946 Info Validating config: TargetNames=alldata, ConfigItems=21, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
+2023-08-04 13:26:51.5818 Info Message Template Auto Format enabled
+2023-08-04 13:26:51.6877 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-04 13:26:51.7229 Info Validating config: TargetNames=alldata, ConfigItems=21, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\bin\Debug\net6.0\nlog.config
