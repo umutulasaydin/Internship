@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "g16b2CZhZpBUyjwacilEGe4+jE8mFc56wWdnI4IVE0kak4NK2S3iggkSQCh1YkPDYDMc7l7hzDoa7uZj2owFQw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week3\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Model\\CouponManagementServiceV2.Core.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\umut2\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
+    "C:\\Users\\umut2\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
+    "C:\\Users\\umut2\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\umut2\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.10.0\\microsoft.identitymodel.jsonwebtokens.6.10.0.nupkg.sha512",
+    "C:\\Users\\umut2\\.nuget\\packages\\microsoft.identitymodel.logging\\6.10.0\\microsoft.identitymodel.logging.6.10.0.nupkg.sha512",
+    "C:\\Users\\umut2\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.10.0\\microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
+    "C:\\Users\\umut2\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.10.0\\system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
+    "C:\\Users\\umut2\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
