@@ -39,5 +39,47 @@ namespace CouponManagementServiceV2.Core.Data.Repo
 
            
         }
+
+        public async Task<CouponResponse> GetCouponById(int id)
+        {
+            try
+            {
+                var query = "SELECT * FROM Coupons WHERE cpnId = @id";
+                using var connection = _dbConnect.Connect("Query");
+                return await connection.QueryFirstAsync<CouponResponse>(query, new { id = id });
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        public async Task<IEnumerable<CouponResponse>> GetCouponsBySerieId(string id)
+        {
+            try
+            {
+                var query = "SELECT cpnId, cpnSerieId, cpnCreatorId, cpnCode, cpnStartDate, cpnValidDate, cpnRedemptionLimit, cpnCurrentRedemptValue FROM Coupons INNER JOIN CouponSeries ON (cpnSerieId = cpsId) WHERE cpsSeriesId = @id";
+                using var connection = _dbConnect.Connect("Query");
+                return await connection.QueryAsync<CouponResponse>(query, new { id = id });
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        public async Task<IEnumerable<CouponResponse>> GetCouponsByUsername(string username)
+        {
+            try
+            {
+                var query = "SELECT cpnId, cpnSerieId, cpnCreatorId, cpnCode, cpnStartDate, cpnValidDate, cpnRedemptionLimit, cpnCurrentRedemptValue FROM Coupons INNER JOIN Users ON (cpnCreatorId = usId) WHERE usUsername = @username";
+                using var connection = _dbConnect.Connect("Query");
+                return await connection.QueryAsync<CouponResponse>(query, new { username = username });
+            }
+            catch
+            {
+                return null;
+            }
+        }
     }
 }

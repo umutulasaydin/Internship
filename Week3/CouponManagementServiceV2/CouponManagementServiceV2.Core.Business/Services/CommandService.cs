@@ -2,6 +2,7 @@
 using CouponManagementServiceV2.Core.Data.Interfaces;
 using CouponManagementServiceV2.Core.Model.Data;
 using CouponManagementServiceV2.Core.Model.Shared;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -56,12 +57,12 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 result = "Signup Successfull"
             };
         }
-        public async Task<BaseResponse<Coupons>> CreateCouponRequest(Coupons coupon, string token, Status status)
+        public async Task<BaseResponse<CouponResponse>> CreateCouponRequest(Coupons coupon, string token)
         {
-            IEnumerable<Claim> claims = _crypte.GetInfoFromToken(token, _configuration["Jwt:Key"], _configuration["Jwt:Audience"], _configuration["Jwt:Issuer"]);
-            if (claims == null)
+            coupon.cpnCreatorId = _crypte.GetUserIdFromToken(token, _configuration["Jwt:Key"], _configuration["Jwt:Audience"], _configuration["Jwt:Issuer"]);
+            if (coupon.cpnCreatorId == -1)
             {
-                return new BaseResponse<Coupons>
+                return new BaseResponse<CouponResponse>
                 {
                     isSucces = false,
                     statusCode = -5,
@@ -69,14 +70,12 @@ namespace CouponManagementServiceV2.Core.Business.Services
                     result = null
                 };
             }
-            coupon.cpnId = Int32.Parse(claims.First(claim => claim.Type == "PrimarySid").Value);
-            coupon.cpnCode = Guid.NewGuid().ToString();
-            coupon.cpnStatus = (int)status;
+            
             var result = await _commandRepository.CreateCoupon(coupon);
 
-            if (result == 0 || result == -1 || result == -2)
+            if (result <= 0)
             {
-                return new BaseResponse<Coupons>
+                return new BaseResponse<CouponResponse>
                 {
                     isSucces = false,
                     statusCode = -3,
@@ -84,12 +83,59 @@ namespace CouponManagementServiceV2.Core.Business.Services
                     result = null
                 };
             }
-            return new BaseResponse<Coupons>
+            CouponResponse response = new CouponResponse
+            {
+                cpnCode = coupon.cpnCode,
+                cpnCreatorId = coupon.cpnCreatorId,
+                cpnCurrentRedemptValue = coupon.cpnCurrentRedemptValue,
+                cpnId = coupon.cpnId,
+                cpnRedemptionLimit = coupon.cpnRedemptionLimit,
+                cpnSerieId = coupon.cpnSerieId,
+                cpnStartDate = coupon.cpnStartDate,
+                cpnStatus = coupon.cpnStatus,
+                cpnValidDate = coupon.cpnValidDate
+            };
+            return new BaseResponse<CouponResponse>
             {
                 isSucces = true,
                 statusCode = 1,
                 errorMessage = "",
-                result = coupon
+                result = response
+            };
+        }
+
+        public async Task<BaseResponse<List<CouponResponse>>> CreateSerieCouponRequest(CouponSeries serie, string token)
+        {
+            serie.cpsUserId = _crypte.GetUserIdFromToken(token, _configuration["Jwt:Key"], _configuration["Jwt:Audience"], _configuration["Jwt:Issuer"]);
+            if (serie.cpsUserId== -1)
+            {
+                return new BaseResponse<List<CouponResponse>>
+                {
+                    isSucces = false,
+                    statusCode = -5,
+                    errorMessage = "Token Validation Failed",
+                    result = null
+                };
+            }
+
+            var result = await _commandRepository.CreateSeriesCoupon(serie);
+
+            if (result == null)
+            {
+                return new BaseResponse<List<CouponResponse>>
+                {
+                    isSucces = false,
+                    statusCode = -3,
+                    errorMessage = "Something happend while executing command",
+                    result = null
+                };
+            }
+            return new BaseResponse<List<CouponResponse>>
+            {
+                isSucces = true,
+                statusCode = 1,
+                errorMessage = "",
+                result = result
             };
         }
     }

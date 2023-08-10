@@ -42,6 +42,7 @@ namespace CouponManagementServiceV2.Core.Model.Shared
                 new Claim(ClaimTypes.MobilePhone, user.usPhoneNum),
                 new Claim(ClaimTypes.NameIdentifier, user.usUsername),
                 new Claim(ClaimTypes.PrimarySid, user.usId.ToString())
+            
             };
 
             var token = new JwtSecurityToken(
@@ -54,17 +55,18 @@ namespace CouponManagementServiceV2.Core.Model.Shared
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
-        public IEnumerable<Claim> GetInfoFromToken(string token, string key, string audience, string issuer)
+        public int GetUserIdFromToken(string token, string key, string audience, string issuer)
         {
             try
             {
                 var handler = new JwtSecurityTokenHandler();
                 var value = handler.ReadToken(token) as JwtSecurityToken;
-                return value.Claims;
+
+                return Int32.Parse(value.Claims.First(claim => claim.Type == ClaimTypes.PrimarySid).Value);
             }
             catch
             {
-                return null;
+                return -1;
             }
 
         }

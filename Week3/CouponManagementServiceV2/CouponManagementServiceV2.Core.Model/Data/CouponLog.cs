@@ -1,4 +1,5 @@
-﻿using FluentValidation;
+﻿using CouponManagementServiceV2.Core.Model.Shared;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,9 +17,9 @@ namespace CouponManagementServiceV2.Core.Model.Data
         Draft,
         Activate
     }
-    public class CouponLog
+    public class CouponLog : BaseRequest
     {
-        public int cplId { get; set; }
+        public int cplId { get; set; } = -1;
         public int cplCouponId { get; set; }
         public int cplUserId { get; set; }
         public int cplOperation { get; set; }
@@ -31,8 +32,7 @@ namespace CouponManagementServiceV2.Core.Model.Data
     {
         public CouponLogValidator()
         {
-            RuleFor(x => x.cplId).NotEmpty().NotNull().WithMessage("Id cannot be empty");
-            RuleFor(x => x.cplId).GreaterThan(0);
+           
 
             RuleFor(x => x.cplCouponId).NotEmpty().NotNull().WithMessage("Coupon Id cannot be empty");
 

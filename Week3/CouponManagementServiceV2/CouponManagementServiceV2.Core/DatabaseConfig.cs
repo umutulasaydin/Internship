@@ -13,5 +13,6 @@ namespace CouponManagementServiceV2.Core.Model.Shared
         }
 
         public IDbConnection Connect(string connectionString) => new SqlConnection(_configuration.GetConnectionString(connectionString));
+       
     }
 }

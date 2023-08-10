@@ -12,7 +12,8 @@ namespace CouponManagementServiceV2.Core.Business.Interfaces
     public interface ICommandService
     {
         Task<BaseResponse<string>> SignUpRequest(Users item);
-        Task<BaseResponse<Coupons>> CreateCouponRequest(Coupons coupon);
-        Task<BaseResponse<Coupons>> CreateCouponRequest(Coupons coupon, string token, Status status);
+        Task<BaseResponse<CouponResponse>> CreateCouponRequest(Coupons coupon, string token);
+       
+        Task<BaseResponse<List<CouponResponse>>> CreateSerieCouponRequest(CouponSeries serie, string token);
     }
 }

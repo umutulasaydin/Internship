@@ -11,5 +11,9 @@ namespace CouponManagementServiceV2.Core.Business.Interfaces
     public interface IQueryService
     {
         Task<BaseResponse<string>> LoginRequest(Login item);
+        Task<BaseResponse<CouponResponse>> GetCouponByIdRequest(int id, string token);
+        Task<BaseResponse<IEnumerable<CouponResponse>>> GetCouponsBySerieIdRequest(string id, string token);
+        Task<BaseResponse<IEnumerable<CouponResponse>>> GetCouponsByUsernameRequest(string username, string token);
+
     }
 }

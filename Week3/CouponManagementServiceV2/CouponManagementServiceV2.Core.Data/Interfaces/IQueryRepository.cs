@@ -10,5 +10,8 @@ namespace CouponManagementServiceV2.Core.Data.Interfaces
     public interface IQueryRepository
     {
         Task<Users> LoginOperation(Login item);
+        Task<CouponResponse> GetCouponById(int id);
+        Task<IEnumerable<CouponResponse>> GetCouponsBySerieId(string id);
+        Task<IEnumerable<CouponResponse>> GetCouponsByUsername(string username);
     }
 }

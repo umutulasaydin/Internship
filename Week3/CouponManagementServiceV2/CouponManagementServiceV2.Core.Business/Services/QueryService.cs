@@ -42,5 +42,104 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 result = token
             };
         }
+
+        public async Task<BaseResponse<CouponResponse>> GetCouponByIdRequest(int id, string token)
+        {
+            var user = _crypte.GetUserIdFromToken(token, _configuration["Jwt:Key"], _configuration["Jwt:Audience"], _configuration["Jwt:Issuer"]);
+            if (user == -1)
+            {
+                return new BaseResponse<CouponResponse>
+                {
+                    isSucces = false,
+                    statusCode = -5,
+                    errorMessage = "Token Validation Failed",
+                    result = null
+                };
+            }
+            var entity = await _queryRepository.GetCouponById(id);
+            if (entity == null)
+            {
+                return new BaseResponse<CouponResponse>
+                {
+                    isSucces = false,
+                    statusCode = -2,
+                    errorMessage = "There is no coupon with this id",
+                    result = null
+                };
+            }
+            return new BaseResponse<CouponResponse>
+            {
+                isSucces = true,
+                statusCode = 1,
+                errorMessage = "",
+                result = entity
+            };
+        }
+
+        public async Task<BaseResponse<IEnumerable<CouponResponse>>> GetCouponsBySerieIdRequest(string id, string token)
+        {
+            var user = _crypte.GetUserIdFromToken(token, _configuration["Jwt:Key"], _configuration["Jwt:Audience"], _configuration["Jwt:Issuer"]);
+            if (user == -1)
+            {
+                return new BaseResponse<IEnumerable<CouponResponse>>
+                {
+                    isSucces = false,
+                    statusCode = -5,
+                    errorMessage = "Token Validation Failed",
+                    result = null
+                };
+            }
+            var entity = await _queryRepository.GetCouponsBySerieId(id);
+            if (entity == null || entity.Count() == 0)
+            {
+                return new BaseResponse<IEnumerable<CouponResponse>>
+                {
+                    isSucces = false,
+                    statusCode = -2,
+                    errorMessage = "There is no coupon with this serie id",
+                    result = null
+                };
+            }
+            return new BaseResponse<IEnumerable<CouponResponse>>
+            {
+                isSucces = true,
+                statusCode = 1,
+                errorMessage = "",
+                result = entity
+            };
+        }
+
+        public async Task<BaseResponse<IEnumerable<CouponResponse>>> GetCouponsByUsernameRequest(string username, string token)
+        {
+            var user = _crypte.GetUserIdFromToken(token, _configuration["Jwt:Key"], _configuration["Jwt:Audience"], _configuration["Jwt:Issuer"]);
+            if (user == -1)
+            {
+                return new BaseResponse<IEnumerable<CouponResponse>>
+                {
+                    isSucces = false,
+                    statusCode = -5,
+                    errorMessage = "Token Validation Failed",
+                    result = null
+                };
+            }
+            var entity = await _queryRepository.GetCouponsByUsername(username);
+            if (entity == null || entity.Count() == 0)
+            {
+                return new BaseResponse<IEnumerable<CouponResponse>>
+                {
+                    isSucces = false,
+                    statusCode = -2,
+                    errorMessage = "There is no coupon with this serie id",
+                    result = null
+                };
+            }
+            return new BaseResponse<IEnumerable<CouponResponse>>
+            {
+                isSucces = true,
+                statusCode = 1,
+                errorMessage = "",
+                result = entity
+            };
+        }
     }
 }
