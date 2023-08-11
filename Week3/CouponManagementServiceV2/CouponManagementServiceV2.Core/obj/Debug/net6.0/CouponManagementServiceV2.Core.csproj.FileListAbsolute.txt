@@ -74,3 +74,11 @@ C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\Co
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\obj\Debug\net6.0\CouponManagementServiceV2.Core.pdb
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\obj\Debug\net6.0\CouponManagementServiceV2.Core.genruntimeconfig.cache
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\obj\Debug\net6.0\ref\CouponManagementServiceV2.Core.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\bin\Debug\net6.0\Dapper.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\bin\Debug\net6.0\CouponManagementServiceV2.Core.Model.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\bin\Debug\net6.0\CouponManagementServiceV2.Core.Model.pdb

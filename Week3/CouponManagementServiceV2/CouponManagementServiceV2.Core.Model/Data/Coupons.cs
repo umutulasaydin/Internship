@@ -10,10 +10,10 @@ namespace CouponManagementServiceV2.Core.Model.Data
 {
     public enum Status : int
     {
-        Active,
-        Used,
-        Blocked,
-        Draft
+        Active = 1,
+        Used = 2,
+        Blocked = 3,
+        Draft = 4,
     }
     public class Coupons : BaseRequest
     {
@@ -55,6 +55,19 @@ namespace CouponManagementServiceV2.Core.Model.Data
         public double cpnRedemptionLimit { get; set; } = -1;
         public double cpnCurrentRedemptValue { get; set; } = -1;
     }
+
+    public class RedemptCoupon : BaseRequest
+    {
+        public int cpnId { get; set; }
+        public int amount { get; set; }
+    }
+    
+    public class StatusCoupon : BaseRequest
+    {
+        public int cpnId { get; set; }
+        public string status { get; set; }
+        public string operation { get; set; }
+    }    
 
    
 }

@@ -340,6 +340,7 @@
       "System.Security.Principal.Windows/4.7.0": {},
       "CouponManagementServiceV2.Core/1.0.0": {
         "dependencies": {
+          "CouponManagementServiceV2.Core.Model": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0",
           "System.Data.SqlClient": "4.8.5"
         },

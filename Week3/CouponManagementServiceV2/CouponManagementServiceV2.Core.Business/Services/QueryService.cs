@@ -43,19 +43,9 @@ namespace CouponManagementServiceV2.Core.Business.Services
             };
         }
 
-        public async Task<BaseResponse<CouponResponse>> GetCouponByIdRequest(int id, string token)
+        public async Task<BaseResponse<CouponResponse>> GetCouponByIdRequest(int id)
         {
-            var user = _crypte.GetUserIdFromToken(token, _configuration["Jwt:Key"], _configuration["Jwt:Audience"], _configuration["Jwt:Issuer"]);
-            if (user == -1)
-            {
-                return new BaseResponse<CouponResponse>
-                {
-                    isSucces = false,
-                    statusCode = -5,
-                    errorMessage = "Token Validation Failed",
-                    result = null
-                };
-            }
+            
             var entity = await _queryRepository.GetCouponById(id);
             if (entity == null)
             {
@@ -76,19 +66,9 @@ namespace CouponManagementServiceV2.Core.Business.Services
             };
         }
 
-        public async Task<BaseResponse<IEnumerable<CouponResponse>>> GetCouponsBySerieIdRequest(string id, string token)
+        public async Task<BaseResponse<IEnumerable<CouponResponse>>> GetCouponsBySerieIdRequest(string id)
         {
-            var user = _crypte.GetUserIdFromToken(token, _configuration["Jwt:Key"], _configuration["Jwt:Audience"], _configuration["Jwt:Issuer"]);
-            if (user == -1)
-            {
-                return new BaseResponse<IEnumerable<CouponResponse>>
-                {
-                    isSucces = false,
-                    statusCode = -5,
-                    errorMessage = "Token Validation Failed",
-                    result = null
-                };
-            }
+            
             var entity = await _queryRepository.GetCouponsBySerieId(id);
             if (entity == null || entity.Count() == 0)
             {
@@ -109,19 +89,9 @@ namespace CouponManagementServiceV2.Core.Business.Services
             };
         }
 
-        public async Task<BaseResponse<IEnumerable<CouponResponse>>> GetCouponsByUsernameRequest(string username, string token)
+        public async Task<BaseResponse<IEnumerable<CouponResponse>>> GetCouponsByUsernameRequest(string username)
         {
-            var user = _crypte.GetUserIdFromToken(token, _configuration["Jwt:Key"], _configuration["Jwt:Audience"], _configuration["Jwt:Issuer"]);
-            if (user == -1)
-            {
-                return new BaseResponse<IEnumerable<CouponResponse>>
-                {
-                    isSucces = false,
-                    statusCode = -5,
-                    errorMessage = "Token Validation Failed",
-                    result = null
-                };
-            }
+            
             var entity = await _queryRepository.GetCouponsByUsername(username);
             if (entity == null || entity.Count() == 0)
             {

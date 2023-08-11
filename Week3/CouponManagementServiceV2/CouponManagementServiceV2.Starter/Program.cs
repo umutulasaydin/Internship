@@ -66,6 +66,7 @@ if (app.Environment.IsDevelopment())
 
 var apiKey = "12345";
 app.UseMiddleware<ApiKeyAuthentication>(apiKey);
+app.UseMiddleware<TokenAuthentication>();
 
 app.UseHttpsRedirection();
 

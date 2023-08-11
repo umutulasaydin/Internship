@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace CouponManagementServiceV2.Core.Model.Data
 {
-    enum Operation : int
+    public enum Operation : int
     {
-        Redeem,
-        Void,
-        Block,
-        Unblock,
-        Draft,
-        Activate
+        Redeem = 1,
+        Void = 2,
+        Block = 3,
+        Unblock = 4,
+        Draft = 5,
+        Activate = 6
     }
     public class CouponLog : BaseRequest
     {

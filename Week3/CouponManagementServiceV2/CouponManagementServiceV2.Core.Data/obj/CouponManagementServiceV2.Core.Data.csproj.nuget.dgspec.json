@@ -175,7 +175,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week3\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Model\\CouponManagementServiceV2.Core.Model.csproj": {
+                "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week3\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Model\\CouponManagementServiceV2.Core.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
