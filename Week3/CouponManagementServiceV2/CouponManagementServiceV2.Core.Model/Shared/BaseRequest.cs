@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FluentValidation;
 
 namespace CouponManagementServiceV2.Core.Model.Shared
 {
@@ -10,5 +6,15 @@ namespace CouponManagementServiceV2.Core.Model.Shared
     {
         public string ClientName { get; set; }
         public string ClientPos { get; set; }
+    }
+
+    public class BaseRequestValidator : AbstractValidator<BaseRequest>
+    {
+        public BaseRequestValidator()
+        {
+            RuleFor(x => x.ClientName).NotNull().NotEmpty().WithMessage("Client name cannot be empty");
+
+            RuleFor(x => x.ClientPos).NotNull().NotEmpty().WithMessage("Client pos cannot be empty");
+        }
     }
 }

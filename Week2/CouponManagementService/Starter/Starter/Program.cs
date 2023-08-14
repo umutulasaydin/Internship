@@ -3,12 +3,14 @@ using CouponManagementService.Core.Filters;
 using CouponManagementService.Core.Models;
 using CouponManagementService.WebApi.Models;
 using FluentValidation.AspNetCore;
+
 using NLog.Extensions.Logging;
 using NLog.Web;
 
 
 var builder = WebApplication.CreateBuilder(args);
 var logger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
+
 try
 {
     
@@ -26,7 +28,7 @@ try
     {
         logging.ClearProviders();
         logging.AddNLog();
-        logging.SetMinimumLevel(LogLevel.Information);
+       
     });
 
     var app = builder.Build();

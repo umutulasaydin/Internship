@@ -11,6 +11,8 @@ using CouponManagementServiceV2.Core.Data.Repo;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using System.Diagnostics.Metrics;
+using NLog.Web.LayoutRenderers;
 
 var builder = WebApplication.CreateBuilder(args);
 var logger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
@@ -23,10 +25,13 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<DatabaseConfig>();
 
+builder.Services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<BaseRequestValidator>());
 builder.Services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<UserValidator>());
 builder.Services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<CouponSeriesValidator>());
 builder.Services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<CouponValidator>());
 builder.Services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<CouponLogValidator>());
+builder.Services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<RedemptCouponValidator>());
+builder.Services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<StatusCouponValidator>());
 
 builder.Services.AddLogging(logging =>
 {

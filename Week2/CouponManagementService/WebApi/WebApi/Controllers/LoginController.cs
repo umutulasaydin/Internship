@@ -1,11 +1,11 @@
 ﻿using CouponManagementService.Core.Models;
 using CouponManagementService.WebApi.Models;
+using CouponManagementService.FrameWork;
 using Dapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NLog;
-using System.Security.Cryptography;
-using System.Text;
+
 
 namespace CouponManagementService.Core.Controllers
 {
@@ -17,10 +17,10 @@ namespace CouponManagementService.Core.Controllers
         private readonly string _saltkey = "P2.2a";
         private readonly Logger _logger = LogManager.GetCurrentClassLogger();
 
-        public LoginController(DatabaseConfig dbConnect, Logger logger)
+        public LoginController(DatabaseConfig dbConnect)
         {
             _dbConnect = dbConnect;
-            _logger = logger;
+           
             
         }
 
@@ -111,20 +111,6 @@ namespace CouponManagementService.Core.Controllers
             
         }
 
-        private string hash(string key)
-        {
-            
-            SHA256 sHA256 = SHA256.Create();
-
-            byte[] bytes = sHA256.ComputeHash(Encoding.UTF8.GetBytes(key));
-
-            StringBuilder builder = new StringBuilder();
-
-            for (int i = 0; i < bytes.Length; i++)
-            {
-                builder.Append(bytes[i].ToString("x2"));
-            }
-            return builder.ToString();
-        }
+        
     }
 }

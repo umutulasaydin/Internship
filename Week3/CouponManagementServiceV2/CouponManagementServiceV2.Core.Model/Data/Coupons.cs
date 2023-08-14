@@ -1,10 +1,5 @@
 ﻿using CouponManagementServiceV2.Core.Model.Shared;
 using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CouponManagementServiceV2.Core.Model.Data
 {
@@ -61,6 +56,18 @@ namespace CouponManagementServiceV2.Core.Model.Data
         public int cpnId { get; set; }
         public int amount { get; set; }
     }
+
+    public class RedemptCouponValidator : AbstractValidator<RedemptCoupon>
+    {
+        public RedemptCouponValidator()
+        {
+            RuleFor(x => x.cpnId).NotEmpty().NotNull().WithMessage("Id cannot be empty");
+            RuleFor(x => x.cpnId).GreaterThan(0).WithMessage("Id must be greater than 0");
+
+            RuleFor(x => x.amount).NotEmpty().NotNull().WithMessage("Amount cannot be empty");
+            RuleFor(x => x.amount).GreaterThan(0).WithMessage("Amount must be greater than 0");
+        }
+    }
     
     public class StatusCoupon : BaseRequest
     {
@@ -68,6 +75,19 @@ namespace CouponManagementServiceV2.Core.Model.Data
         public string status { get; set; }
         public string operation { get; set; }
     }    
+
+    public class StatusCouponValidator : AbstractValidator<StatusCoupon>
+    {
+        public StatusCouponValidator()
+        {
+            RuleFor(x => x.cpnId).NotEmpty().NotNull().WithMessage("Id cannot be empty");
+            RuleFor(x => x.cpnId).GreaterThan(0).WithMessage("Id must be greater than 0");
+
+            RuleFor(x => x.status).NotEmpty().NotNull().WithMessage("Status cannot be empty");
+
+            RuleFor(x => x.operation).NotEmpty().NotNull().WithMessage("Operation cannot be empty");
+        }
+    }
 
    
 }

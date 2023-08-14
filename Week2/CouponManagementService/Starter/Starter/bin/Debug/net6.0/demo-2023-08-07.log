@@ -1,0 +1,280 @@
+2023-08-07 08:51:35.9346||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7122 
+2023-08-07 08:51:36.0518||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5278 
+2023-08-07 08:51:36.0573||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 08:51:36.0573||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 08:51:36.0573||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\ 
+2023-08-07 08:51:36.8437||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/swagger/index.html - - 
+2023-08-07 08:51:37.2809||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 08:51:37.2809||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/swagger/index.html - - - 200 - text/html;charset=utf-8 451.1278ms 
+2023-08-07 08:51:37.2809||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - - 200 12394 application/javascript;+charset=utf-8 6.5900ms 
+2023-08-07 08:51:37.4267||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/_vs/browserLink - - 
+2023-08-07 08:51:37.4903||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.5728ms 
+2023-08-07 08:51:37.5605||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - 
+2023-08-07 08:51:37.6951||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 134.7552ms 
+2023-08-07 08:51:44.7926||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 
+2023-08-07 08:51:44.7926||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 08:51:44.8230||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "LoginRequest", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementService.Core.Models.BaseResponse`1[CouponManagementService.WebApi.Models.User]] LoginRequest(CouponManagementService.WebApi.Models.Login) on controller CouponManagementService.Core.Controllers.LoginController (CouponManagementService.WebApi). 
+2023-08-07 08:51:44.8230||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi) in 2.2619ms 
+2023-08-07 08:51:44.8230||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 08:51:44.9088||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'NLog.Logger' while attempting to activate 'CouponManagementService.Core.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementService.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Core\Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 08:51:45.0038||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 - 500 - text/plain;+charset=utf-8 211.3122ms 
+2023-08-07 08:54:22.9590||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7122 
+2023-08-07 08:54:23.0527||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5278 
+2023-08-07 08:54:23.0527||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 08:54:23.0527||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 08:54:23.0527||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\ 
+2023-08-07 08:54:23.4408||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/swagger/index.html - - 
+2023-08-07 08:54:23.7676||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 08:54:23.7676||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/swagger/index.html - - - 200 - text/html;charset=utf-8 333.3333ms 
+2023-08-07 08:54:23.7786||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - - 200 12394 application/javascript;+charset=utf-8 10.7831ms 
+2023-08-07 08:54:23.9054||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/_vs/browserLink - - 
+2023-08-07 08:54:23.9349||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.4622ms 
+2023-08-07 08:54:24.0597||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - 
+2023-08-07 08:54:24.2183||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 158.7381ms 
+2023-08-07 08:54:25.6444||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 
+2023-08-07 08:54:25.6485||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 08:54:25.6720||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "LoginRequest", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementService.Core.Models.BaseResponse`1[CouponManagementService.WebApi.Models.User]] LoginRequest(CouponManagementService.WebApi.Models.Login) on controller CouponManagementService.Core.Controllers.LoginController (CouponManagementService.WebApi). 
+2023-08-07 08:54:25.6779||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi) in 1.7339ms 
+2023-08-07 08:54:25.6779||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 08:54:25.7491||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'NLog.Logger' while attempting to activate 'CouponManagementService.Core.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementService.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Core\Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 08:54:25.7953||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 - 500 - text/plain;+charset=utf-8 150.9451ms 
+2023-08-07 08:55:31.3269||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/swagger/index.html - - 
+2023-08-07 08:55:31.3510||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/swagger/index.html - - - 200 - text/html;charset=utf-8 24.0890ms 
+2023-08-07 08:55:31.3701||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/_vs/browserLink - - 
+2023-08-07 08:55:31.3701||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 08:55:31.3701||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - - 200 12394 application/javascript;+charset=utf-8 0.8054ms 
+2023-08-07 08:55:31.3800||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.9211ms 
+2023-08-07 08:55:31.5429||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - 
+2023-08-07 08:55:31.5462||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.3695ms 
+2023-08-07 08:56:34.0722||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7122 
+2023-08-07 08:56:34.1690||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5278 
+2023-08-07 08:56:34.1690||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 08:56:34.1690||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 08:56:34.1690||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\ 
+2023-08-07 08:56:34.7187||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/swagger/index.html - - 
+2023-08-07 08:56:35.1237||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 08:56:35.1237||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/swagger/index.html - - - 200 - text/html;charset=utf-8 406.7715ms 
+2023-08-07 08:56:35.1445||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - - 200 12394 application/javascript;+charset=utf-8 19.6831ms 
+2023-08-07 08:56:35.3023||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/_vs/browserLink - - 
+2023-08-07 08:56:35.3324||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.1602ms 
+2023-08-07 08:56:35.4361||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - 
+2023-08-07 08:56:35.5907||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.6397ms 
+2023-08-07 08:56:38.0396||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 
+2023-08-07 08:56:38.0396||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 08:56:38.0688||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "LoginRequest", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementService.Core.Models.BaseResponse`1[CouponManagementService.WebApi.Models.User]] LoginRequest(CouponManagementService.WebApi.Models.Login) on controller CouponManagementService.Core.Controllers.LoginController (CouponManagementService.WebApi). 
+2023-08-07 08:56:38.0748||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi) in 1.7846ms 
+2023-08-07 08:56:38.0748||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 08:56:38.1499||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'NLog.Logger' while attempting to activate 'CouponManagementService.Core.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementService.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Core\Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 08:56:38.2000||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 - 500 - text/plain;+charset=utf-8 160.3614ms 
+2023-08-07 08:56:39.2019||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 
+2023-08-07 08:56:39.2019||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 08:56:39.2019||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "LoginRequest", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementService.Core.Models.BaseResponse`1[CouponManagementService.WebApi.Models.User]] LoginRequest(CouponManagementService.WebApi.Models.Login) on controller CouponManagementService.Core.Controllers.LoginController (CouponManagementService.WebApi). 
+2023-08-07 08:56:39.2019||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi) in 0.6546ms 
+2023-08-07 08:56:39.2019||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 08:56:39.2456||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'NLog.Logger' while attempting to activate 'CouponManagementService.Core.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementService.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Core\Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 08:56:39.2456||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 - 500 - text/plain;+charset=utf-8 44.6473ms 
+2023-08-07 08:56:39.9139||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 
+2023-08-07 08:56:39.9139||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 08:56:39.9139||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "LoginRequest", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementService.Core.Models.BaseResponse`1[CouponManagementService.WebApi.Models.User]] LoginRequest(CouponManagementService.WebApi.Models.Login) on controller CouponManagementService.Core.Controllers.LoginController (CouponManagementService.WebApi). 
+2023-08-07 08:56:39.9139||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi) in 0.7908ms 
+2023-08-07 08:56:39.9139||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 08:56:39.9433||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'NLog.Logger' while attempting to activate 'CouponManagementService.Core.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementService.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Core\Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 08:56:39.9433||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 - 500 - text/plain;+charset=utf-8 30.8107ms 
+2023-08-07 08:56:40.6387||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 
+2023-08-07 08:56:40.6387||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 08:56:40.6387||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "LoginRequest", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementService.Core.Models.BaseResponse`1[CouponManagementService.WebApi.Models.User]] LoginRequest(CouponManagementService.WebApi.Models.Login) on controller CouponManagementService.Core.Controllers.LoginController (CouponManagementService.WebApi). 
+2023-08-07 08:56:40.6387||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi) in 0.6044ms 
+2023-08-07 08:56:40.6387||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 08:56:40.6677||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'NLog.Logger' while attempting to activate 'CouponManagementService.Core.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementService.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Core\Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 08:56:40.6677||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 - 500 - text/plain;+charset=utf-8 29.9328ms 
+2023-08-07 08:59:45.6268||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7122 
+2023-08-07 08:59:45.6962||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5278 
+2023-08-07 08:59:45.6962||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 08:59:45.6962||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 08:59:45.6962||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\ 
+2023-08-07 08:59:46.4938||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/swagger/index.html - - 
+2023-08-07 08:59:46.8395||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 08:59:46.8395||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/swagger/index.html - - - 200 - text/html;charset=utf-8 350.7103ms 
+2023-08-07 08:59:46.8455||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - - 200 12394 application/javascript;+charset=utf-8 5.9995ms 
+2023-08-07 08:59:46.9878||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/_vs/browserLink - - 
+2023-08-07 08:59:47.0356||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.2754ms 
+2023-08-07 08:59:47.1215||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - 
+2023-08-07 08:59:47.2562||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 134.7446ms 
+2023-08-07 08:59:49.7567||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 
+2023-08-07 08:59:49.7567||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 08:59:49.7839||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "LoginRequest", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementService.Core.Models.BaseResponse`1[CouponManagementService.WebApi.Models.User]] LoginRequest(CouponManagementService.WebApi.Models.Login) on controller CouponManagementService.Core.Controllers.LoginController (CouponManagementService.WebApi). 
+2023-08-07 08:59:49.7839||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi) in 1.6783ms 
+2023-08-07 08:59:49.7839||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 08:59:49.8608||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'NLog.Logger' while attempting to activate 'CouponManagementService.Core.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementService.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Core\Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 08:59:49.9073||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 - 500 - text/plain;+charset=utf-8 150.6074ms 
+2023-08-07 09:20:02.0754||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7122 
+2023-08-07 09:20:02.1181||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5278 
+2023-08-07 09:20:02.1181||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 09:20:02.1181||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 09:20:02.1181||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\ 
+2023-08-07 09:20:02.4923||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/swagger/index.html - - 
+2023-08-07 09:20:02.8037||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/swagger/index.html - - - 200 - text/html;charset=utf-8 313.3746ms 
+2023-08-07 09:20:02.8211||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 09:20:02.8211||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - - 200 12394 application/javascript;+charset=utf-8 3.6206ms 
+2023-08-07 09:20:02.9423||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/_vs/browserLink - - 
+2023-08-07 09:20:02.9680||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.7761ms 
+2023-08-07 09:20:03.0531||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - 
+2023-08-07 09:20:03.1686||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.5088ms 
+2023-08-07 09:20:07.9884||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 
+2023-08-07 09:20:08.0048||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 09:20:08.1203||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "LoginRequest", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementService.Core.Models.BaseResponse`1[CouponManagementService.WebApi.Models.User]] LoginRequest(CouponManagementService.WebApi.Models.Login) on controller CouponManagementService.Core.Controllers.LoginController (CouponManagementService.WebApi). 
+2023-08-07 09:20:08.1465||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi) in 8.3534ms 
+2023-08-07 09:20:08.1465||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 09:20:08.3183||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'NLog.Logger' while attempting to activate 'CouponManagementService.Core.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementService.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Core\Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 09:20:08.3685||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 - 500 - text/plain;+charset=utf-8 380.2164ms 
+2023-08-07 09:21:55.5949||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7122 
+2023-08-07 09:21:55.6373||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5278 
+2023-08-07 09:21:55.6373||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 09:21:55.6373||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 09:21:55.6373||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementService\Starter\Starter\ 
+2023-08-07 09:21:56.1702||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/swagger/index.html - - 
+2023-08-07 09:21:56.4831||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/swagger/index.html - - - 200 - text/html;charset=utf-8 316.6758ms 
+2023-08-07 09:21:56.4989||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 09:21:56.4989||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/_framework/aspnetcore-browser-refresh.js - - - 200 12394 application/javascript;+charset=utf-8 4.8228ms 
+2023-08-07 09:21:56.6223||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/_vs/browserLink - - 
+2023-08-07 09:21:56.6426||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.4756ms 
+2023-08-07 09:21:56.7272||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - 
+2023-08-07 09:21:56.8483||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7122/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 121.2347ms 
+2023-08-07 09:22:03.3563||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 
+2023-08-07 09:22:03.3563||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 09:22:03.3858||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "LoginRequest", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementService.Core.Models.BaseResponse`1[CouponManagementService.WebApi.Models.User]] LoginRequest(CouponManagementService.WebApi.Models.Login) on controller CouponManagementService.Core.Controllers.LoginController (CouponManagementService.WebApi). 
+2023-08-07 09:22:03.5669||INFO|CouponManagementService.Core.Controllers.LoginController|Login Called! 
+2023-08-07 09:22:04.0274||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'CouponManagementService.Core.Models.BaseResponse`1[[CouponManagementService.WebApi.Models.User, CouponManagementService.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-07 09:22:04.0379||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi) in 648.4527ms 
+2023-08-07 09:22:04.0379||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementService.Core.Controllers.LoginController.LoginRequest (CouponManagementService.WebApi)' 
+2023-08-07 09:22:04.0379||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 - 200 - application/json;+charset=utf-8 683.3211ms 
+2023-08-07 09:22:20.5837||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 
+2023-08-07 09:22:20.5837||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7122/api/Login/ application/json 124 - 401 - - 0.4163ms 

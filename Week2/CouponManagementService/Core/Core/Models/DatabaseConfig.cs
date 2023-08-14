@@ -12,6 +12,6 @@ namespace CouponManagementService.Core.Models
             _configuration = configuration;
         }
 
-        public IDbConnection Connect() => new SqlConnection(_configuration.GetConnectionString("Users"));
+        public IDbConnection Connect(string connectionString) => new SqlConnection(_configuration.GetConnectionString(connectionString));
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rjMvlE9tYpycYWXxDMdOcULs5ZGKO0rNR8n8Cta8BBG+wVKeDZ/RdY0e3UIhxJpCWqA1j95HqzFKqGB1fB2TaQ==",
+  "dgSpecHash": "vTtM1vt8yA1yQgL0tllV2H+G39RRfwQaE16XiCjG0MmPSKzj1sObhd8+yv+qeCGLbiUivF2B9rpJOw2LqEoanA==",
   "success": true,
   "projectFilePath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week3\\CouponManagementServiceV2\\CouponManagementServiceV2.Starter\\CouponManagementServiceV2.Starter.csproj",
   "expectedPackageFiles": [
@@ -38,7 +38,7 @@
     "C:\\Users\\umut2\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
-    "C:\\Users\\umut2\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\umut2\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.10.0\\system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",

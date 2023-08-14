@@ -133,3 +133,4 @@ C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\Co
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll

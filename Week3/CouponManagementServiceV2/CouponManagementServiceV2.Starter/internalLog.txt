@@ -314,3 +314,7 @@
 2023-08-11 16:03:26.4487 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
 2023-08-11 16:03:26.4688 Info Validating config: TargetNames=alldata, ConfigItems=21, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\bin\Debug\net6.0\nlog.config
 2023-08-11 16:03:26.4911 Info Configuration initialized.
+2023-08-14 08:57:36.3874 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-08-14 08:57:36.4270 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.3.1999. Product version: 5.2.3+a5ddef92a8afb22508450803e37c001f4a3ba52a. GlobalAssemblyCache: False
+2023-08-14 08:57:36.4424 Info Validating config: TargetNames=alldata, ConfigItems=21, FilePath=C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\bin\Debug\net6.0\nlog.config
+2023-08-14 08:57:36.4615 Info Configuration initialized.
