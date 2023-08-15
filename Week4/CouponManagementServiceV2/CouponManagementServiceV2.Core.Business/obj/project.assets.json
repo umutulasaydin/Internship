@@ -2,22 +2,6 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "App.Metrics.Abstractions/4.3.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/App.Metrics.Abstractions.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/App.Metrics.Abstractions.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Dapper/2.0.143": {
         "type": "package",
         "compile": {
@@ -40,17 +24,6 @@
         },
         "runtime": {
           "lib/net6.0/FluentValidation.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
             "related": ".xml"
           }
         }
@@ -490,7 +463,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "App.Metrics.Abstractions": "4.3.0",
           "Dapper": "2.0.143",
           "FluentValidation": "11.7.1",
           "Microsoft.IdentityModel.Tokens": "6.32.1",
@@ -506,24 +478,6 @@
     }
   },
   "libraries": {
-    "App.Metrics.Abstractions/4.3.0": {
-      "sha512": "ekSlyVgN6foN6rmwVmRGBr0j5ufgRPsO5f7Md2fc3q44vkBNYpjsRLiUQsIXCSVI3NHorkrZh8aL4eRcLkVDGw==",
-      "type": "package",
-      "path": "app.metrics.abstractions/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "app.metrics.abstractions.4.3.0.nupkg.sha512",
-        "app.metrics.abstractions.nuspec",
-        "lib/net461/App.Metrics.Abstractions.dll",
-        "lib/net461/App.Metrics.Abstractions.pdb",
-        "lib/net461/App.Metrics.Abstractions.xml",
-        "lib/netstandard2.0/App.Metrics.Abstractions.dll",
-        "lib/netstandard2.0/App.Metrics.Abstractions.pdb",
-        "lib/netstandard2.0/App.Metrics.Abstractions.xml",
-        "logo.png"
-      ]
-    },
     "Dapper/2.0.143": {
       "sha512": "Vh0U+Fins3IpS7APUlrzga3+1mswWngB5fZ0xj4w+FQR5JhJzA5uHV5rSepkahvmshNZUA0YcHtae9vFQpiVTw==",
       "type": "package",
@@ -563,30 +517,6 @@
         "lib/netstandard2.0/FluentValidation.xml",
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
-      ]
-    },
-    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
-      "sha512": "K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
-      "type": "package",
-      "path": "microsoft.bcl.asyncinterfaces/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
-        "lib/net461/Microsoft.Bcl.AsyncInterfaces.xml",
-        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
-        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
-        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
-        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
-        "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
-        "microsoft.bcl.asyncinterfaces.nuspec",
-        "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll",
-        "ref/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
-        "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "Microsoft.CSharp/4.5.0": {

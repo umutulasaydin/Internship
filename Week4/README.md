@@ -10,6 +10,11 @@
 
 # Tuesday
 
+## Implementations
+- Prometheus
+- Grafana
+- Rate Limitter
+
 # Wednesday
 
 # Thursday

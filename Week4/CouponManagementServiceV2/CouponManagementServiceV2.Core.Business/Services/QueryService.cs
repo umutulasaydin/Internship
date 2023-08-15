@@ -1,5 +1,4 @@
-﻿using App.Metrics;
-using CouponManagementServiceV2.Core.Business.Interfaces;
+﻿using CouponManagementServiceV2.Core.Business.Interfaces;
 using CouponManagementServiceV2.Core.Data.Interfaces;
 using CouponManagementServiceV2.Core.Model.Data;
 using CouponManagementServiceV2.Core.Model.Shared;
@@ -12,14 +11,14 @@ namespace CouponManagementServiceV2.Core.Business.Services
         private readonly IQueryRepository _queryRepository;
         private readonly Cryption _crypte;
         private readonly IConfiguration _configuration;
-        private readonly IMetrics _metrics;
+        
 
-        public QueryService(IQueryRepository queryRepository, IConfiguration configuration, IMetrics metrics)
+        public QueryService(IQueryRepository queryRepository, IConfiguration configuration)
         {
             _queryRepository = queryRepository;
             _crypte = new Cryption();
             _configuration = configuration;
-            _metrics = metrics;
+           
         }
 
         public async Task<BaseResponse<string>> LoginRequest(Login item)
@@ -36,7 +35,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 };
             }
             var token = _crypte.GenerateJwtToken(entity, _configuration["Jwt:Key"], _configuration["Jwt:Audience"], _configuration["Jwt:Issuer"]);
-            _metrics.Measure.Counter.Increment(MetricRegistry.LoginCounter);
+          
             return new BaseResponse<string>
             {
                 isSucces = true,
@@ -61,7 +60,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 };
             }
             
-            _metrics.Measure.Counter.Increment(MetricRegistry.GetCouponCounter);
+
             return new BaseResponse<CouponResponse>
             {
                 isSucces = true,
@@ -85,7 +84,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                     result = null
                 };
             }
-            _metrics.Measure.Counter.Increment(MetricRegistry.GetSerieCounter);
+
             return new BaseResponse<IEnumerable<CouponResponse>>
             {
                 isSucces = true,
@@ -109,7 +108,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                     result = null
                 };
             }
-            _metrics.Measure.Counter.Increment(MetricRegistry.GetCouponByUsernameCounter);
+
             return new BaseResponse<IEnumerable<CouponResponse>>
             {
                 isSucces = true,

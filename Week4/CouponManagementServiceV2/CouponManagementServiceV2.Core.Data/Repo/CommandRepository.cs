@@ -1,9 +1,8 @@
 ﻿using CouponManagementServiceV2.Core.Data.Interfaces;
 using CouponManagementServiceV2.Core.Model.Shared;
 using CouponManagementServiceV2.Core.Model.Data;
-
 using Dapper;
-using App.Metrics;
+
 
 namespace CouponManagementServiceV2.Core.Data.Repo
 {

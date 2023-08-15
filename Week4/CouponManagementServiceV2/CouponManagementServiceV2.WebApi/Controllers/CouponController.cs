@@ -1,5 +1,4 @@
-﻿using App.Metrics;
-using CouponManagementServiceV2.Core.Business.Interfaces;
+﻿using CouponManagementServiceV2.Core.Business.Interfaces;
 using CouponManagementServiceV2.Core.Model.Data;
 using CouponManagementServiceV2.Core.Model.Shared;
 using Microsoft.AspNetCore.Http;

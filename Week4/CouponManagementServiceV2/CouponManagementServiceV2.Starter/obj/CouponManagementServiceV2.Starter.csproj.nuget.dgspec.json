@@ -176,10 +176,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "App.Metrics.Abstractions": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
             "Dapper": {
               "target": "Package",
               "version": "[2.0.143, )"
@@ -413,22 +409,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "App.Metrics.AspNetCore": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
-            "App.Metrics.AspNetCore.Endpoints": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
-            "App.Metrics.AspNetCore.Tracking": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
-            "App.Metrics.Formatters.Prometheus": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[11.3.0, )"
@@ -448,6 +428,14 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "prometheus-net": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "prometheus-net.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             }
           },
           "imports": [
@@ -524,10 +512,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "App.Metrics.Abstractions": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
             "NLog": {
               "target": "Package",
               "version": "[5.2.3, )"

@@ -11,10 +11,8 @@ using CouponManagementServiceV2.Core.Data.Repo;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using NLog.Web.LayoutRenderers;
-using Microsoft.AspNetCore.Server.Kestrel.Core;
-using App.Metrics.AspNetCore;
-using App.Metrics.Formatters.Prometheus;
+using Prometheus;
+
 
 var builder = WebApplication.CreateBuilder(args);
 var logger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
@@ -44,7 +42,7 @@ builder.Services.AddLogging(logging =>
 });
 
 
-
+builder.Services.AddMemoryCache();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -67,22 +65,6 @@ builder.Services.AddTransient<IQueryRepository, QueryRepository>();
 builder.Services.AddScoped<ICommandService, CommandService>();
 builder.Services.AddScoped<IQueryService, QueryService>();
 
-builder.Services.Configure<KestrelServerOptions>(options =>
-{
-    options.AllowSynchronousIO = true;
-}
-);
-builder.Services.AddMetrics();
-
-builder.Host.UseMetricsWebTracking();
-builder.Host.UseMetrics(options => {
-    options.EndpointOptions = endpointOptions =>
-    {
-        endpointOptions.MetricsTextEndpointOutputFormatter = new MetricsPrometheusTextOutputFormatter();
-        endpointOptions.MetricsEndpointOutputFormatter = new MetricsPrometheusProtobufOutputFormatter();
-       
-    };
-});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -93,14 +75,22 @@ if (app.Environment.IsDevelopment())
 }
 
 
+app.UseMiddleware<RateLimitter>();
 app.UseMiddleware<ApiKeyAuthentication>(builder.Configuration["X-Api-Key"]);
 app.UseMiddleware<TokenAuthentication>();
+
 
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.UseHttpMetrics(options =>
+{
+    options.AddRouteParameter("apiVersion");
+});
+app.MapMetrics();
 
 app.MapControllers();
+
 
 app.Run();

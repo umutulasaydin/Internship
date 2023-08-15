@@ -1,4 +1,5 @@
-﻿using CouponManagementServiceV2.Core.Model.Shared;
+﻿using CouponManagementServiceV2.Core.Model.Data;
+using CouponManagementServiceV2.Core.Model.Shared;
 using Microsoft.AspNetCore.Http.Extensions;
 
 namespace CouponManagementServiceV2.Core.Filters
@@ -12,23 +13,27 @@ namespace CouponManagementServiceV2.Core.Filters
         {
             _next = next;
             _apiKey = apiKey;
+         
         }
 
         public async Task InvokeAsync(HttpContext context)
         {
-            if (!context.Request.Headers.TryGetValue("x-api-key", out var apiKey))
+            if (!context.Request.GetDisplayUrl().Contains("metrics"))
             {
-                context.Response.StatusCode = 401;
-                
-                return;
-            }
+                if (!context.Request.Headers.TryGetValue("x-api-key", out var apiKey))
+                {
+                    context.Response.StatusCode = 401;
+                    return;
+                }
 
-            if (apiKey != _apiKey)
-            {
-                context.Response.StatusCode = 401;
-                
-                return;
+                if (apiKey != _apiKey)
+                {
+                    context.Response.StatusCode = 401;
+
+                    return;
+                }
             }
+                
 
             await _next(context);
         }
@@ -40,21 +45,24 @@ namespace CouponManagementServiceV2.Core.Filters
         private readonly Cryption _crypte;
         private readonly IConfiguration _configuration;
 
+
         public TokenAuthentication(RequestDelegate next, IConfiguration configuration)
         {
             _crypte = new Cryption();
             _configuration = configuration;
             _next = next;
+     
         }
 
         public async Task InvokeAsync(HttpContext context)
         {
-            if (!context.Request.GetDisplayUrl().Contains("Auth"))
+            if (!context.Request.GetDisplayUrl().Contains("Auth") && !context.Request.GetDisplayUrl().Contains("metrics"))
             {
                 if (!context.Request.Headers.TryGetValue("token", out var token))
                 {
                     context.Response.StatusCode = 401;
-                    return;
+
+                    
                 }
                 else
                 {
@@ -64,14 +72,14 @@ namespace CouponManagementServiceV2.Core.Filters
                         if (uid == -1)
                         {
                             context.Response.StatusCode = 401;
-
+                           
                             return;
                         }
                     }
                     catch
                     {
                         context.Response.StatusCode = 401;
-
+       
                         return;
                     }
                 }

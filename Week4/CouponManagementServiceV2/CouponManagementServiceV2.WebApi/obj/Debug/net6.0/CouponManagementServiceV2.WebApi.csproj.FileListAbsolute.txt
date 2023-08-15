@@ -159,5 +159,3 @@ C:\Users\umut2\OneDrive\Masaüstü\Internship\Week4\CouponManagementServiceV2\Co
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week4\CouponManagementServiceV2\CouponManagementServiceV2.WebApi\obj\Debug\net6.0\CouponManagementServiceV2.WebApi.genruntimeconfig.cache
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week4\CouponManagementServiceV2\CouponManagementServiceV2.WebApi\obj\Debug\net6.0\ref\CouponManagementServiceV2.WebApi.dll
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week4\CouponManagementServiceV2\CouponManagementServiceV2.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\umut2\OneDrive\Masaüstü\Internship\Week4\CouponManagementServiceV2\CouponManagementServiceV2.WebApi\bin\Debug\net6.0\App.Metrics.Abstractions.dll
-C:\Users\umut2\OneDrive\Masaüstü\Internship\Week4\CouponManagementServiceV2\CouponManagementServiceV2.WebApi\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll

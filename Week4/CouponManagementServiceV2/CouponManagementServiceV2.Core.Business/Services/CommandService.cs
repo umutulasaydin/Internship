@@ -1,17 +1,10 @@
-﻿using App.Metrics;
-using CouponManagementServiceV2.Core.Business.Interfaces;
+﻿using CouponManagementServiceV2.Core.Business.Interfaces;
 using CouponManagementServiceV2.Core.Data.Interfaces;
 using CouponManagementServiceV2.Core.Model.Data;
 using CouponManagementServiceV2.Core.Model.Shared;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Security.Principal;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CouponManagementServiceV2.Core.Business.Services
 {
@@ -20,14 +13,14 @@ namespace CouponManagementServiceV2.Core.Business.Services
         private readonly ICommandRepository _commandRepository;
         private readonly Cryption _crypte;
         private readonly IConfiguration _configuration;
-        private readonly IMetrics _metrics;
+ 
 
-        public CommandService(ICommandRepository commandRepository, IConfiguration configuration, IMetrics metrics)
+        public CommandService(ICommandRepository commandRepository, IConfiguration configuration)
         {
             _commandRepository = commandRepository;
             _crypte = new Cryption();
             _configuration = configuration;
-            _metrics = metrics;
+      
         }
         public async Task<BaseResponse<string>> SignUpRequest(Users item)
         {
@@ -52,7 +45,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                     result = "Signup Failed!"
                 };
             }
-            _metrics.Measure.Counter.Increment(MetricRegistry.CreatedUserCounter);
+
             return new BaseResponse<string>
             {
                 isSucces = true,
@@ -90,7 +83,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 cpnStatus = coupon.cpnStatus,
                 cpnValidDate = coupon.cpnValidDate
             };
-            _metrics.Measure.Counter.Increment(MetricRegistry.CreatedCuponCounter);
+
             return new BaseResponse<CouponResponse>
             {
                 isSucces = true,
@@ -116,8 +109,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                     result = null
                 };
             }
-            _metrics.Measure.Counter.Increment(MetricRegistry.CreatedSerieCounter);
-            _metrics.Measure.Counter.Increment(MetricRegistry.CreatedCuponCounter, serie.cpsSerieCount);
+
             return new BaseResponse<List<CouponResponse>>
             {
                 isSucces = true,
@@ -194,7 +186,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                     result = ""
                 };
             }
-            _metrics.Measure.Counter.Increment(MetricRegistry.CreatedRedeemCounter);
+
             return new BaseResponse<string>
             {
                 isSucces = true,
@@ -270,7 +262,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                     result = ""
                 };
             }
-            _metrics.Measure.Counter.Increment(MetricRegistry.CreatedVoidCounter);
+
             return new BaseResponse<string>
             {
                 isSucces = true,
@@ -297,7 +289,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                     result = ""
                 };
             }
-            _metrics.Measure.Counter.Increment(MetricRegistry.CreateStatusChangeCounter);
+
             return new BaseResponse<string>
             {
                 isSucces = true,

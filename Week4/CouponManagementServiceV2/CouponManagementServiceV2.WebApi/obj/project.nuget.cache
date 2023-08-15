@@ -1,13 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Ivdt5V0P5v+fTPwTvJSNwqDLcTMCw+x64oZwQT0mWsrCnW37a6FgZ5DWxngKMo51bH6shhAwuE4oMIORx2SbKg==",
+  "dgSpecHash": "sIPPawqO4l17vHPh/y+nKFxXDArgesmhd2f/VKIvQuAUej/KazK0iDYz15FMn1KfqYhu74PlbYcqIPbsQWBLSg==",
   "success": true,
   "projectFilePath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week4\\CouponManagementServiceV2\\CouponManagementServiceV2.WebApi\\CouponManagementServiceV2.WebApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\umut2\\.nuget\\packages\\app.metrics.abstractions\\4.3.0\\app.metrics.abstractions.4.3.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
-    "C:\\Users\\umut2\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.32.1\\microsoft.identitymodel.abstractions.6.32.1.nupkg.sha512",
