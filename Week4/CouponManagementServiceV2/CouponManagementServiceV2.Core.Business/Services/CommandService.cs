@@ -75,7 +75,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
             {
                 cpnCode = coupon.cpnCode,
                 cpnCreatorId = coupon.cpnCreatorId,
-                cpnCurrentRedemptValue = coupon.cpnCurrentRedemptValue,
+                cpnCurrentRedemptValue = coupon.cpnRedemptionLimit,
                 cpnId = coupon.cpnId,
                 cpnRedemptionLimit = coupon.cpnRedemptionLimit,
                 cpnSerieId = coupon.cpnSerieId,
@@ -212,16 +212,6 @@ namespace CouponManagementServiceV2.Core.Business.Services
                     result = ""
                 };
             }
-            else if (result == -2)
-            {
-                return new BaseResponse<string>
-                {
-                    isSucces = false,
-                    statusCode = -3,
-                    errorMessage = "Coupon is used",
-                    result = ""
-                };
-            }
             else if (result == -3)
             {
                 return new BaseResponse<string>
@@ -279,7 +269,62 @@ namespace CouponManagementServiceV2.Core.Business.Services
 
             var result = await _commandRepository.ChangeStatus(coupon, uid);
 
-            if (result <= 0)
+            if (result == 1)
+            {
+                return new BaseResponse<string>
+                {
+                    isSucces = true,
+                    statusCode = 1,
+                    errorMessage = "",
+                    result = "Coupon status: " + ((Status)coupon.status).ToString()
+                };
+            }
+
+            else if (result == -1)
+            {
+                return new BaseResponse<string>
+                {
+                    isSucces = false,
+                    statusCode = -2,
+                    errorMessage = "Coupon couldn't be activated",
+                    result = ""
+                };
+            }
+
+            else if (result == -2)
+            {
+                return new BaseResponse<string>
+                {
+                    isSucces = false,
+                    statusCode = -2,
+                    errorMessage = "Coupon cannot be converted to used",
+                    result = ""
+                };
+            }
+
+            else if (result == -3)
+            {
+                return new BaseResponse<string>
+                {
+                    isSucces = false,
+                    statusCode = -2,
+                    errorMessage = "Coupon couldn't be blocked",
+                    result = ""
+                };
+            }
+
+            else if (result == -4)
+            {
+                return new BaseResponse<string>
+                {
+                    isSucces = false,
+                    statusCode = -2,
+                    errorMessage = "Coupon couldn't be drafted",
+                    result = ""
+                };
+            }
+
+            else 
             {
                 return new BaseResponse<string>
                 {
@@ -290,13 +335,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 };
             }
 
-            return new BaseResponse<string>
-            {
-                isSucces = true,
-                statusCode = 1,
-                errorMessage = "",
-                result = "Coupon " + coupon.operation + "ed"
-            };
+            
         }
 
        

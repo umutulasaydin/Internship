@@ -60,9 +60,18 @@ namespace CouponManagementServiceV2.Core.Model.Shared
             try
             {
                 var handler = new JwtSecurityTokenHandler();
-                var value = handler.ReadToken(token) as JwtSecurityToken;
 
-                return Int32.Parse(value.Claims.First(claim => claim.Type == ClaimTypes.PrimarySid).Value);
+                handler.ValidateToken(token, new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(key)),
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                    ClockSkew = TimeSpan.Zero
+                }, out SecurityToken validatedToken);
+                var jwtToken = (JwtSecurityToken)validatedToken;
+                var userId = Int32.Parse(jwtToken.Claims.First(claim => claim.Type == ClaimTypes.PrimarySid).Value);
+                return userId;
             }
             catch
             {

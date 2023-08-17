@@ -29,7 +29,7 @@ namespace CouponManagementServiceV2.Core.Model.Data
     {
         public CouponValidator()
         {
-            RuleFor(x => x.cpnStatus).InclusiveBetween(0, 3);
+            RuleFor(x => x.cpnStatus).InclusiveBetween(1, 4);
 
             RuleFor(x => x.cpnStartDate).NotEmpty().NotNull().WithMessage("Start Date cannot be empty");
 
@@ -72,8 +72,7 @@ namespace CouponManagementServiceV2.Core.Model.Data
     public class StatusCoupon : BaseRequest
     {
         public int cpnId { get; set; }
-        public string status { get; set; }
-        public string operation { get; set; }
+        public int status { get; set; }
     }    
 
     public class StatusCouponValidator : AbstractValidator<StatusCoupon>
@@ -84,8 +83,8 @@ namespace CouponManagementServiceV2.Core.Model.Data
             RuleFor(x => x.cpnId).GreaterThan(0).WithMessage("Id must be greater than 0");
 
             RuleFor(x => x.status).NotEmpty().NotNull().WithMessage("Status cannot be empty");
+            RuleFor(x => x.status).InclusiveBetween(1, 4);
 
-            RuleFor(x => x.operation).NotEmpty().NotNull().WithMessage("Operation cannot be empty");
         }
     }
 

@@ -1,5 +1,4 @@
-﻿using CouponManagementServiceV2.Core.Model.Data;
-using CouponManagementServiceV2.Core.Model.Shared;
+﻿using CouponManagementServiceV2.Core.Model.Shared;
 using Microsoft.AspNetCore.Http.Extensions;
 
 namespace CouponManagementServiceV2.Core.Filters
@@ -22,13 +21,13 @@ namespace CouponManagementServiceV2.Core.Filters
             {
                 if (!context.Request.Headers.TryGetValue("x-api-key", out var apiKey))
                 {
-                    context.Response.StatusCode = 401;
+                    context.Response.StatusCode = 404;
                     return;
                 }
 
                 if (apiKey != _apiKey)
                 {
-                    context.Response.StatusCode = 401;
+                    context.Response.StatusCode = 404;
 
                     return;
                 }
@@ -61,7 +60,7 @@ namespace CouponManagementServiceV2.Core.Filters
                 if (!context.Request.Headers.TryGetValue("token", out var token))
                 {
                     context.Response.StatusCode = 401;
-
+                    return;
                     
                 }
                 else

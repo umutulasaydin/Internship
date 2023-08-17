@@ -81,7 +81,7 @@ app.UseMiddleware<TokenAuthentication>();
 
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseHttpMetrics(options =>

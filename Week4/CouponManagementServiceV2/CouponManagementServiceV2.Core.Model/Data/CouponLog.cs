@@ -13,9 +13,9 @@ namespace CouponManagementServiceV2.Core.Model.Data
         Redeem = 1,
         Void = 2,
         Block = 3,
-        Unblock = 4,
-        Draft = 5,
-        Activate = 6
+        Draft = 4,
+        Activate = 5,
+        Used = 6
     }
     public class CouponLog : BaseRequest
     {
