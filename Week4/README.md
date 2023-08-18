@@ -17,6 +17,17 @@
 
 # Wednesday
 
+## Implementations
+- Controller Test
+- Rate Limiter Test
+
 # Thursday
 
+## Implementations 
+- Rate Limiter Update
+- Command Functions Update
+
 # Friday
+
+## Implementations
+-Localization
