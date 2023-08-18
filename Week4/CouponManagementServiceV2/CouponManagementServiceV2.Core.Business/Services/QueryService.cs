@@ -2,7 +2,9 @@
 using CouponManagementServiceV2.Core.Data.Interfaces;
 using CouponManagementServiceV2.Core.Model.Data;
 using CouponManagementServiceV2.Core.Model.Shared;
+using CouponManagementServiceV2.Core.Model.Shared.Resources;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Localization;
 
 namespace CouponManagementServiceV2.Core.Business.Services
 {
@@ -11,13 +13,17 @@ namespace CouponManagementServiceV2.Core.Business.Services
         private readonly IQueryRepository _queryRepository;
         private readonly Cryption _crypte;
         private readonly IConfiguration _configuration;
-        
+        private readonly IStringLocalizer<Error> _errorLocalizer;
+        private readonly IStringLocalizer<ErrorCode> _errorCodeLocalizer;
 
-        public QueryService(IQueryRepository queryRepository, IConfiguration configuration)
+
+        public QueryService(IQueryRepository queryRepository, IConfiguration configuration, IStringLocalizer<Error> errorLocalizer, IStringLocalizer<ErrorCode> errorCodeLocalizer)
         {
             _queryRepository = queryRepository;
             _crypte = new Cryption();
             _configuration = configuration;
+            _errorLocalizer = errorLocalizer;
+            _errorCodeLocalizer = errorCodeLocalizer;
            
         }
 
@@ -29,7 +35,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -2,
+                    statusCode = _errorCodeLocalizer["INVALID_LOGIN"],
                     errorMessage = "Invalid username or password",
                     result = ""
                 };
@@ -39,8 +45,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
             return new BaseResponse<string>
             {
                 isSucces = true,
-                statusCode = 1,
-                errorMessage = "",
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
                 result = token
             };
         }
@@ -54,8 +60,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<CouponResponse>
                 {
                     isSucces = false,
-                    statusCode = -2,
-                    errorMessage = "There is no coupon with this id",
+                    statusCode = _errorCodeLocalizer["NO_COUPON_ID"],
+                    errorMessage = _errorLocalizer["NO_COUPON_ID"],
                     result = null
                 };
             }
@@ -64,8 +70,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
             return new BaseResponse<CouponResponse>
             {
                 isSucces = true,
-                statusCode = 1,
-                errorMessage = "",
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
                 result = entity
             };
         }
@@ -79,8 +85,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<IEnumerable<CouponResponse>>
                 {
                     isSucces = false,
-                    statusCode = -2,
-                    errorMessage = "There is no coupon with this serie id",
+                    statusCode = _errorCodeLocalizer["NO_COUPON_SERIE"],
+                    errorMessage = _errorLocalizer["NO_COUPON_SERIE"],
                     result = null
                 };
             }
@@ -88,8 +94,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
             return new BaseResponse<IEnumerable<CouponResponse>>
             {
                 isSucces = true,
-                statusCode = 1,
-                errorMessage = "",
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
                 result = entity
             };
         }
@@ -103,8 +109,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<IEnumerable<CouponResponse>>
                 {
                     isSucces = false,
-                    statusCode = -2,
-                    errorMessage = "There is no coupon with this serie id",
+                    statusCode = _errorCodeLocalizer["NO_COUPON_USERNAME"],
+                    errorMessage = _errorLocalizer["NO_COUPON_USERNAME"],
                     result = null
                 };
             }
@@ -112,8 +118,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
             return new BaseResponse<IEnumerable<CouponResponse>>
             {
                 isSucces = true,
-                statusCode = 1,
-                errorMessage = "",
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
                 result = entity
             };
         }

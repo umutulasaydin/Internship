@@ -129,3 +129,5 @@ C:\Users\umut2\OneDrive\Masaüstü\Internship\Week4\CouponManagementServiceV2\Co
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week4\CouponManagementServiceV2\CouponManagementServiceV2.Core\obj\Debug\net6.0\CouponManagementServiceV2.Core.genruntimeconfig.cache
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week4\CouponManagementServiceV2\CouponManagementServiceV2.Core\obj\Debug\net6.0\ref\CouponManagementServiceV2.Core.dll
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week4\CouponManagementServiceV2\CouponManagementServiceV2.Core\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week4\CouponManagementServiceV2\CouponManagementServiceV2.Core\bin\Debug\net6.0\en-US\CouponManagementServiceV2.Core.Model.resources.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week4\CouponManagementServiceV2\CouponManagementServiceV2.Core\bin\Debug\net6.0\tr-TR\CouponManagementServiceV2.Core.Model.resources.dll

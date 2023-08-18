@@ -2,9 +2,9 @@
 using CouponManagementServiceV2.Core.Data.Interfaces;
 using CouponManagementServiceV2.Core.Model.Data;
 using CouponManagementServiceV2.Core.Model.Shared;
-
+using CouponManagementServiceV2.Core.Model.Shared.Resources;
 using Microsoft.Extensions.Configuration;
-
+using Microsoft.Extensions.Localization;
 
 namespace CouponManagementServiceV2.Core.Business.Services
 {
@@ -13,14 +13,17 @@ namespace CouponManagementServiceV2.Core.Business.Services
         private readonly ICommandRepository _commandRepository;
         private readonly Cryption _crypte;
         private readonly IConfiguration _configuration;
+        private readonly IStringLocalizer<Error> _errorLocalizer;
+        private readonly IStringLocalizer<ErrorCode> _errorCodeLocalizer;
  
 
-        public CommandService(ICommandRepository commandRepository, IConfiguration configuration)
+        public CommandService(ICommandRepository commandRepository, IConfiguration configuration, IStringLocalizer<ErrorCode> errorCodeLocalizer, IStringLocalizer<Error> errorLocalizer)
         {
             _commandRepository = commandRepository;
             _crypte = new Cryption();
             _configuration = configuration;
-      
+            _errorLocalizer = errorLocalizer;
+            _errorCodeLocalizer = errorCodeLocalizer;
         }
         public async Task<BaseResponse<string>> SignUpRequest(Users item)
         {
@@ -30,8 +33,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -4,
-                    errorMessage = "There is user exist in this username!",
+                    statusCode = _errorCodeLocalizer["USER_EXIST"],
+                    errorMessage = _errorLocalizer["USER_EXIST"],
                     result = "Signup Failed!"
                 };
             }
@@ -40,8 +43,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -3,
-                    errorMessage = "Something happend while executing command",
+                    statusCode = _errorCodeLocalizer["PROCESS_FAIL"],
+                    errorMessage = _errorLocalizer["PROCESS_FAIL"],
                     result = "Signup Failed!"
                 };
             }
@@ -49,8 +52,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
             return new BaseResponse<string>
             {
                 isSucces = true,
-                statusCode = 1,
-                errorMessage = "",
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
                 result = "Signup Successfull"
             };
         }
@@ -66,8 +69,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<CouponResponse>
                 {
                     isSucces = false,
-                    statusCode = -3,
-                    errorMessage = "Something happend while executing command",
+                    statusCode = _errorCodeLocalizer["PROCESS_FAIL"],
+                    errorMessage = _errorLocalizer["PROCESS_FAIL"],
                     result = null
                 };
             }
@@ -87,8 +90,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
             return new BaseResponse<CouponResponse>
             {
                 isSucces = true,
-                statusCode = 1,
-                errorMessage = "",
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
                 result = response
             };
         }
@@ -104,8 +107,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<List<CouponResponse>>
                 {
                     isSucces = false,
-                    statusCode = -3,
-                    errorMessage = "Something happend while executing command",
+                    statusCode = _errorCodeLocalizer["PROCESS_FAIL"],
+                    errorMessage = _errorLocalizer["PROCESS_FAIL"],
                     result = null
                 };
             }
@@ -113,8 +116,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
             return new BaseResponse<List<CouponResponse>>
             {
                 isSucces = true,
-                statusCode = 1,
-                errorMessage = "",
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
                 result = result
             };
         }
@@ -131,8 +134,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -6,
-                    errorMessage = "Not enough limit.",
+                    statusCode = _errorCodeLocalizer["NO_LIMIT"],
+                    errorMessage = _errorLocalizer["NO_LIMIT"],
                     result = ""
                 };
             }
@@ -141,8 +144,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -3,
-                    errorMessage = "Coupon is used",
+                    statusCode = _errorCodeLocalizer["USED_COUPON"],
+                    errorMessage = _errorLocalizer["USED_COUPON"],
                     result = ""
                 };
             }
@@ -151,8 +154,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -3,
-                    errorMessage = "Coupon is blocked",
+                    statusCode = _errorCodeLocalizer["BLOCK_COUPON"],
+                    errorMessage = _errorLocalizer["BLOCK_COUPON"],
                     result = ""
                 };
             }
@@ -161,8 +164,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -3,
-                    errorMessage = "Coupon is drafted",
+                    statusCode = _errorCodeLocalizer["DRAFT_COUPON"],
+                    errorMessage = _errorCodeLocalizer["DRAFT_COUPON"],
                     result = ""
                 };
             }
@@ -171,8 +174,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -7,
-                    errorMessage = "Valid date is expired",
+                    statusCode = _errorCodeLocalizer["DATE_EXPIRED"],
+                    errorMessage = _errorLocalizer["DATE_EXPIRED"],
                     result = ""
                 };
             }
@@ -181,8 +184,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -2,
-                    errorMessage = "Something happend while executing command",
+                    statusCode = _errorCodeLocalizer["PROCESS_FAIL"],
+                    errorMessage = _errorLocalizer["PROCESS_FAIL"],
                     result = ""
                 };
             }
@@ -190,8 +193,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
             return new BaseResponse<string>
             {
                 isSucces = true,
-                statusCode = 1,
-                errorMessage = "",
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
                 result = "Coupon redeemed"
             };
         }
@@ -207,8 +210,18 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -6,
-                    errorMessage = "Not enough limit.",
+                    statusCode = _errorCodeLocalizer["NO_LIMIT"],
+                    errorMessage = _errorLocalizer["NO_LIMIT"],
+                    result = ""
+                };
+            }
+            else if (result == -2)
+            {
+                return new BaseResponse<string>
+                {
+                    isSucces = false,
+                    statusCode = _errorCodeLocalizer["USED_COUPON"],
+                    errorMessage = _errorLocalizer["USED_COUPON"],
                     result = ""
                 };
             }
@@ -217,8 +230,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -3,
-                    errorMessage = "Coupon is blocked",
+                    statusCode = _errorCodeLocalizer["BLOCK_COUPON"],
+                    errorMessage = _errorLocalizer["BLOCK_COUPON"],
                     result = ""
                 };
             }
@@ -227,8 +240,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -3,
-                    errorMessage = "Coupon is drafted",
+                    statusCode = _errorCodeLocalizer["DRAFT_COUPON"],
+                    errorMessage = _errorCodeLocalizer["DRAFT_COUPON"],
                     result = ""
                 };
             }
@@ -237,8 +250,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -7,
-                    errorMessage = "Valid date is expired",
+                    statusCode = _errorCodeLocalizer["DATE_EXPIRED"],
+                    errorMessage = _errorLocalizer["DATE_EXPIRED"],
                     result = ""
                 };
             }
@@ -247,8 +260,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -2,
-                    errorMessage = "Something happend while executing command",
+                    statusCode = _errorCodeLocalizer["PROCESS_FAIL"],
+                    errorMessage = _errorLocalizer["PROCESS_FAIL"],
                     result = ""
                 };
             }
@@ -256,8 +269,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
             return new BaseResponse<string>
             {
                 isSucces = true,
-                statusCode = 1,
-                errorMessage = "",
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
                 result = "Coupon voided"
             };
         }
@@ -274,8 +287,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = true,
-                    statusCode = 1,
-                    errorMessage = "",
+                    statusCode = _errorCodeLocalizer["SUCCESS"],
+                    errorMessage = _errorLocalizer["SUCCESS"],
                     result = "Coupon status: " + ((Status)coupon.status).ToString()
                 };
             }
@@ -285,8 +298,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -2,
-                    errorMessage = "Coupon couldn't be activated",
+                    statusCode = _errorCodeLocalizer["NO_ACTIVATE"],
+                    errorMessage = _errorLocalizer["NO_ACTIVATE"],
                     result = ""
                 };
             }
@@ -296,8 +309,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -2,
-                    errorMessage = "Coupon cannot be converted to used",
+                    statusCode = _errorCodeLocalizer["NO_USED"],
+                    errorMessage = _errorLocalizer["NO_USED"],
                     result = ""
                 };
             }
@@ -307,8 +320,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -2,
-                    errorMessage = "Coupon couldn't be blocked",
+                    statusCode = _errorCodeLocalizer["NO_BLOCK"],
+                    errorMessage = _errorLocalizer["NO_BLOCK"],
                     result = ""
                 };
             }
@@ -318,8 +331,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -2,
-                    errorMessage = "Coupon couldn't be drafted",
+                    statusCode = _errorCodeLocalizer["NO_DRAFT"],
+                    errorMessage = _errorLocalizer["NO_DRAFT"],
                     result = ""
                 };
             }
@@ -329,8 +342,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 return new BaseResponse<string>
                 {
                     isSucces = false,
-                    statusCode = -2,
-                    errorMessage = "Something happend while executing command",
+                    statusCode = _errorCodeLocalizer["PROCESS_FAIL"],
+                    errorMessage = _errorLocalizer["PROCESS_FAIL"],
                     result = ""
                 };
             }

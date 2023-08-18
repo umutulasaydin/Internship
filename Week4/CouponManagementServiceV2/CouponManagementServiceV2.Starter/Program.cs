@@ -12,7 +12,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Prometheus;
-
+using Microsoft.Extensions.Options;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
 
 var builder = WebApplication.CreateBuilder(args);
 var logger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
@@ -65,6 +67,23 @@ builder.Services.AddTransient<IQueryRepository, QueryRepository>();
 builder.Services.AddScoped<ICommandService, CommandService>();
 builder.Services.AddScoped<IQueryService, QueryService>();
 
+
+builder.Services.AddLocalization();
+
+builder.Services.Configure<RequestLocalizationOptions>(options =>
+{
+    var supportedCultures = new[]
+    {
+        new CultureInfo("en-US"),
+        new CultureInfo("tr-TR")   
+    };
+    options.DefaultRequestCulture = new RequestCulture("en-US", "en-US");
+    options.SupportedCultures = supportedCultures;
+    options.SupportedUICultures = supportedCultures;
+    
+});
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -89,6 +108,8 @@ app.UseHttpMetrics(options =>
     options.AddRouteParameter("apiVersion");
 });
 app.MapMetrics();
+
+app.UseRequestLocalization(app.Services.GetRequiredService<IOptions<RequestLocalizationOptions>>().Value);
 
 app.MapControllers();
 

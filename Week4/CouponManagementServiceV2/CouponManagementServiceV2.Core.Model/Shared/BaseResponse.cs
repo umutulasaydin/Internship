@@ -10,7 +10,7 @@ namespace CouponManagementServiceV2.Core.Model.Shared
     {
         public T result { get; set; }
         public bool isSucces { get; set; }
-        public int statusCode { get; set; }
+        public string statusCode { get; set; }
         public string errorMessage { get; set; }
     }
 }

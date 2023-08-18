@@ -1655,6 +1655,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CouponManagementServiceV2.Core >= 1.0.0",
       "CouponManagementServiceV2.Core.Data >= 1.0.0",
       "CouponManagementServiceV2.Core.Model >= 1.0.0"
     ]
@@ -1696,6 +1697,9 @@
             },
             "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week4\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Model\\CouponManagementServiceV2.Core.Model.csproj": {
               "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week4\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Model\\CouponManagementServiceV2.Core.Model.csproj"
+            },
+            "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week4\\CouponManagementServiceV2\\CouponManagementServiceV2.Core\\CouponManagementServiceV2.Core.csproj": {
+              "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week4\\CouponManagementServiceV2\\CouponManagementServiceV2.Core\\CouponManagementServiceV2.Core.csproj"
             }
           }
         }

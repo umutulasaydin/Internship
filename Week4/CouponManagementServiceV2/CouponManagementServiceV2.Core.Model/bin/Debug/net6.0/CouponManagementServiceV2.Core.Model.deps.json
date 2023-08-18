@@ -15,6 +15,14 @@
         },
         "runtime": {
           "CouponManagementServiceV2.Core.Model.dll": {}
+        },
+        "resources": {
+          "en-US/CouponManagementServiceV2.Core.Model.resources.dll": {
+            "locale": "en-US"
+          },
+          "tr-TR/CouponManagementServiceV2.Core.Model.resources.dll": {
+            "locale": "tr-TR"
+          }
         }
       },
       "Dapper/2.0.143": {

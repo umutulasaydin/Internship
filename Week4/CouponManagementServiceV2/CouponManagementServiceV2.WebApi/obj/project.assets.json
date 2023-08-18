@@ -464,6 +464,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "CouponManagementServiceV2.Core": "1.0.0",
           "CouponManagementServiceV2.Core.Data": "1.0.0",
           "CouponManagementServiceV2.Core.Model": "1.0.0"
         },

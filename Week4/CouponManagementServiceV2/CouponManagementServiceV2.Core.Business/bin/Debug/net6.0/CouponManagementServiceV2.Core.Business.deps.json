@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "CouponManagementServiceV2.Core.Business/1.0.0": {
         "dependencies": {
+          "CouponManagementServiceV2.Core": "1.0.0",
           "CouponManagementServiceV2.Core.Data": "1.0.0",
           "CouponManagementServiceV2.Core.Model": "1.0.0"
         },
@@ -257,6 +258,14 @@
         },
         "runtime": {
           "CouponManagementServiceV2.Core.Model.dll": {}
+        },
+        "resources": {
+          "en-US/CouponManagementServiceV2.Core.Model.resources.dll": {
+            "locale": "en-US"
+          },
+          "tr-TR/CouponManagementServiceV2.Core.Model.resources.dll": {
+            "locale": "tr-TR"
+          }
         }
       }
     }
