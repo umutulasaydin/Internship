@@ -86,5 +86,19 @@ namespace CouponManagementServiceV2.WebApi.Controllers
             Request.Headers.TryGetValue("token", out StringValues token);
             return await _commandService.ChangeStatusRequest(coupon, token);
         }
+
+        [HttpPost("GetCouponInfo")]
+        public async Task<BaseResponse<IEnumerable<CouponLogResponse>>> GetCouponInfo([FromBody] int id)
+        {
+            _logger.Info("Get coupon info called");
+            return await _queryService.GetCouponInfoRequest(id);
+        }
+
+        [HttpPost("GetValidCoupons")]
+        public async Task<BaseResponse<IEnumerable<CouponResponse>>> GetValidCoupons(BaseRequest request)
+        {
+            _logger.Info("Get valid coupons called");
+            return await _queryService.GetValidCouponsRequest();
+        }
     }
 }

@@ -24,8 +24,7 @@ namespace CouponManagementServiceV2.Core.Model.Data
         public int cplUserId { get; set; }
         public int cplOperation { get; set; }
         public DateTime cplInsTime { get; set; } = DateTime.Now;
-        public string cplClientName { get; set; }
-        public string cplClientPos { get; set; }
+
     }
 
     public class CouponLogValidator : AbstractValidator<CouponLog>
@@ -43,10 +42,21 @@ namespace CouponManagementServiceV2.Core.Model.Data
 
             RuleFor(x => x.cplInsTime).NotEmpty().NotNull().WithMessage("Instant Date cannot be empty");
 
-            RuleFor(x => x.cplClientName).NotEmpty().NotNull().WithMessage("Client Name cannot be empty");
+            RuleFor(x => x.ClientName).NotEmpty().NotNull().WithMessage("Client Name cannot be empty");
 
-            RuleFor(x => x.cplClientPos).NotEmpty().NotNull().WithMessage("Client Pos cannot be empty");
+            RuleFor(x => x.ClientPos).NotEmpty().NotNull().WithMessage("Client Pos cannot be empty");
 
         }
+    }
+
+    public class CouponLogResponse
+    {
+        public int cplId { get; set; } = -1;
+        public int cplCouponId { get; set; }
+        public int cplUserId { get; set; }
+        public int cplOperation { get; set; }
+        public DateTime cplInsTime { get; set; } = DateTime.Now;
+        public string cplClientName { get; set; }
+        public string cplClientPos { get; set;}
     }
 }

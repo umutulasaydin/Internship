@@ -142,6 +142,15 @@ namespace CouponManagementServiceV2.Core.Model.Shared.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to -17.
+        /// </summary>
+        public static string NO_COUPON_VALID {
+            get {
+                return ResourceManager.GetString("NO_COUPON_VALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to -13.
         /// </summary>
         public static string NO_DRAFT {
@@ -165,6 +174,15 @@ namespace CouponManagementServiceV2.Core.Model.Shared.Resources {
         public static string NO_USED {
             get {
                 return ResourceManager.GetString("NO_USED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -16.
+        /// </summary>
+        public static string NO_USER_ACTIVITY {
+            get {
+                return ResourceManager.GetString("NO_USER_ACTIVITY", resourceCulture);
             }
         }
         

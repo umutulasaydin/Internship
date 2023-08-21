@@ -144,6 +144,9 @@
   <data name="NO_COUPON_USERNAME" xml:space="preserve">
     <value>Kullanıcıya ait bir kupon bulunamadı.</value>
   </data>
+  <data name="NO_COUPON_VALID" xml:space="preserve">
+    <value>Geçerli kupon yok.</value>
+  </data>
   <data name="NO_DRAFT" xml:space="preserve">
     <value>Kupon taslak haline gelemez.</value>
   </data>
@@ -152,6 +155,9 @@
   </data>
   <data name="NO_USED" xml:space="preserve">
     <value>Kupon kullanılmış duruma çevrilemez</value>
+  </data>
+  <data name="NO_USER_ACTIVITY" xml:space="preserve">
+    <value>Bu kullancı id sine sahip bir aktivite bulunamadı.</value>
   </data>
   <data name="PROCESS_FAIL" xml:space="preserve">
     <value>Komut yürütülürken bir sorunla karşılaşıldı.</value>

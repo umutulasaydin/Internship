@@ -123,5 +123,74 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 result = entity
             };
         }
+
+        public async Task<BaseResponse<IEnumerable<CouponLogResponse>>> GetCouponInfoRequest(int id)
+        {
+            var entity = await _queryRepository.GetCouponInfo(id);
+            if (entity == null || entity.Count() == 0)
+            {
+                return new BaseResponse<IEnumerable<CouponLogResponse>>
+                {
+                    isSucces = false,
+                    statusCode = _errorCodeLocalizer["NO_COUPON_ID"],
+                    errorMessage = _errorLocalizer["NO_COUPON_ID"],
+                    result = null
+                };
+            }
+
+            return new BaseResponse<IEnumerable<CouponLogResponse>>
+            {
+                isSucces = true,
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
+                result = entity
+            };
+        }
+
+        public async Task<BaseResponse<IEnumerable<CouponLogResponse>>> GetCouponInfoByUserIdRequest(int id)
+        {
+            var entity = await _queryRepository.GetCouponInfoByUserId(id);
+            if (entity == null || entity.Count() == 0)
+            {
+                return new BaseResponse<IEnumerable<CouponLogResponse>>
+                {
+                    isSucces = false,
+                    statusCode = _errorCodeLocalizer["NO_USER_ACTIVITY"],
+                    errorMessage = _errorLocalizer["NO_USER_ACTIVITY"],
+                    result = null
+                };
+            }
+
+            return new BaseResponse<IEnumerable<CouponLogResponse>>
+            {
+                isSucces = true,
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
+                result = entity
+            };
+        }
+
+        public async Task<BaseResponse<IEnumerable<CouponResponse>>> GetValidCouponsRequest()
+        {
+            var entity = await _queryRepository.GetValidCoupons();
+            if (entity == null || entity.Count() == 0)
+            {
+                return new BaseResponse<IEnumerable<CouponResponse>>
+                {
+                    isSucces = false,
+                    statusCode = _errorCodeLocalizer["NO_COUPON_VALID"],
+                    errorMessage = _errorLocalizer["NO_COUPON_VALID"],
+                    result = null
+                };
+            }
+
+            return new BaseResponse<IEnumerable<CouponResponse>>
+            {
+                isSucces = true,
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
+                result = entity
+            };
+        }
     }
 }

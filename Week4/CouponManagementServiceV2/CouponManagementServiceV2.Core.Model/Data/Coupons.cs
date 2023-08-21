@@ -35,6 +35,9 @@ namespace CouponManagementServiceV2.Core.Model.Data
 
             RuleFor(x => x.cpnValidDate).NotEmpty().NotNull().WithMessage("Valid Date cannot be empty");
 
+            RuleFor(x => x.ClientName).NotEmpty().NotNull().WithMessage("Client Name cannot be empty");
+
+            RuleFor(x => x.ClientPos).NotEmpty().NotNull().WithMessage("Client Pos cannot be empty");
         }
     }
 
@@ -66,6 +69,10 @@ namespace CouponManagementServiceV2.Core.Model.Data
 
             RuleFor(x => x.amount).NotEmpty().NotNull().WithMessage("Amount cannot be empty");
             RuleFor(x => x.amount).GreaterThan(0).WithMessage("Amount must be greater than 0");
+
+            RuleFor(x => x.ClientName).NotEmpty().NotNull().WithMessage("Client Name cannot be empty");
+
+            RuleFor(x => x.ClientPos).NotEmpty().NotNull().WithMessage("Client Pos cannot be empty");
         }
     }
     
@@ -84,6 +91,10 @@ namespace CouponManagementServiceV2.Core.Model.Data
 
             RuleFor(x => x.status).NotEmpty().NotNull().WithMessage("Status cannot be empty");
             RuleFor(x => x.status).InclusiveBetween(1, 4);
+
+            RuleFor(x => x.ClientName).NotEmpty().NotNull().WithMessage("Client Name cannot be empty");
+
+            RuleFor(x => x.ClientPos).NotEmpty().NotNull().WithMessage("Client Pos cannot be empty");
 
         }
     }

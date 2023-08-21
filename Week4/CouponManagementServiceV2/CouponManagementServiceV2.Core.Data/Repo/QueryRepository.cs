@@ -81,5 +81,48 @@ namespace CouponManagementServiceV2.Core.Data.Repo
                 return null;
             }
         }
+
+        public async Task<IEnumerable<CouponLogResponse>> GetCouponInfo(int id)
+        {
+            try
+            {
+                var query = "SELECT * FROM CouponLog WHERE cplCouponId = @id";
+                using var connection = _dbConnect.Connect("Query");
+                return await connection.QueryAsync<CouponLogResponse>(query, new { id = id });
+            }
+            catch
+            {
+                return null;
+            }
+            
+        }
+
+        public async Task<IEnumerable<CouponLogResponse>> GetCouponInfoByUserId(int id)
+        {
+            try
+            {
+                var query = "SELECT * FROM CouponLog WHERE cplUserId = @id";
+                using var connection = _dbConnect.Connect("Query");
+                return await connection.QueryAsync<CouponLogResponse>(query, new { id = id});
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        public async Task<IEnumerable<CouponResponse>> GetValidCoupons()
+        {
+            try
+            {
+                var query = "SELECT * FROM Coupons WHERE cpnStartDate < CURRENT_TIMESTAMP AND cpnValidDate > CURRENT_TIMESTAMP";
+                using var connection = _dbConnect.Connect("Query");
+                return await connection.QueryAsync<CouponResponse>(query);
+            }
+            catch
+            {
+                return null;
+            }
+        }
     }
 }

@@ -35,7 +35,9 @@ namespace CouponManagementServiceV2.Core.Model.Data
 
             RuleFor(x => x.cpsSerieName).NotEmpty().NotNull().WithMessage("Series Name cannot be empty");
 
-            
+            RuleFor(x => x.ClientName).NotEmpty().NotNull().WithMessage("Client Name cannot be empty");
+
+            RuleFor(x => x.ClientPos).NotEmpty().NotNull().WithMessage("Client Pos cannot be empty");
         }
     }
 

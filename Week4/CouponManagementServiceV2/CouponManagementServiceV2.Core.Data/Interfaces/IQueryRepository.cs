@@ -13,5 +13,8 @@ namespace CouponManagementServiceV2.Core.Data.Interfaces
         Task<CouponResponse> GetCouponById(int id);
         Task<IEnumerable<CouponResponse>> GetCouponsBySerieId(string id);
         Task<IEnumerable<CouponResponse>> GetCouponsByUsername(string username);
+        Task<IEnumerable<CouponLogResponse>> GetCouponInfo(int id);
+        Task<IEnumerable<CouponLogResponse>> GetCouponInfoByUserId(int id);
+        Task<IEnumerable<CouponResponse>> GetValidCoupons();
     }
 }
