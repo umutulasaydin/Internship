@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-localization-47f74": {
+      "hosting": {
+        "MultiLanguageProject": [
+          "angular-localization-47f74"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-localization-47f74"
+  }
+}

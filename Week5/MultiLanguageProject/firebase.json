@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "MultiLanguageProject",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
