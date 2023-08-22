@@ -16,3 +16,4 @@
 - Angular Custom Service
 - Angular Localization
 - Angular Responsive Layout
+- KendoUI Angular

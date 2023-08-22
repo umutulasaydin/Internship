@@ -1,0 +1,88 @@
+<h1>PRODUCTS</h1>
+<kendo-grid
+  [data]="gridItems | async"
+  [pageSize]="pageSize"
+  [skip]="skip"
+  [pageable]="true"
+  (pageChange)="pageChange($event)"
+  [sortable]="true"
+  [sort]="sortDescrpitor"
+  (sortChange)="handleSortChange($event)"
+  [height]="400"
+  [columnMenu]="menuSettings"
+  [resizable]="true"
+>
+  <kendo-grid-column field="ProductID" title="ID"></kendo-grid-column>
+  <kendo-grid-column field="ProductName" title="Name"></kendo-grid-column>
+  <kendo-grid-column field="Category.CategoryName" title="Category"></kendo-grid-column>
+  <kendo-grid-column field="UnitPrice" title="Unit Price" format="{0:c}"></kendo-grid-column>
+  <kendo-grid-column field="Discounted" filter="boolean">
+    <ng-template kendoGridCellTemplate let-dataItem>
+      <input type="checkbox" [checked]="dataItem.Discounted" disabled/>
+    </ng-template>
+  </kendo-grid-column>
+</kendo-grid>
+
+<br><br>
+
+<kendo-dropdownlist
+  [data]="dropDownItems"
+  [defaultItem]="defaultItem"
+  textField="text"
+  valueField="value"
+  (valueChange)="handleFilterChange($event)"
+>
+</kendo-dropdownlist>
+
+<br><br><br>
+
+<h1>CHART</h1>
+
+<kendo-chart>
+  <kendo-chart-series>
+    <kendo-chart-series-item type="bubble" [data]="seriesData">
+    </kendo-chart-series-item>
+  </kendo-chart-series>
+</kendo-chart>
+
+<br><br><br><br>
+
+<h1>CHART2</h1>
+
+<kendo-chart>
+  <kendo-chart-series>
+    <kendo-chart-series-item type="column" [data]="Data" field="sales" categoryField="product">
+    </kendo-chart-series-item>
+  </kendo-chart-series>
+</kendo-chart>
+
+<br><br><br><br>
+
+
+<h1>CHART3</h1>
+
+<kendo-chart>
+  <kendo-chart-series>
+    <kendo-chart-series-item
+      *ngFor="let item of series"
+      [data]="item.items"
+      [name]="item.value"
+      field="value"
+      categoryField="interval"
+      type="line"
+    >
+    </kendo-chart-series-item>
+  </kendo-chart-series>
+</kendo-chart>
+
+<br><br><br><br>
+
+<h1>CHART4</h1>
+
+<kendo-chart [transitions]="false">
+  <kendo-chart-series>
+    <kendo-chart-series-item [data]="datas"> </kendo-chart-series-item>
+  </kendo-chart-series>
+</kendo-chart>
+
+<br><br><br><br>
