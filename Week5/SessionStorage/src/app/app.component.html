@@ -1,0 +1,16 @@
+<h1>Session Storage Trial</h1>
+
+
+
+<form #userlogin = "ngForm" (ngSubmit)="dataSave(userlogin.value)">
+    <input type="text" name = "data" placeholder="Write data to save in session storage" ngModel>
+    <br>
+    <br>
+    <input type="submit" value="Save Data">
+</form>
+<br>
+<br>
+<input type = submit value="Get Data" (click)="getData()">
+<br>
+<br>
+<h1>{{data}}</h1>
