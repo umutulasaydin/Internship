@@ -1,0 +1,1179 @@
+2023-08-07 11:01:34.8606||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7247 
+2023-08-07 11:01:34.9144||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081 
+2023-08-07 11:01:34.9144||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 11:01:34.9144||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 11:01:34.9144||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week2\CouponManagementServiceV2\CouponManagementServiceV2.Starter\ 
+2023-08-07 11:01:35.7845||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 11:01:36.1847||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 415.9476ms 
+2023-08-07 11:01:36.2465||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 11:01:36.2584||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 11.8429ms 
+2023-08-07 11:01:36.5616||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 11:01:36.6878||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.2241ms 
+2023-08-07 11:01:42.5927||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Login/ application/json 124 
+2023-08-07 11:01:42.6043||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Login/ application/json 124 - 401 - - 11.6369ms 
+2023-08-07 11:12:37.9896||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7247 
+2023-08-07 11:12:38.0426||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081 
+2023-08-07 11:12:38.0426||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 11:12:38.0467||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 11:12:38.0467||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\ 
+2023-08-07 11:12:38.6283||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 11:12:39.1778||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 551.3757ms 
+2023-08-07 11:12:39.1954||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 11:12:39.2042||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 8.7810ms 
+2023-08-07 11:12:39.3761||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 11:12:39.6124||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 236.3536ms 
+2023-08-07 11:12:39.7105||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 11:12:39.9039||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 193.3970ms 
+2023-08-07 11:12:43.6915||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Login/ application/json 124 
+2023-08-07 11:12:43.6915||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.LoginController.LoginRequest (CouponManagementServiceV2.WebApi)' 
+2023-08-07 11:12:43.7209||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "LoginRequest", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[CouponManagementServiceV2.Core.Model.Data.User]] LoginRequest(CouponManagementServiceV2.Core.Model.Data.Login) on controller CouponManagementServiceV2.WebApi.Controllers.LoginController (CouponManagementServiceV2.WebApi). 
+2023-08-07 11:12:43.8853||INFO|CouponManagementServiceV2.WebApi.Controllers.LoginController|Login Called! 
+2023-08-07 11:12:44.4133||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[[CouponManagementServiceV2.Core.Model.Data.User, CouponManagementServiceV2.Core.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-07 11:12:44.4232||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.LoginController.LoginRequest (CouponManagementServiceV2.WebApi) in 698.7011ms 
+2023-08-07 11:12:44.4232||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.LoginController.LoginRequest (CouponManagementServiceV2.WebApi)' 
+2023-08-07 11:12:44.4232||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Login/ application/json 124 - 200 - application/json;+charset=utf-8 733.3045ms 
+2023-08-07 14:22:06.9751||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7247 
+2023-08-07 14:22:07.0180||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081 
+2023-08-07 14:22:07.0180||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 14:22:07.0180||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 14:22:07.0180||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\ 
+2023-08-07 14:22:08.4386||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 14:22:09.1160||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 14:22:09.1160||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 693.3892ms 
+2023-08-07 14:22:09.1362||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 20.2236ms 
+2023-08-07 14:22:09.3729||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 14:22:09.4114||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.5144ms 
+2023-08-07 14:22:10.0608||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 14:22:10.3570||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 296.2586ms 
+2023-08-07 14:24:23.8057||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:24:23.8213||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 401 - - 15.5685ms 
+2023-08-07 14:25:39.2727||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 14:25:39.2954||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 22.6775ms 
+2023-08-07 14:25:39.3831||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 14:25:39.3831||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 0.3311ms 
+2023-08-07 14:25:39.4013||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 14:25:39.4128||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.5019ms 
+2023-08-07 14:25:39.5103||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 14:25:39.5103||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1.8514ms 
+2023-08-07 14:25:42.5669||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:25:42.5669||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 401 0 - 1.3120ms 
+2023-08-07 14:25:43.6272||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:25:43.6272||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 401 0 - 1.1409ms 
+2023-08-07 14:25:44.7650||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:25:44.7650||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 401 0 - 0.3148ms 
+2023-08-07 14:25:53.7659||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:25:53.7659||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 401 0 - 0.5450ms 
+2023-08-07 14:25:55.9080||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:25:55.9080||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:25:55.9680||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:25:55.9729||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 1.2954ms 
+2023-08-07 14:25:55.9729||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:25:56.0351||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:25:56.0625||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 154.4610ms 
+2023-08-07 14:28:16.8908||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 14:28:16.9097||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 19.0640ms 
+2023-08-07 14:28:16.9335||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 14:28:16.9335||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 14:28:16.9335||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 0.3218ms 
+2023-08-07 14:28:16.9483||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.8915ms 
+2023-08-07 14:28:17.1102||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 14:28:17.1102||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.3933ms 
+2023-08-07 14:28:22.7714||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:28:22.7714||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:28:22.7714||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:28:22.7714||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.5371ms 
+2023-08-07 14:28:22.7714||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:28:22.8053||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method17(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:28:22.8053||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 34.8522ms 
+2023-08-07 14:28:23.8977||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:28:23.8977||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:28:23.8977||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:28:23.8977||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.5644ms 
+2023-08-07 14:28:23.8977||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:28:23.9291||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method17(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:28:23.9291||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 32.1670ms 
+2023-08-07 14:28:24.6666||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:28:24.6666||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:28:24.6666||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:28:24.6666||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 1.2ms 
+2023-08-07 14:28:24.6666||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:28:24.6975||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method17(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:28:24.6975||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 31.7055ms 
+2023-08-07 14:28:25.3447||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:28:25.3447||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:28:25.3447||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:28:25.3447||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.6005ms 
+2023-08-07 14:28:25.3447||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:28:25.3809||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method17(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:28:25.3809||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 37.7877ms 
+2023-08-07 14:32:55.7256||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:32:55.7361||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:32:55.7361||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:32:55.7361||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.8171ms 
+2023-08-07 14:32:55.7361||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:32:55.7685||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method17(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:32:55.7685||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 44.2440ms 
+2023-08-07 14:33:11.3554||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 14:33:11.3711||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 15.7461ms 
+2023-08-07 14:33:11.3896||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 14:33:11.3960||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 14:33:11.3960||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 6.0976ms 
+2023-08-07 14:33:11.4098||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.5663ms 
+2023-08-07 14:33:11.7430||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 14:33:11.7430||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.3025ms 
+2023-08-07 14:33:16.7254||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:33:16.7254||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:33:16.7254||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:33:16.7254||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.4454ms 
+2023-08-07 14:33:16.7254||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:33:16.7623||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method25(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:33:16.7623||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 37.7078ms 
+2023-08-07 14:36:54.9594||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 14:36:54.9882||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 28.7636ms 
+2023-08-07 14:36:55.0082||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 14:36:55.0082||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 14:36:55.0082||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 1.1801ms 
+2023-08-07 14:36:55.0233||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.1874ms 
+2023-08-07 14:36:55.1820||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 14:36:55.1820||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.3872ms 
+2023-08-07 14:36:59.8818||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:36:59.8818||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:36:59.8818||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:36:59.8818||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.5213ms 
+2023-08-07 14:36:59.8818||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:36:59.9193||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method33(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:36:59.9193||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 38.6674ms 
+2023-08-07 14:37:06.8579||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 14:37:06.8756||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 17.8410ms 
+2023-08-07 14:37:06.8971||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 14:37:06.8971||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 14:37:06.8971||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 0.3502ms 
+2023-08-07 14:37:06.8971||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.7247ms 
+2023-08-07 14:37:07.0367||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 14:37:07.0367||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1.7610ms 
+2023-08-07 14:37:11.0589||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:37:11.0589||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:37:11.0589||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:37:11.0589||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.3806ms 
+2023-08-07 14:37:11.0589||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:37:11.0908||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method41(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:37:11.0908||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 32.7552ms 
+2023-08-07 14:37:11.9796||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:37:11.9796||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:37:11.9796||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:37:11.9796||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.5397ms 
+2023-08-07 14:37:11.9796||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:37:12.0148||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method41(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:37:12.0148||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 36.9950ms 
+2023-08-07 14:37:12.9722||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:37:12.9722||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:37:12.9722||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:37:12.9722||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.6861ms 
+2023-08-07 14:37:12.9722||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:37:13.0032||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method41(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:37:13.0032||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 31.8274ms 
+2023-08-07 14:37:14.0691||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:37:14.0691||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:37:14.0691||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:37:14.0691||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.4397ms 
+2023-08-07 14:37:14.0691||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:37:14.1001||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method41(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:37:14.1001||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 31.8852ms 
+2023-08-07 14:37:15.0131||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:37:15.0131||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:37:15.0131||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:37:15.0131||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.5596ms 
+2023-08-07 14:37:15.0131||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:37:15.0469||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method41(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:37:15.0477||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 34.5564ms 
+2023-08-07 14:37:18.7808||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 14:37:18.7938||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 12.9925ms 
+2023-08-07 14:37:18.8170||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 14:37:18.8289||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 14:37:18.8289||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 0.3471ms 
+2023-08-07 14:37:18.8289||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.1988ms 
+2023-08-07 14:37:18.9825||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 14:37:18.9825||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.0820ms 
+2023-08-07 14:37:23.8906||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:37:23.8906||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:37:23.8936||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:37:23.8936||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.5921ms 
+2023-08-07 14:37:23.8936||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:37:23.9282||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method49(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:37:23.9282||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 38.4152ms 
+2023-08-07 14:37:24.6275||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:37:24.6275||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:37:24.6275||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:37:24.6275||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.6538ms 
+2023-08-07 14:37:24.6275||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:37:24.6616||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method49(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:37:24.6616||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 34.9357ms 
+2023-08-07 14:39:37.6949||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:39:37.6949||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:39:37.6949||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:39:37.6949||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 2.0019ms 
+2023-08-07 14:39:37.6949||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:39:37.7321||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method49(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:39:37.7321||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 38.0039ms 
+2023-08-07 14:39:38.9368||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:39:38.9414||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:39:38.9414||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:39:38.9414||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 2.8491ms 
+2023-08-07 14:39:38.9414||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:39:38.9789||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method49(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:39:38.9789||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 43.9260ms 
+2023-08-07 14:39:39.6986||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:39:39.6986||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:39:39.6986||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:39:39.6986||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.6322ms 
+2023-08-07 14:39:39.6986||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:39:39.7294||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method49(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:39:39.7294||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 31.6435ms 
+2023-08-07 14:39:40.2417||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:39:40.2417||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:39:40.2417||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:39:40.2417||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.914ms 
+2023-08-07 14:39:40.2417||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:39:40.2751||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method49(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:39:40.2751||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 34.0714ms 
+2023-08-07 14:43:10.1779||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:43:10.1779||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:43:10.1779||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:43:10.1779||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 1.9682ms 
+2023-08-07 14:43:10.1779||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:43:10.2142||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method49(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:43:10.2142||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 37.1461ms 
+2023-08-07 14:45:07.4744||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 14:45:07.4991||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 24.6583ms 
+2023-08-07 14:45:07.5230||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 14:45:07.5230||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 14:45:07.5230||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 5.0578ms 
+2023-08-07 14:45:07.5404||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.4930ms 
+2023-08-07 14:45:07.6923||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 14:45:07.6923||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.1139ms 
+2023-08-07 14:45:11.2027||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:45:11.2033||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:45:11.2033||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:45:11.2033||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.5571ms 
+2023-08-07 14:45:11.2033||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:45:11.2356||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method57(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:45:11.2356||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 33.7322ms 
+2023-08-07 14:53:46.4002||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 14:53:46.4211||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 20.8850ms 
+2023-08-07 14:53:46.4320||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 14:53:46.4320||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 14:53:46.4320||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 0.2872ms 
+2023-08-07 14:53:46.4447||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.7386ms 
+2023-08-07 14:53:46.7396||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 14:53:46.7396||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1.2189ms 
+2023-08-07 14:53:50.5706||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:53:50.5706||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:53:50.5706||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:53:50.5706||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.5008ms 
+2023-08-07 14:53:50.5706||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:53:50.6063||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method65(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:53:50.6063||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 36.5129ms 
+2023-08-07 14:53:51.5288||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:53:51.5288||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:53:51.5288||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:53:51.5288||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 1.2274ms 
+2023-08-07 14:53:51.5288||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:53:51.5664||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method65(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:53:51.5664||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 38.3878ms 
+2023-08-07 14:53:52.1205||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 14:53:52.1205||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:53:52.1205||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 14:53:52.1205||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.6499ms 
+2023-08-07 14:53:52.1205||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 14:53:52.1527||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method65(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 14:53:52.1527||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 32.9450ms 
+2023-08-07 14:55:02.6668||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 14:55:02.6949||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 28.1297ms 
+2023-08-07 14:55:02.7079||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 14:55:02.7079||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 14:55:02.7079||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 0.4700ms 
+2023-08-07 14:55:02.7235||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.5800ms 
+2023-08-07 14:55:02.9533||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 14:55:02.9568||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.5510ms 
+2023-08-07 14:57:52.0168||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 14:57:52.0364||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 19.5551ms 
+2023-08-07 14:57:52.0364||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 14:57:52.0479||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 14:57:52.0479||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 0.5438ms 
+2023-08-07 14:57:52.0479||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.2755ms 
+2023-08-07 14:57:52.2593||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 14:57:52.2593||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.3341ms 
+2023-08-07 14:59:36.1586||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7247 
+2023-08-07 14:59:36.2174||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081 
+2023-08-07 14:59:36.2221||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 14:59:36.2221||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 14:59:36.2221||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\ 
+2023-08-07 14:59:37.2203||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 14:59:37.8159||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 14:59:37.8159||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 601.8239ms 
+2023-08-07 14:59:37.8317||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 15.8438ms 
+2023-08-07 14:59:38.2507||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 14:59:38.2795||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.8738ms 
+2023-08-07 14:59:38.4753||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 14:59:38.6217||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 146.5605ms 
+2023-08-07 15:05:41.2861||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7247 
+2023-08-07 15:05:41.3618||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081 
+2023-08-07 15:05:41.3618||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 15:05:41.3618||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 15:05:41.3618||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\ 
+2023-08-07 15:05:41.7158||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 15:05:42.0266||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 313.1959ms 
+2023-08-07 15:05:42.0383||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 15:05:42.0383||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 3.6917ms 
+2023-08-07 15:05:42.1635||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 15:05:42.1924||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.9222ms 
+2023-08-07 15:05:42.2646||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 15:05:42.3800||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.3675ms 
+2023-08-07 15:05:45.3433||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 15:05:45.3485||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:05:45.3818||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:05:45.3818||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 1.5724ms 
+2023-08-07 15:05:45.3818||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:05:45.4574||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 15:05:45.5038||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 160.5307ms 
+2023-08-07 15:06:22.1230||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 15:06:22.1350||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 11.9543ms 
+2023-08-07 15:06:22.3805||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/favicon.ico - - 
+2023-08-07 15:06:22.3805||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/favicon.ico - - - 401 0 - 0.8102ms 
+2023-08-07 15:06:39.3410||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 15:06:39.3460||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:06:39.3460||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:06:39.3460||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 2.8423ms 
+2023-08-07 15:06:39.3460||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:06:39.3796||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 15:06:39.3796||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 39.5794ms 
+2023-08-07 15:14:23.1170||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7247 
+2023-08-07 15:14:23.1802||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081 
+2023-08-07 15:14:23.1802||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 15:14:23.1802||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 15:14:23.1802||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\ 
+2023-08-07 15:14:23.7487||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 15:14:24.1220||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 15:14:24.1288||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 382.4079ms 
+2023-08-07 15:14:24.1288||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 5.8127ms 
+2023-08-07 15:14:24.3016||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 15:14:24.3302||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.6388ms 
+2023-08-07 15:14:24.4114||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 15:14:24.5279||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 116.4991ms 
+2023-08-07 15:14:31.1213||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 15:14:31.1279||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:14:31.1661||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:14:31.1728||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 1.9155ms 
+2023-08-07 15:14:31.1728||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:14:31.2372||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Services.CommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 15:14:31.2836||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 162.3018ms 
+2023-08-07 15:14:32.4335||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 15:14:32.4335||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:14:32.4335||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:14:32.4335||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.7408ms 
+2023-08-07 15:14:32.4335||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:14:32.4721||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Services.CommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 15:14:32.4721||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 39.6579ms 
+2023-08-07 15:14:33.4860||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 
+2023-08-07 15:14:33.4860||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:14:33.4860||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:14:33.4860||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 0.9927ms 
+2023-08-07 15:14:33.4860||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:14:33.5164||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Services.CommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 15:14:33.5173||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup - 0 - 500 - text/plain;+charset=utf-8 31.3285ms 
+2023-08-07 15:14:59.3108||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7247 
+2023-08-07 15:14:59.3725||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081 
+2023-08-07 15:14:59.3758||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 15:14:59.3758||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 15:14:59.3758||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\ 
+2023-08-07 15:14:59.9547||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 15:15:00.3343||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 15:15:00.3343||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 389.1119ms 
+2023-08-07 15:15:00.3343||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 6.4306ms 
+2023-08-07 15:15:00.4845||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 15:15:00.5148||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.3337ms 
+2023-08-07 15:15:00.5949||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 15:15:00.7277||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 132.8068ms 
+2023-08-07 15:15:20.5235||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Signup application/json 134 
+2023-08-07 15:15:20.5235||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:15:20.5651||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[System.String]] SignUp(CouponManagementServiceV2.Core.Model.Data.User) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:15:20.5651||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi) in 1.9636ms 
+2023-08-07 15:15:20.5651||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.SignUp (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:15:20.6452||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 15:15:20.6955||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Signup application/json 134 - 500 - text/plain;+charset=utf-8 172.0009ms 
+2023-08-07 15:16:24.2376||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 
+2023-08-07 15:16:24.2376||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 - 401 0 - 6.3284ms 
+2023-08-07 15:16:36.0685||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 
+2023-08-07 15:16:36.0685||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:16:36.0685||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[CouponManagementServiceV2.Core.Model.Data.User]] Login(CouponManagementServiceV2.Core.Model.Data.Login) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:16:36.0685||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi) in 0.6921ms 
+2023-08-07 15:16:36.0685||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:16:36.1046||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method17(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 15:16:36.1046||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 - 500 - text/plain;+charset=utf-8 37.0692ms 
+2023-08-07 15:17:22.2472||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7247 
+2023-08-07 15:17:22.3403||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081 
+2023-08-07 15:17:22.3466||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 15:17:22.3466||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 15:17:22.3466||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\ 
+2023-08-07 15:17:22.7401||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 15:17:23.1254||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 15:17:23.1254||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 390.6381ms 
+2023-08-07 15:17:23.1254||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 15.6469ms 
+2023-08-07 15:17:23.3120||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 15:17:23.3519||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.9467ms 
+2023-08-07 15:17:23.4510||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 15:17:23.5937||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.8312ms 
+2023-08-07 15:17:32.2066||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 
+2023-08-07 15:17:32.2066||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:17:32.2497||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[CouponManagementServiceV2.Core.Model.Data.User]] Login(CouponManagementServiceV2.Core.Model.Data.Login) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:17:32.2554||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi) in 2.126ms 
+2023-08-07 15:17:32.2554||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:17:32.3220||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.ICommandService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 15:17:32.3734||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 - 500 - text/plain;+charset=utf-8 166.8393ms 
+2023-08-07 15:25:06.4054||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7247 
+2023-08-07 15:25:06.4872||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081 
+2023-08-07 15:25:06.4872||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 15:25:06.4872||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 15:25:06.4872||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\ 
+2023-08-07 15:25:07.4078||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 15:25:07.7676||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 361.9197ms 
+2023-08-07 15:25:07.7936||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 15:25:07.8041||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 10.4689ms 
+2023-08-07 15:25:08.0107||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 15:25:08.0429||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.2560ms 
+2023-08-07 15:25:08.1279||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 15:25:08.2691||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.2616ms 
+2023-08-07 15:25:29.0852||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 
+2023-08-07 15:25:29.0852||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:25:29.1194||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[CouponManagementServiceV2.Core.Model.Data.User]] Login(CouponManagementServiceV2.Core.Model.Data.Login) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:25:29.1194||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi) in 2.3651ms 
+2023-08-07 15:25:29.1267||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:25:29.2029||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.IQueryService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 15:25:29.2521||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 - 500 - text/plain;+charset=utf-8 166.8848ms 
+2023-08-07 15:25:30.5566||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 
+2023-08-07 15:25:30.5566||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:25:30.5566||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[CouponManagementServiceV2.Core.Model.Data.User]] Login(CouponManagementServiceV2.Core.Model.Data.Login) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:25:30.5566||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi) in 0.9042ms 
+2023-08-07 15:25:30.5566||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:25:30.6034||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.IQueryService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 15:25:30.6034||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 - 500 - text/plain;+charset=utf-8 47.8791ms 
+2023-08-07 15:25:31.6033||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 
+2023-08-07 15:25:31.6033||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:25:31.6033||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[CouponManagementServiceV2.Core.Model.Data.User]] Login(CouponManagementServiceV2.Core.Model.Data.Login) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:25:31.6033||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi) in 1.4325ms 
+2023-08-07 15:25:31.6033||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:25:31.6421||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.IQueryService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 15:25:31.6421||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 - 500 - text/plain;+charset=utf-8 39.6785ms 
+2023-08-07 15:25:32.6326||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 
+2023-08-07 15:25:32.6326||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:25:32.6326||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[CouponManagementServiceV2.Core.Model.Data.User]] Login(CouponManagementServiceV2.Core.Model.Data.Login) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:25:32.6326||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi) in 1.0751ms 
+2023-08-07 15:25:32.6326||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:25:32.6668||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.IQueryService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 15:25:32.6668||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 - 500 - text/plain;+charset=utf-8 35.4923ms 
+2023-08-07 15:26:05.7198||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 15:26:05.7438||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 23.9774ms 
+2023-08-07 15:26:05.7639||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 15:26:05.7639||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 15:26:05.7710||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 4.9006ms 
+2023-08-07 15:26:05.7844||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.5699ms 
+2023-08-07 15:26:05.9331||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 15:26:05.9405||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 7.4511ms 
+2023-08-07 15:26:26.3049||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 
+2023-08-07 15:26:26.3049||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:26:26.3163||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[CouponManagementServiceV2.Core.Model.Data.User]] Login(CouponManagementServiceV2.Core.Model.Data.Login) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:26:26.3163||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi) in 0.5573ms 
+2023-08-07 15:26:26.3163||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:26:26.3472||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.IQueryService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method17(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 15:26:26.3472||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 - 500 - text/plain;+charset=utf-8 43.3323ms 
+2023-08-07 15:26:27.4732||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 
+2023-08-07 15:26:27.4732||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:26:27.4732||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[CouponManagementServiceV2.Core.Model.Data.User]] Login(CouponManagementServiceV2.Core.Model.Data.Login) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:26:27.4732||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi) in 0.7706ms 
+2023-08-07 15:26:27.4732||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:26:27.5103||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.IQueryService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method17(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 15:26:27.5103||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 - 500 - text/plain;+charset=utf-8 38.7581ms 
+2023-08-07 15:26:29.4183||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 
+2023-08-07 15:26:29.4183||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:26:29.4183||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[CouponManagementServiceV2.Core.Model.Data.User]] Login(CouponManagementServiceV2.Core.Model.Data.Login) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:26:29.4409||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi) in 18.5299ms 
+2023-08-07 15:26:29.4409||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:26:29.5681||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'CouponManagementServiceV2.Core.Business.Interfaces.IQueryService' while attempting to activate 'CouponManagementServiceV2.WebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method17(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CouponManagementServiceV2.Core.Filters.ApiKeyAuthentication.InvokeAsync(HttpContext context) in C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Core\Filters\ApiKeyAuthentication.cs:line 30
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-07 15:26:29.5681||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 - 500 - text/plain;+charset=utf-8 154.7098ms 
+2023-08-07 15:27:13.2646||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7247 
+2023-08-07 15:27:13.3357||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081 
+2023-08-07 15:27:13.3357||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 15:27:13.3357||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 15:27:13.3439||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\ 
+2023-08-07 15:27:13.8625||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 15:27:14.2408||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 15:27:14.2408||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 385.6428ms 
+2023-08-07 15:27:14.2573||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 16.4579ms 
+2023-08-07 15:27:14.4007||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 15:27:14.4690||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.1941ms 
+2023-08-07 15:27:14.7767||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 15:27:15.2881||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 511.4406ms 
+2023-08-07 15:27:16.7199||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 
+2023-08-07 15:27:16.7199||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:27:16.7694||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[CouponManagementServiceV2.Core.Model.Data.User]] Login(CouponManagementServiceV2.Core.Model.Data.Login) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:27:16.8228||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2023-08-07 15:27:16.8330||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi) in 59.6972ms 
+2023-08-07 15:27:16.8330||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:27:16.8330||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Login - 0 - 415 - application/problem+json;+charset=utf-8 113.2726ms 
+2023-08-07 15:27:31.9667||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7247/api/Auth/Login application/json 50 
+2023-08-07 15:27:31.9754||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7247/api/Auth/Login application/json 50 - 401 0 - 8.6865ms 
+2023-08-07 15:27:40.9455||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7247/api/Auth/Login application/json 53 
+2023-08-07 15:27:40.9455||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:27:40.9455||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[CouponManagementServiceV2.Core.Model.Data.User]] Login(CouponManagementServiceV2.Core.Model.Data.Login) on controller CouponManagementServiceV2.WebApi.Controllers.AuthController (CouponManagementServiceV2.WebApi). 
+2023-08-07 15:27:40.9691||INFO|CouponManagementServiceV2.WebApi.Controllers.AuthController|Login called! 
+2023-08-07 15:27:41.4177||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'CouponManagementServiceV2.Core.Model.Shared.BaseResponse`1[[CouponManagementServiceV2.Core.Model.Data.User, CouponManagementServiceV2.Core.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2023-08-07 15:27:41.4177||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi) in 473.7484ms 
+2023-08-07 15:27:41.4177||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CouponManagementServiceV2.WebApi.Controllers.AuthController.Login (CouponManagementServiceV2.WebApi)' 
+2023-08-07 15:27:41.4177||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7247/api/Auth/Login application/json 53 - 200 - application/json;+charset=utf-8 476.4680ms 
+2023-08-07 17:04:54.6253||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7247 
+2023-08-07 17:04:54.6738||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5081 
+2023-08-07 17:04:54.6738||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-08-07 17:04:54.6738||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-08-07 17:04:54.6738||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\umut2\OneDrive\Masaüstü\Internship\Week3\CouponManagementServiceV2\CouponManagementServiceV2.Starter\ 
+2023-08-07 17:04:55.9801||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/index.html - - 
+2023-08-07 17:04:56.6357||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - 
+2023-08-07 17:04:56.6420||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/index.html - - - 200 - text/html;charset=utf-8 671.9823ms 
+2023-08-07 17:04:56.6420||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_framework/aspnetcore-browser-refresh.js - - - 200 12398 application/javascript;+charset=utf-8 20.7543ms 
+2023-08-07 17:04:57.1711||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/_vs/browserLink - - 
+2023-08-07 17:04:57.2062||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.2029ms 
+2023-08-07 17:04:57.3979||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 17:04:57.5495||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 151.6584ms 
+2023-08-07 17:05:08.6078||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7247/api/Auth/Signup application/json 128 
+2023-08-07 17:05:08.6148||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7247/api/Auth/Signup application/json 128 - 401 0 - 7.1024ms 
+2023-08-07 17:05:21.0012||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7247/api/Auth/Login application/json 50 
+2023-08-07 17:05:21.0012||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7247/api/Auth/Login application/json 50 - 401 0 - 2.3896ms 
+2023-08-07 17:05:53.0726||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7247/api/Auth/Signup application/json 128 
+2023-08-07 17:05:53.0726||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7247/api/Auth/Signup application/json 128 - 401 0 - 1.9000ms 
+2023-08-07 17:07:35.2850||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - 
+2023-08-07 17:07:35.3094||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 28.9798ms 
+2023-08-07 17:07:35.5101||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/favicon.ico - - 
+2023-08-07 17:07:35.5101||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/favicon.ico - - - 401 0 - 0.5434ms 
