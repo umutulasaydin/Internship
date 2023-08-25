@@ -1,0 +1,69 @@
+<h1>COUPON TABLE</h1>
+
+
+<kendo-grid 
+  [data] = "gridView" 
+
+  [pageSize]="body.rowsOfPage"
+  [skip] = "skip"
+  [pageable]="true"
+  (pageChange)="pageChange($event)"
+
+  [sortable]="true"
+  [sort] = "sort"
+  (sortChange)="sortChange($event)"
+
+  [filterable]="true"
+  [filter] = "filter"
+  (filterChange)="filterChange($event)"
+  >
+  <kendo-grid-column field="cpnId" title="ID" editor="numeric" [filterable]="false" [width]="60"></kendo-grid-column>
+  <kendo-grid-column field="cpnCode" title="Coupon Code" [filterable]="false" [width]="120"></kendo-grid-column>
+  <kendo-grid-column field="cpnStatus" title="Coupon Status" [width]="120"></kendo-grid-column>
+  <kendo-grid-column field="cpnStartDate" title="Start Date" editor="date" filter="date" [width]="300">
+
+    <ng-template kendoGridFilterCellTemplate let-filter>
+    
+      <kendo-daterange>
+        <kendo-dateinput class="rangefilter" kendoDateRangeStartInput [value]="start" (valueChange)="startdateChange(start, end)" style="width:120px">
+        </kendo-dateinput>
+        -
+        <kendo-dateinput class="rangefilter" kendoDateRangeEndInput [value]="end" (valueChange)="startdateChange(start, $event)" style="width:120px">
+        </kendo-dateinput>
+    </kendo-daterange>
+    <button *ngIf="dateCheck" kendoButton title="Clear" (click)="startdateChange(null, null)"></button>
+    
+    </ng-template>
+    
+  </kendo-grid-column>
+
+  <kendo-grid-column field="cpnValidDate" title="Valid Date" editor="date" filter="date" [width]="300">
+
+    <ng-template kendoGridFilterCellTemplate let-filter>
+      <kendo-daterange>
+        <kendo-dateinput
+        kendoDateRangeStartInput
+        [value] = "start"
+        (valueChange)="validdateChange($event, end)">
+        </kendo-dateinput>
+      - 
+      <kendo-dateinput
+      kendoDateRangeEndInput
+      [value] = "end"
+      (valueChange)="validdateChange(start, $event)">
+      </kendo-dateinput>
+      </kendo-daterange>
+      <button *ngIf="validCheck" kendoButton title="Clear" (click)="validdateChange(null, null)"></button>
+    </ng-template>
+  </kendo-grid-column>
+  
+  <kendo-grid-column field="cpnRedemptionLimit" title="Limit Value" editor="numeric" [filterable]="false"></kendo-grid-column>
+  <kendo-grid-column field="cpnCurrentRedemptValue" title="Current Value" editor="numeric" [filterable]="false"></kendo-grid-column>
+  <kendo-grid-column field="cpnInsTime" title="Created At" editor="date" [filterable]="false"></kendo-grid-column>
+  <kendo-grid-column field="cpnUpdTime" title="Last Update" editor="date" [filterable]="false"></kendo-grid-column>
+  <kendo-grid-column field="usUsername" title="Username"></kendo-grid-column> 
+  <kendo-grid-column field="usName" title="Name"></kendo-grid-column>
+  <kendo-grid-column field="cpsSeriesId" title="Series Id"></kendo-grid-column>
+  <kendo-grid-column field="cpsSeriesName" title="Series Name"></kendo-grid-column>
+
+</kendo-grid>
