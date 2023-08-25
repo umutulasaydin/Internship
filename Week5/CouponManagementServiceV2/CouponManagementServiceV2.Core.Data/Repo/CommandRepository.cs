@@ -83,14 +83,14 @@ namespace CouponManagementServiceV2.Core.Data.Repo
                 try
                 {
                     var cpnId = 0;
-                    var cpsId = await connection.ExecuteAsync(query1, new { serieId = series.cpsSeriesId, serieName = series.cpsSerieName, serieDesc = series.cpsSerieDesc }, transaction);
+                    var cpsId = await connection.QueryFirstAsync<int>(query1, new { serieId = series.cpsSeriesId, serieName = series.cpsSerieName, serieDesc = series.cpsSerieDesc }, transaction);
                     
 
                     for (int i = 0; i< series.cpsSerieCount; i++)
                     {
                         string code = Guid.NewGuid().ToString();
                         
-                        cpnId = await connection.QueryFirstAsync<int>(query2, new { serieId = cpsId, CreatorId = series.cpsUserId, code = code, status = series.cpsStatus, start = series.cpsStartDate, valid = series.cpsValidDate, redemptLimit = series.cpsRedemptionLimit, currentLimit = series.cpsCurrentRedemptValue, ins = series.cpsInsTime, upd = series.cpsUpdTime }, transaction);
+                        cpnId = await connection.QueryFirstAsync<int>(query2, new { serieId = cpsId, CreatorId = series.cpsUserId, code = code, status = series.cpsStatus, start = series.cpsStartDate, valid = series.cpsValidDate, redemptLimit = series.cpsRedemptionLimit, currentLimit = series.cpsRedemptionLimit, ins = series.cpsInsTime, upd = series.cpsUpdTime }, transaction);
                         
                       
                         result = await connection.ExecuteAsync(query3, new { uid = series.cpsUserId, op = (int) Operation.Activate, cname = series.ClientName, clpos = series.ClientPos }, transaction);
@@ -109,7 +109,7 @@ namespace CouponManagementServiceV2.Core.Data.Repo
                             cpnStartDate = series.cpsStartDate,
                             cpnValidDate = series.cpsValidDate,
                             cpnRedemptionLimit = series.cpsRedemptionLimit,
-                            cpnCurrentRedemptValue = series.cpsCurrentRedemptValue,
+                            cpnCurrentRedemptValue = series.cpsRedemptionLimit,
                         });
                     }
                     transaction.Commit();

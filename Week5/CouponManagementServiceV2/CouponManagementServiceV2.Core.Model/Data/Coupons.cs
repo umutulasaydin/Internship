@@ -20,9 +20,14 @@ namespace CouponManagementServiceV2.Core.Model.Data
         public DateTime cpnStartDate { get; set; } = DateTime.Now;
         public DateTime cpnValidDate { get; set; } = DateTime.Now;
         public double cpnRedemptionLimit { get; set; } = -1;
-        public double cpnCurrentRedemptValue { get; set; } = -1;
+        public double cpnCurrentRedemptValue { get; set; }
         public DateTime cpnInsTime { get; set; } = DateTime.Now;
         public DateTime cpnUpdTime { get; set; } = DateTime.Now;
+
+        public Coupons()
+        {
+            cpnCurrentRedemptValue = cpnRedemptionLimit;
+        }
     }
 
     public class CouponValidator : AbstractValidator<Coupons>
@@ -50,8 +55,8 @@ namespace CouponManagementServiceV2.Core.Model.Data
         public int cpnStatus { get; set; } = (int)Status.Active;
         public DateTime cpnStartDate { get; set; } = DateTime.Now;
         public DateTime cpnValidDate { get; set; } = DateTime.Now;
-        public double cpnRedemptionLimit { get; set; } = -1;
-        public double cpnCurrentRedemptValue { get; set; } = -1;
+        public double cpnRedemptionLimit { get; set; }
+        public double cpnCurrentRedemptValue { get; set; }
     }
 
     public class RedemptCoupon : BaseRequest
@@ -104,5 +109,32 @@ namespace CouponManagementServiceV2.Core.Model.Data
         public T input { get; set; }
     }
 
-   
+    public class AllCouponReqeust : BaseRequest
+    {
+        public int pageNumber { get; set;}
+        public int rowsOfPage { get; set; }
+        public int couponStatus { get; set; } = 0;
+        public string serieId { get; set; } = "";
+        public string serieName { get; set; } = "";
+        public string username { get; set; } = "";
+        public string name { get; set; } = "";
+        public DateTime startDateStart { get; set; } = new DateTime(1970, 1, 1);
+        public DateTime startDateEnd { get; set; } = new DateTime(1970, 1, 1);
+        public string startOrder { get; set; } = "";
+        public DateTime validDateStart = new DateTime(1970, 1, 1);
+        public DateTime validDateEnd = new DateTime(1970, 1, 1);
+        public string validOrder { get; set; } = "";
+
+    }
+
+    public class AllCouponResponse : CouponResponse
+    {
+        public DateTime cpnInsTime { get; set; }
+        public DateTime cpnUpdTime { get; set; }
+        public string cpsSeriesId { get; set; }
+        public string cpsSeriesName { get; set; }
+        public string usUsername { get; set; }
+        public string usName { get; set; }
+    }
+
 }

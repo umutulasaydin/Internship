@@ -135,6 +135,9 @@
   <data name="NO_BLOCK" xml:space="preserve">
     <value>-15</value>
   </data>
+  <data name="NO_COUPON" xml:space="preserve">
+    <value>-18</value>
+  </data>
   <data name="NO_COUPON_ID" xml:space="preserve">
     <value>-4</value>
   </data>

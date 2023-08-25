@@ -192,5 +192,51 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 result = entity
             };
         }
+
+        public async Task<BaseResponse<PageInfo<IEnumerable<AllCouponResponse>>>> GetAllCouponsRequest(AllCouponReqeust parameters)
+        {
+            var entity = await _queryRepository.GetAllCoupons(parameters);
+            if (entity == null)
+            {
+                return new BaseResponse<PageInfo<IEnumerable<AllCouponResponse>>>
+                {
+                    isSucces = false,
+                    statusCode = _errorCodeLocalizer["NO_COUPON"],
+                    errorMessage = _errorLocalizer["NO_COUPON"],
+                    result = null
+                };
+            }
+
+            return new BaseResponse<PageInfo<IEnumerable<AllCouponResponse>>>
+            {
+                isSucces = true,
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
+                result = entity
+            };
+        }
+
+        public async Task<BaseResponse<PageInfo<IEnumerable<AllCouponLogResponse>>>> GetAllCouponLogsRequest(AllCouponLogRequest parameters)
+        {
+            var entity = await _queryRepository.GetAllCouponLogs(parameters);
+            if (entity == null)
+            {
+                return new BaseResponse<PageInfo<IEnumerable<AllCouponLogResponse>>>
+                {
+                    isSucces = false,
+                    statusCode = _errorCodeLocalizer["NO_COUPON"],
+                    errorMessage = _errorLocalizer["NO_COUPON"],
+                    result = null
+                };
+            }
+
+            return new BaseResponse<PageInfo<IEnumerable<AllCouponLogResponse>>>
+            {
+                isSucces = true,
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
+                result = entity
+            };
+        }
     }
 }

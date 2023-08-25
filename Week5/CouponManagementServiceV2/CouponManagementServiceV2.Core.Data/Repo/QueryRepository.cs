@@ -124,5 +124,46 @@ namespace CouponManagementServiceV2.Core.Data.Repo
                 return null;
             }
         }
+
+        public async Task<PageInfo<IEnumerable<AllCouponResponse>>> GetAllCoupons(AllCouponReqeust parameters)
+        {
+            try
+            {
+                var query = "EXEC dbo.GetCouponsFilterSort @PageNumber, @RowsOfPage, @couponStatus, @serieId, @serieName, @username, @name, @startDateStart, @startDateEnd, @startOrder, @validDateStart, @validDateEnd, @validOrder";
+                var query2 = "EXEC dbo.GetCouponLength @couponStatus, @serieId, @serieName, @username, @name, @startDateStart, @startDateEnd, @validDateStart, @validDateEnd";
+                using var connection = _dbConnect.Connect("Query");
+                var data = await connection.QueryAsync<AllCouponResponse>(query, new { PageNumber = parameters.pageNumber, RowsOfPage = parameters.rowsOfPage, couponStatus = parameters.couponStatus, serieId = parameters.serieId, serieName = parameters.serieName, username = parameters.username, name = parameters.name, startDateStart = parameters.startDateStart, startDateEnd = parameters.startDateEnd, startOrder = parameters.startOrder, validDateStart = parameters.validDateStart, validDateEnd = parameters.validDateEnd, validOrder = parameters.validOrder });
+                var maxPage = await connection.QueryAsync<int>(query2, new { couponStatus = parameters.couponStatus, serieId = parameters.serieId, serieName = parameters.serieName, username = parameters.username, name = parameters.name, startDateStart = parameters.startDateStart, startDateEnd = parameters.startDateEnd, validDateStart = parameters.validDateStart, validDateEnd = parameters.validDateEnd });
+                return new PageInfo<IEnumerable<AllCouponResponse>>
+                {
+                    data = await connection.QueryAsync<AllCouponResponse>(query, new { PageNumber = parameters.pageNumber, RowsOfPage = parameters.rowsOfPage, couponStatus = parameters.couponStatus, serieId = parameters.serieId, serieName = parameters.serieName, username = parameters.username, name = parameters.name, startDateStart = parameters.startDateStart, startDateEnd = parameters.startDateEnd, startOrder = parameters.startOrder, validDateStart = parameters.validDateStart, validDateEnd = parameters.validDateEnd, validOrder = parameters.validOrder }),
+                    maxPage = maxPage.ToList()[0]
+                };
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        public async Task<PageInfo<IEnumerable<AllCouponLogResponse>>> GetAllCouponLogs(AllCouponLogRequest parameters)
+        {
+            try
+            {
+                var query = "EXEC dbo.GetLogsFilterSort @PageNumber, @RowsOfPage, @couponId, @operation, @username, @name, @startDate, @endDate, @dateOrder, @clientName, @clientPos";
+                using var connection = _dbConnect.Connect("Query");
+                var data = await connection.QueryAsync<AllCouponLogResponse>(query, new { PageNumber = parameters.pageNumber, RowsOfPage = parameters.rowsOfPage, couponId = parameters.couponId, operation = parameters.operation, username = parameters.username, name = parameters.name, startDate = parameters.startDate, endDate = parameters.endDate, dateOrder = parameters.dateOrder, clientName = parameters.ClientName, clientPos = parameters.ClientPos });
+                var maxPage = await connection.QueryAsync<int>("SELECT (COUNT(*) FROM CouponLog");
+                return new PageInfo<IEnumerable<AllCouponLogResponse>>
+                {
+                    data = await connection.QueryAsync<AllCouponLogResponse>(query, new { PageNumber = parameters.pageNumber, RowsOfPage = parameters.rowsOfPage, couponId = parameters.couponId, operation = parameters.operation, username = parameters.username, name = parameters.name, startDate = parameters.startDate, endDate = parameters.endDate, dateOrder = parameters.dateOrder, clientName = parameters.ClientName, clientPos = parameters.ClientPos }),
+                    maxPage = maxPage.ToList()[0]
+                };                
+            }
+            catch
+            {
+                return null;
+            }
+        }
     }
 }

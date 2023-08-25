@@ -59,4 +59,24 @@ namespace CouponManagementServiceV2.Core.Model.Data
         public string cplClientName { get; set; }
         public string cplClientPos { get; set;}
     }
+
+    public class AllCouponLogRequest : BaseRequest
+    {
+        public int pageNumber { get; set; }
+        public int rowsOfPage { get; set; }
+        public int couponId { get; set; } = 0;
+        public int operation { get; set; } = 0;
+        public string username { get; set; } = "";
+        public string name { get; set; } = "";
+        public DateTime startDate { get; set; } = new DateTime(1970, 1, 1);
+        public DateTime endDate { get; set; } = new DateTime(1970, 1, 1);
+        public string dateOrder { get; set; } = "";
+    }
+
+    public class AllCouponLogResponse : CouponLogResponse
+    {
+        public string cpnCode { get; set; }
+        public string usUsername { get; set; }
+        public string usName { get; set; }
+    }
 }

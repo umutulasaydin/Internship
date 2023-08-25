@@ -22,7 +22,12 @@ namespace CouponManagementServiceV2.Core.Model.Data
         public DateTime cpsStartDate { get; set; } = DateTime.Now;
         public DateTime cpsValidDate { get; set; } = DateTime.Now;
         public double cpsRedemptionLimit { get; set; } = -1;
-        public double cpsCurrentRedemptValue { get; set; } = -1;
+        public double cpsCurrentRedemptValue { get; set; }
+
+        public CouponSeries()
+        {
+            cpsCurrentRedemptValue = cpsRedemptionLimit;
+        }
     }
 
     public class CouponSeriesValidator : AbstractValidator<CouponSeries>

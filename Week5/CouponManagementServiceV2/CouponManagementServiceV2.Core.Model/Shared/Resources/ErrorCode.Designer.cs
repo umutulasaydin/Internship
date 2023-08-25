@@ -115,6 +115,15 @@ namespace CouponManagementServiceV2.Core.Model.Shared.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to -18.
+        /// </summary>
+        public static string NO_COUPON {
+            get {
+                return ResourceManager.GetString("NO_COUPON", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to -4.
         /// </summary>
         public static string NO_COUPON_ID {

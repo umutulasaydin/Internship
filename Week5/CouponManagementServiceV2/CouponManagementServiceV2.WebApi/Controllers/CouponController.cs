@@ -102,5 +102,21 @@ namespace CouponManagementServiceV2.WebApi.Controllers
             _logger.Info("Get valid coupons called");
             return await _queryService.GetValidCouponsRequest();
         }
+
+        [HttpPost("GetAllCoupons")]
+        public async Task<BaseResponse<PageInfo<IEnumerable<AllCouponResponse>>>> GetAllCoupons(AllCouponReqeust parameters)
+        {
+            _logger.Info("All coupons with parameters called");
+            return await _queryService.GetAllCouponsRequest(parameters);
+        }
+
+        [HttpPost("GetAllCouponLogs")]
+        public async Task<BaseResponse<PageInfo<IEnumerable<AllCouponLogResponse>>>> GetAllCouponLogs(AllCouponLogRequest parameters)
+        {
+            _logger.Info("All coupons with parameters called");
+            return await _queryService.GetAllCouponLogsRequest(parameters);
+        }
+
+
     }
 }
