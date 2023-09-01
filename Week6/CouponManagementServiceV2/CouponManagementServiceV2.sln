@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Starter", "1-Starter", "{8535CA92-1E94-4C7A-B8D7-6BFAAC7361F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Api", "2-Api", "{CDA793C1-64C5-444F-9F84-C1582888C6E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Core", "3-Core", "{6CD9CE4D-2AAF-466D-856E-37C0C59CF356}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Framework", "4-Framework", "{C053D602-1A8C-41A6-BA09-5BBDE41B9825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementServiceV2.Starter", "CouponManagementServiceV2.Starter\CouponManagementServiceV2.Starter.csproj", "{D2F9C345-9254-4373-BD18-6499E9560C82}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C580301-8B0F-400B-81CB-777AA4E3206F} = {7C580301-8B0F-400B-81CB-777AA4E3206F}
+		{9572582E-B4A6-4EBE-9C17-50B405E523FF} = {9572582E-B4A6-4EBE-9C17-50B405E523FF}
+		{99456B1E-2276-474C-A693-E920C35470FF} = {99456B1E-2276-474C-A693-E920C35470FF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementServiceV2.WebApi", "CouponManagementServiceV2.WebApi\CouponManagementServiceV2.WebApi.csproj", "{9572582E-B4A6-4EBE-9C17-50B405E523FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98DDF16A-3903-4115-A932-62D7981D69E5} = {98DDF16A-3903-4115-A932-62D7981D69E5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementServiceV2.Core", "CouponManagementServiceV2.Core\CouponManagementServiceV2.Core.csproj", "{370C30DA-79BF-4990-B383-96040373A046}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98DDF16A-3903-4115-A932-62D7981D69E5} = {98DDF16A-3903-4115-A932-62D7981D69E5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementServiceV2.Core.Business", "CouponManagementServiceV2.Core.Business\CouponManagementServiceV2.Core.Business.csproj", "{7C580301-8B0F-400B-81CB-777AA4E3206F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementServiceV2.Core.Data", "CouponManagementServiceV2.Core.Data\CouponManagementServiceV2.Core.Data.csproj", "{99456B1E-2276-474C-A693-E920C35470FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementServiceV2.Core.Model", "CouponManagementServiceV2.Core.Model\CouponManagementServiceV2.Core.Model.csproj", "{2A4C7880-FEB5-4E12-897D-49A7F17F8D59}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98DDF16A-3903-4115-A932-62D7981D69E5} = {98DDF16A-3903-4115-A932-62D7981D69E5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementServiceV2.Framework", "CouponManagementServiceV2.Framework\CouponManagementServiceV2.Framework.csproj", "{98DDF16A-3903-4115-A932-62D7981D69E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2F9C345-9254-4373-BD18-6499E9560C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F9C345-9254-4373-BD18-6499E9560C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F9C345-9254-4373-BD18-6499E9560C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F9C345-9254-4373-BD18-6499E9560C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9572582E-B4A6-4EBE-9C17-50B405E523FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9572582E-B4A6-4EBE-9C17-50B405E523FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9572582E-B4A6-4EBE-9C17-50B405E523FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9572582E-B4A6-4EBE-9C17-50B405E523FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{370C30DA-79BF-4990-B383-96040373A046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370C30DA-79BF-4990-B383-96040373A046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370C30DA-79BF-4990-B383-96040373A046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370C30DA-79BF-4990-B383-96040373A046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C580301-8B0F-400B-81CB-777AA4E3206F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C580301-8B0F-400B-81CB-777AA4E3206F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C580301-8B0F-400B-81CB-777AA4E3206F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C580301-8B0F-400B-81CB-777AA4E3206F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99456B1E-2276-474C-A693-E920C35470FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99456B1E-2276-474C-A693-E920C35470FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99456B1E-2276-474C-A693-E920C35470FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99456B1E-2276-474C-A693-E920C35470FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4C7880-FEB5-4E12-897D-49A7F17F8D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4C7880-FEB5-4E12-897D-49A7F17F8D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4C7880-FEB5-4E12-897D-49A7F17F8D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4C7880-FEB5-4E12-897D-49A7F17F8D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98DDF16A-3903-4115-A932-62D7981D69E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DDF16A-3903-4115-A932-62D7981D69E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DDF16A-3903-4115-A932-62D7981D69E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DDF16A-3903-4115-A932-62D7981D69E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2F9C345-9254-4373-BD18-6499E9560C82} = {8535CA92-1E94-4C7A-B8D7-6BFAAC7361F2}
+		{9572582E-B4A6-4EBE-9C17-50B405E523FF} = {CDA793C1-64C5-444F-9F84-C1582888C6E1}
+		{370C30DA-79BF-4990-B383-96040373A046} = {6CD9CE4D-2AAF-466D-856E-37C0C59CF356}
+		{7C580301-8B0F-400B-81CB-777AA4E3206F} = {6CD9CE4D-2AAF-466D-856E-37C0C59CF356}
+		{99456B1E-2276-474C-A693-E920C35470FF} = {6CD9CE4D-2AAF-466D-856E-37C0C59CF356}
+		{2A4C7880-FEB5-4E12-897D-49A7F17F8D59} = {6CD9CE4D-2AAF-466D-856E-37C0C59CF356}
+		{98DDF16A-3903-4115-A932-62D7981D69E5} = {C053D602-1A8C-41A6-BA09-5BBDE41B9825}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C3A0817-8C11-4A10-B188-DB0859090BB6}
+	EndGlobalSection
+EndGlobal

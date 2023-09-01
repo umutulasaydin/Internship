@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "jR4BkfbG17zEMsztJS7rpSZrPkVoGZJfEQMQkKSMQdE=",
+  "Source": "CouponManagementServiceV2.WebApi",
+  "BasePath": "_content/CouponManagementServiceV2.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week6\\CouponManagementServiceV2\\CouponManagementServiceV2.Core\\CouponManagementServiceV2.Core.csproj",
+      "Version": 2,
+      "Source": "CouponManagementServiceV2.Core",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

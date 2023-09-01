@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CouponManagementServiceV2.Core.Data\CouponManagementServiceV2.Core.Data.csproj" />
+    <ProjectReference Include="..\CouponManagementServiceV2.Core.Model\CouponManagementServiceV2.Core.Model.csproj" />
+    <ProjectReference Include="..\CouponManagementServiceV2.Core\CouponManagementServiceV2.Core.csproj" />
+  </ItemGroup>
+
+</Project>

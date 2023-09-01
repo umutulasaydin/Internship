@@ -1,0 +1,1292 @@
+2023-08-16 08:54:36.6258||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:54:36.6387||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:54:36.6852||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:54:36.6852||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 59.6613ms 
+2023-08-16 08:54:40.2751||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:54:40.2751||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:54:40.2945||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:54:40.2945||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 19.6619ms 
+2023-08-16 08:54:55.2747||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:54:55.2747||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:54:56.1135||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:54:56.1135||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 839.4786ms 
+2023-08-16 08:55:10.2881||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:55:10.2881||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:55:10.3202||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:55:10.3202||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 32.2371ms 
+2023-08-16 08:55:25.2769||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:55:25.2769||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:55:25.3356||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:55:25.3356||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 59.4974ms 
+2023-08-16 08:55:40.2737||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:55:40.2737||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:55:40.3506||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:55:40.3506||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 77.7538ms 
+2023-08-16 08:55:55.2755||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:55:55.2760||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:55:55.3489||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:55:55.3489||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 74.0734ms 
+2023-08-16 08:56:10.2710||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:56:10.2710||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:56:10.3277||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:56:10.3277||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 56.8382ms 
+2023-08-16 08:56:25.2817||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:56:25.2817||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:56:25.3113||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:56:25.3113||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 29.6504ms 
+2023-08-16 08:56:40.2770||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:56:40.2770||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:56:40.3016||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:56:40.3016||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 24.6909ms 
+2023-08-16 08:56:55.2771||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:56:55.2771||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:56:55.3345||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:56:55.3345||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 59.1999ms 
+2023-08-16 08:57:10.2718||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:57:10.2718||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:57:10.2935||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:57:10.2935||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 21.8341ms 
+2023-08-16 08:57:25.2762||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:57:25.2762||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:57:25.3128||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:57:25.3128||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 36.8005ms 
+2023-08-16 08:57:40.2816||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:57:40.2816||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:57:40.3038||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:57:40.3038||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 23.1563ms 
+2023-08-16 08:57:55.2798||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:57:55.2798||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:57:55.3133||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:57:55.3133||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 33.6423ms 
+2023-08-16 08:58:10.2822||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:58:10.2822||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:58:10.3138||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:58:10.3138||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 31.7813ms 
+2023-08-16 08:58:25.2776||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:58:25.2776||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:58:25.2965||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:58:25.2965||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 19.3693ms 
+2023-08-16 08:58:40.2843||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:58:40.2843||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:58:40.3050||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:58:40.3050||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 20.8065ms 
+2023-08-16 08:58:55.2751||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:58:55.2751||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:58:55.2983||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:58:55.2983||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 23.2299ms 
+2023-08-16 08:59:10.2718||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:59:10.2718||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:59:10.2914||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:59:10.2914||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 19.7660ms 
+2023-08-16 08:59:25.2940||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:59:25.2940||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:59:25.3228||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:59:25.3228||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 28.8586ms 
+2023-08-16 08:59:40.2751||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:59:40.2751||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:59:40.3356||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:59:40.3356||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 61.5015ms 
+2023-08-16 08:59:55.2720||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 08:59:55.2720||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 08:59:55.2902||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 08:59:55.2902||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 18.2970ms 
+2023-08-16 09:00:10.2831||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:00:10.2831||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:00:10.3537||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:00:10.3540||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 70.9374ms 
+2023-08-16 09:00:25.2828||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:00:25.2828||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:00:25.3165||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:00:25.3165||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 33.9049ms 
+2023-08-16 09:00:40.2761||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:00:40.2761||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:00:40.3212||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:00:40.3212||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 45.7664ms 
+2023-08-16 09:00:55.2793||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:00:55.2793||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:00:55.3176||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:00:55.3176||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 38.9289ms 
+2023-08-16 09:01:10.2762||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:01:10.2762||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:01:10.3063||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:01:10.3063||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 30.3359ms 
+2023-08-16 09:01:25.2730||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:01:25.2730||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:01:25.2995||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:01:25.2995||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 27.1644ms 
+2023-08-16 09:01:40.2705||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:01:40.2705||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:01:40.2920||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:01:40.2920||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 21.6629ms 
+2023-08-16 09:01:55.2765||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:01:55.2765||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:01:55.3183||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:01:55.3183||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 43.8852ms 
+2023-08-16 09:02:10.2720||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:02:10.2720||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:02:10.2891||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:02:10.2891||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 17.2114ms 
+2023-08-16 09:02:25.2711||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:02:25.2711||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:02:25.2871||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:02:25.2871||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 16.3492ms 
+2023-08-16 09:02:40.2738||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:02:40.2738||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:02:40.3566||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:02:40.3566||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 83.1346ms 
+2023-08-16 09:02:55.2806||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:02:55.2806||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:02:55.3106||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:02:55.3106||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 30.4394ms 
+2023-08-16 09:03:10.2730||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:03:10.2730||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:03:10.2965||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:03:10.2965||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 23.5750ms 
+2023-08-16 09:03:25.2727||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:03:25.2727||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:03:25.2998||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:03:25.2998||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 27.8031ms 
+2023-08-16 09:03:40.2748||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:03:40.2748||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:03:40.3284||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:03:40.3284||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 54.2840ms 
+2023-08-16 09:03:55.2694||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:03:55.2694||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:03:55.3090||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:03:55.3090||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 39.7333ms 
+2023-08-16 09:04:10.2703||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:04:10.2703||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:04:10.2921||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:04:10.2921||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 21.9591ms 
+2023-08-16 09:04:25.2765||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:04:25.2765||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:04:25.3367||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:04:25.3367||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 60.3971ms 
+2023-08-16 09:04:40.2787||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:04:40.2787||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:04:40.3023||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:04:40.3023||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 23.7802ms 
+2023-08-16 09:04:55.2753||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:04:55.2753||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:04:55.3004||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:04:55.3004||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 25.5868ms 
+2023-08-16 09:05:10.2783||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:05:10.2783||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:05:10.3441||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:05:10.3441||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 66.1141ms 
+2023-08-16 09:05:25.2688||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:05:25.2688||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:05:25.3302||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:05:25.3302||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 61.8883ms 
+2023-08-16 09:05:40.2790||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:05:40.2790||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:05:40.3016||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:05:40.3016||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 22.8644ms 
+2023-08-16 09:05:55.2773||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:05:55.2773||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:05:55.3026||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:05:55.3026||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 25.8630ms 
+2023-08-16 09:06:10.2716||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:06:10.2716||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:06:10.3113||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:06:10.3113||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 39.9874ms 
+2023-08-16 09:06:25.2910||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:06:25.2910||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:06:25.3414||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:06:25.3414||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 50.8451ms 
+2023-08-16 09:06:40.2724||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:06:40.2724||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:06:40.3102||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:06:40.3102||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 38.0426ms 
+2023-08-16 09:06:55.2711||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:06:55.2711||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:06:55.2949||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:06:55.2949||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 23.9592ms 
+2023-08-16 09:07:10.2712||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:07:10.2712||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:07:10.3350||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:07:10.3350||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 63.8851ms 
+2023-08-16 09:07:25.2763||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:07:25.2763||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:07:25.3009||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:07:25.3009||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 25.4740ms 
+2023-08-16 09:07:40.2685||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:07:40.2685||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:07:40.3175||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:07:40.3175||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 49.7315ms 
+2023-08-16 09:07:55.2729||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:07:55.2729||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:07:55.3005||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:07:55.3005||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 27.8458ms 
+2023-08-16 09:08:10.2681||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:08:10.2681||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:08:10.2956||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:08:10.2956||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 27.5762ms 
+2023-08-16 09:08:25.2791||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:08:25.2791||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:08:25.3016||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:08:25.3016||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 22.5982ms 
+2023-08-16 09:08:40.2681||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:08:40.2681||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:08:40.2893||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:08:40.2893||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 21.2713ms 
+2023-08-16 09:08:55.2719||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:08:55.2719||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:08:55.3021||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:08:55.3021||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 30.3385ms 
+2023-08-16 09:09:10.2723||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:09:10.2723||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:09:10.2924||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:09:10.2924||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 20.4154ms 
+2023-08-16 09:09:25.2712||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:09:25.2712||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:09:25.3125||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:09:25.3125||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 41.7297ms 
+2023-08-16 09:09:40.2710||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:09:40.2710||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:09:40.2954||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:09:40.2954||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 24.4851ms 
+2023-08-16 09:09:55.2847||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:09:55.2847||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:09:55.3129||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:09:55.3129||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 28.4704ms 
+2023-08-16 09:10:10.2779||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:10:10.2779||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:10:10.3003||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:10:10.3003||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 22.5382ms 
+2023-08-16 09:10:25.2761||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:10:25.2761||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:10:25.3002||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:10:25.3002||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 24.1736ms 
+2023-08-16 09:10:40.2707||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:10:40.2707||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:10:40.3225||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:10:40.3225||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 52.6508ms 
+2023-08-16 09:10:55.2832||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:10:55.2832||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:10:55.3133||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:10:55.3133||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 30.1974ms 
+2023-08-16 09:11:10.2799||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:11:10.2799||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:11:10.3186||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:11:10.3186||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 38.9791ms 
+2023-08-16 09:11:25.2818||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:11:25.2818||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:11:25.3058||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:11:25.3058||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 24.0507ms 
+2023-08-16 09:11:40.2773||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:11:40.2773||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:11:40.3097||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:11:40.3097||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 32.8774ms 
+2023-08-16 09:11:55.2750||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:11:55.2750||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:11:55.3097||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:11:55.3097||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 36.1548ms 
+2023-08-16 09:12:10.2724||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:12:10.2724||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:12:10.3098||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:12:10.3098||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 38.3007ms 
+2023-08-16 09:12:25.2811||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:12:25.2811||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:12:25.3168||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:12:25.3168||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 35.9059ms 
+2023-08-16 09:12:40.2698||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:12:40.2698||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:12:40.3164||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:12:40.3164||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 46.7483ms 
+2023-08-16 09:12:55.2714||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:12:55.2714||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:12:55.2950||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:12:55.2950||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 24.2210ms 
+2023-08-16 09:13:10.2787||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:13:10.2787||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:13:10.3196||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:13:10.3196||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 41.3865ms 
+2023-08-16 09:13:25.2734||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:13:25.2734||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:13:25.3014||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:13:25.3014||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 28.1422ms 
+2023-08-16 09:13:40.2735||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:13:40.2735||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:13:40.3013||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:13:40.3013||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 28.1058ms 
+2023-08-16 09:13:55.2839||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:13:55.2839||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:13:55.3007||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:13:55.3007||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 17.0322ms 
+2023-08-16 09:14:10.2767||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:14:10.2767||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:14:10.3270||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:14:10.3270||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 50.6224ms 
+2023-08-16 09:14:25.2721||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:14:25.2721||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:14:25.3261||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:14:25.3261||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 54.1548ms 
+2023-08-16 09:14:40.2754||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:14:40.2754||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:14:40.3000||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:14:40.3000||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 24.9860ms 
+2023-08-16 09:14:55.2741||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:14:55.2741||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:14:55.3086||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:14:55.3086||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 34.6030ms 
+2023-08-16 09:15:10.2797||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:15:10.2797||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:15:10.3051||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:15:10.3051||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 25.4795ms 
+2023-08-16 09:15:25.2810||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:15:25.2810||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:15:25.3067||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:15:25.3069||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 25.8376ms 
+2023-08-16 09:15:40.2733||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:15:40.2733||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:15:40.3088||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:15:40.3088||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 36.2477ms 
+2023-08-16 09:15:55.2836||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:15:55.2836||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:15:55.3163||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:15:55.3163||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 32.8142ms 
+2023-08-16 09:16:10.2804||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:16:10.2804||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:16:10.3392||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:16:10.3392||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 59.2224ms 
+2023-08-16 09:16:25.2737||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:16:25.2737||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:16:25.3063||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:16:25.3070||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 33.3150ms 
+2023-08-16 09:16:40.2828||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:16:40.2828||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:16:40.3469||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:16:40.3469||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 64.6092ms 
+2023-08-16 09:16:55.2807||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:16:55.2807||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:16:55.3208||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:16:55.3208||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 40.1807ms 
+2023-08-16 09:17:10.2750||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:17:10.2750||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:17:10.3101||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:17:10.3101||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 35.3847ms 
+2023-08-16 09:17:25.2763||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:17:25.2763||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:17:25.3085||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:17:25.3085||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 32.8829ms 
+2023-08-16 09:17:40.2855||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:17:40.2855||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:17:40.3163||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:17:40.3163||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 31.6092ms 
+2023-08-16 09:17:55.2774||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:17:55.2774||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:17:55.3100||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:17:55.3100||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 32.9274ms 
+2023-08-16 09:18:10.2814||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:18:10.2814||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:18:10.3076||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:18:10.3076||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 26.9105ms 
+2023-08-16 09:18:25.2683||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:18:25.2683||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:18:25.2799||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:18:25.2799||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 11.8595ms 
+2023-08-16 09:18:40.2804||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:18:40.2804||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:18:40.3455||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:18:40.3455||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 65.6367ms 
+2023-08-16 09:18:55.2770||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:18:55.2770||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:18:55.2927||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:18:55.2927||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 16.1653ms 
+2023-08-16 09:19:10.2727||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:19:10.2727||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:19:10.3227||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:19:10.3227||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 50.6689ms 
+2023-08-16 09:19:25.2790||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:19:25.2790||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:19:25.3031||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:19:25.3031||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 24.1962ms 
+2023-08-16 09:19:40.2839||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:19:40.2839||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:19:40.3354||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:19:40.3354||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 53.3385ms 
+2023-08-16 09:19:55.2828||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:19:55.2828||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:19:55.3030||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:19:55.3030||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 20.3173ms 
+2023-08-16 09:20:10.2761||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:20:10.2761||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:20:10.3023||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:20:10.3023||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 26.8048ms 
+2023-08-16 09:20:25.2714||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:20:25.2714||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:20:25.3233||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:20:25.3233||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 52.3164ms 
+2023-08-16 09:20:40.2782||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:20:40.2782||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:20:40.3151||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:20:40.3151||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 36.9834ms 
+2023-08-16 09:20:55.2828||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:20:55.2828||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:20:55.3050||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:20:55.3050||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 22.5071ms 
+2023-08-16 09:21:10.2753||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:21:10.2753||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:21:10.2976||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:21:10.2976||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 23.1873ms 
+2023-08-16 09:21:25.2848||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:21:25.2848||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:21:25.3321||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:21:25.3321||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 47.9380ms 
+2023-08-16 09:21:40.2817||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:21:40.2817||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:21:40.3141||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:21:40.3141||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 33.0472ms 
+2023-08-16 09:21:55.2788||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:21:55.2788||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:21:55.3001||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:21:55.3001||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 21.5053ms 
+2023-08-16 09:22:10.2840||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:22:10.2840||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:22:10.3464||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:22:10.3464||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 63.0659ms 
+2023-08-16 09:22:25.2702||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:22:25.2702||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:22:25.2948||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:22:25.2948||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 24.7362ms 
+2023-08-16 09:22:40.2847||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:22:40.2847||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:22:40.3223||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:22:40.3228||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 38.1513ms 
+2023-08-16 09:22:55.2768||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:22:55.2768||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:22:55.3023||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:22:55.3023||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 26.0845ms 
+2023-08-16 09:23:10.2692||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:23:10.2692||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:23:10.2969||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:23:10.2969||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 28.2441ms 
+2023-08-16 09:23:25.2819||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:23:25.2819||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:23:25.3257||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:23:25.3257||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 44.0201ms 
+2023-08-16 09:23:40.2719||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:23:40.2719||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:23:40.2910||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:23:40.2911||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 19.1500ms 
+2023-08-16 09:23:55.2702||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:23:55.2702||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:23:55.3231||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:23:55.3231||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 53.4306ms 
+2023-08-16 09:24:10.2715||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:24:10.2715||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:24:10.2924||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:24:10.2924||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 20.9491ms 
+2023-08-16 09:24:25.2743||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:24:25.2743||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:24:25.3293||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:24:25.3293||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 55.1118ms 
+2023-08-16 09:24:40.2823||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:24:40.2823||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:24:40.2956||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:24:40.2956||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 13.9390ms 
+2023-08-16 09:24:55.2757||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:24:55.2757||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:24:55.2995||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:24:55.2995||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 24.4062ms 
+2023-08-16 09:25:10.2786||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:25:10.2786||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:25:10.3296||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:25:10.3296||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 51.0962ms 
+2023-08-16 09:25:25.2796||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:25:25.2796||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:25:25.3397||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:25:25.3397||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 60.2540ms 
+2023-08-16 09:25:40.2892||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:25:40.2892||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:25:40.3207||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:25:40.3207||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 31.6539ms 
+2023-08-16 09:25:55.2726||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:25:55.2726||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:25:55.3084||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:25:55.3084||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 36.1854ms 
+2023-08-16 09:26:10.2768||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:26:10.2768||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:26:10.3050||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:26:10.3050||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 28.3858ms 
+2023-08-16 09:26:25.2851||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:26:25.2851||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:26:25.3261||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:26:25.3261||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 41.7145ms 
+2023-08-16 09:26:40.2760||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:26:40.2760||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:26:40.3171||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:26:40.3171||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 41.3111ms 
+2023-08-16 09:26:55.2841||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:26:55.2841||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:26:55.2960||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:26:55.2960||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 12.0674ms 
+2023-08-16 09:27:10.2845||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:27:10.2845||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:27:10.3119||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:27:10.3119||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 27.8680ms 
+2023-08-16 09:27:25.2767||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:27:25.2767||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:27:25.3217||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:27:25.3217||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 45.4131ms 
+2023-08-16 09:27:40.2686||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:27:40.2686||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:27:40.2945||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:27:40.2945||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 26.3003ms 
+2023-08-16 09:27:55.2746||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:27:55.2746||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:27:55.3026||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:27:55.3026||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 28.0992ms 
+2023-08-16 09:28:10.2683||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:28:10.2683||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:28:10.3135||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:28:10.3135||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 46.6255ms 
+2023-08-16 09:28:25.2830||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:28:25.2830||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:28:25.3272||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:28:25.3272||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 44.5504ms 
+2023-08-16 09:28:40.2748||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:28:40.2748||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:28:40.3103||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:28:40.3103||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 35.8091ms 
+2023-08-16 09:28:55.2692||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:28:55.2692||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:28:55.2929||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:28:55.2929||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 23.9485ms 
+2023-08-16 09:29:10.2793||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:29:10.2793||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:29:10.3193||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:29:10.3193||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 40.9561ms 
+2023-08-16 09:29:25.2774||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:29:25.2774||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:29:25.3006||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:29:25.3006||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 23.2155ms 
+2023-08-16 09:29:40.2732||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:29:40.2732||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:29:40.2985||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:29:40.2985||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 25.4296ms 
+2023-08-16 09:29:55.2733||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:29:55.2733||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:29:55.3090||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:29:55.3090||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 35.9976ms 
+2023-08-16 09:30:10.2768||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:30:10.2768||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:30:10.3140||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:30:10.3140||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 38.6244ms 
+2023-08-16 09:30:25.2736||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:30:25.2736||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:30:25.2965||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:30:25.2965||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 22.9913ms 
+2023-08-16 09:30:40.2769||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:30:40.2769||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:30:40.3258||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:30:40.3258||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 49.6030ms 
+2023-08-16 09:30:55.2748||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:30:55.2748||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:30:55.3070||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:30:55.3070||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 32.6346ms 
+2023-08-16 09:31:10.2778||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:31:10.2778||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:31:10.3029||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:31:10.3029||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 25.2429ms 
+2023-08-16 09:31:25.2778||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:31:25.2778||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:31:25.3314||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:31:25.3314||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 53.9477ms 
+2023-08-16 09:31:40.2768||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:31:40.2768||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:31:40.3178||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:31:40.3178||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 41.8215ms 
+2023-08-16 09:31:55.2775||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:31:55.2775||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:31:55.2996||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:31:55.2996||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 22.6244ms 
+2023-08-16 09:32:10.2681||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:32:10.2681||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:32:10.2927||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:32:10.2927||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 26.1501ms 
+2023-08-16 09:32:25.2716||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:32:25.2716||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:32:25.3115||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:32:25.3115||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 40.0208ms 
+2023-08-16 09:32:40.2839||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:32:40.2839||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:32:40.3268||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:32:40.3268||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 43.2699ms 
+2023-08-16 09:32:55.2740||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:32:55.2740||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:32:55.2980||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:32:55.2980||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 24.1318ms 
+2023-08-16 09:33:10.2779||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:33:10.2779||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:33:10.3178||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:33:10.3178||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 40.2167ms 
+2023-08-16 09:33:25.2780||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:33:25.2780||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:33:25.3195||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:33:25.3195||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 41.8542ms 
+2023-08-16 09:33:40.2756||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:33:40.2756||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:33:40.3382||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:33:40.3383||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 62.7648ms 
+2023-08-16 09:33:55.2692||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:33:55.2692||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:33:55.3072||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:33:55.3072||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 38.3735ms 
+2023-08-16 09:34:10.2772||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:34:10.2772||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:34:10.3349||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:34:10.3349||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 58.1424ms 
+2023-08-16 09:34:25.2783||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:34:25.2783||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:34:25.3121||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:34:25.3121||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 34.1723ms 
+2023-08-16 09:34:40.2716||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:34:40.2716||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:34:40.3031||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:34:40.3031||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 32.0440ms 
+2023-08-16 09:34:55.2710||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:34:55.2710||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:34:55.3067||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:34:55.3067||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 35.7708ms 
+2023-08-16 09:35:10.2747||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:35:10.2747||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:35:10.3144||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:35:10.3144||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 39.9602ms 
+2023-08-16 09:35:25.2721||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:35:25.2721||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:35:25.2966||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:35:25.2966||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 24.6406ms 
+2023-08-16 09:35:40.2744||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:35:40.2744||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:35:40.3371||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:35:40.3371||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 63.3042ms 
+2023-08-16 09:35:55.2794||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:35:55.2794||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:35:55.2985||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:35:55.2985||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 19.2848ms 
+2023-08-16 09:36:10.2729||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:36:10.2729||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:36:10.2914||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:36:10.2914||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 18.8448ms 
+2023-08-16 09:36:25.2822||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:36:25.2822||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:36:25.3153||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:36:25.3153||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 33.1483ms 
+2023-08-16 09:36:40.2707||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:36:40.2707||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:36:40.3025||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:36:40.3025||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 32.0741ms 
+2023-08-16 09:36:55.2724||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:36:55.2724||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:36:55.3148||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:36:55.3148||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 42.7305ms 
+2023-08-16 09:37:10.2723||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:37:10.2723||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:37:10.3427||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:37:10.3427||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 71.1139ms 
+2023-08-16 09:37:25.2780||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:37:25.2780||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:37:25.3008||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:37:25.3008||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 22.9009ms 
+2023-08-16 09:37:40.2699||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:37:40.2699||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:37:40.3262||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:37:40.3262||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 56.9617ms 
+2023-08-16 09:37:55.2772||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:37:55.2772||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:37:55.3125||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:37:55.3125||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 35.7712ms 
+2023-08-16 09:38:10.2835||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:38:10.2835||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:38:10.3177||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:38:10.3177||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 34.5338ms 
+2023-08-16 09:38:25.2839||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:38:25.2839||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:38:25.3322||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:38:25.3322||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 48.3993ms 
+2023-08-16 09:38:40.2700||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:38:40.2700||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:38:40.3563||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:38:40.3563||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 86.4199ms 
+2023-08-16 09:38:55.2750||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:38:55.2750||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:38:55.3317||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:38:55.3317||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 57.0122ms 
+2023-08-16 09:39:10.2783||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:39:10.2783||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:39:10.3177||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:39:10.3177||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 39.5160ms 
+2023-08-16 09:39:25.2802||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:39:25.2802||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:39:25.3080||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:39:25.3080||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 27.9184ms 
+2023-08-16 09:39:40.2728||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:39:40.2728||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:39:40.3158||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:39:40.3158||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 43.1747ms 
+2023-08-16 09:39:55.2884||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:39:55.2884||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:39:55.3078||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:39:55.3078||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 20.3506ms 
+2023-08-16 09:40:10.2708||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:40:10.2708||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:40:10.3110||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:40:10.3110||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 40.2369ms 
+2023-08-16 09:40:25.2743||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:40:25.2743||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:40:25.2930||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:40:25.2930||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 18.9180ms 
+2023-08-16 09:40:40.2843||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:40:40.2843||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:40:40.3381||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:40:40.3389||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 54.9546ms 
+2023-08-16 09:40:55.2833||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:40:55.2833||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:40:55.2999||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:40:55.2999||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 16.7015ms 
+2023-08-16 09:41:10.2704||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:41:10.2704||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:41:10.3196||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:41:10.3196||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 49.5316ms 
+2023-08-16 09:41:25.2750||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:41:25.2750||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:41:25.2969||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:41:25.2969||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 22.3839ms 
+2023-08-16 09:41:40.2701||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:41:40.2701||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:41:40.3255||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:41:40.3255||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 55.7882ms 
+2023-08-16 09:41:55.2829||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:41:55.2829||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:41:55.3359||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:41:55.3359||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 53.7562ms 
+2023-08-16 09:42:10.2774||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:42:10.2774||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:42:10.3212||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:42:10.3212||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 44.1114ms 
+2023-08-16 09:42:25.2785||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:42:25.2785||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:42:25.2983||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:42:25.2983||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 20.0184ms 
+2023-08-16 09:42:40.2744||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:42:40.2744||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:42:40.3490||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:42:40.3490||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 76.1567ms 
+2023-08-16 09:42:55.2728||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:42:55.2728||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:42:55.3291||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:42:55.3291||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 56.8081ms 
+2023-08-16 09:43:10.2832||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:43:10.2832||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:43:10.3344||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:43:10.3344||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 51.5034ms 
+2023-08-16 09:43:25.2785||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:43:25.2785||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:43:25.3264||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:43:25.3264||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 48.2130ms 
+2023-08-16 09:43:40.2790||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:43:40.2790||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:43:40.3272||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:43:40.3272||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 48.2979ms 
+2023-08-16 09:43:55.2724||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:43:55.2724||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:43:55.3344||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:43:55.3344||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 62.2265ms 
+2023-08-16 09:44:10.2742||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:44:10.2742||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:44:10.3207||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:44:10.3207||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 46.8356ms 
+2023-08-16 09:44:25.2767||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:44:25.2767||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:44:25.2976||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:44:25.2976||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 20.9795ms 
+2023-08-16 09:44:40.2805||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:44:40.2805||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:44:40.3201||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:44:40.3201||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 40.4836ms 
+2023-08-16 09:44:55.2817||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:44:55.2817||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:44:55.3332||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:44:55.3332||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 51.8051ms 
+2023-08-16 09:45:10.2711||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:45:10.2711||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:45:10.3057||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:45:10.3071||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 36.3872ms 
+2023-08-16 09:45:25.2906||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:45:25.2906||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:45:25.3082||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:45:25.3082||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 17.6725ms 
+2023-08-16 09:45:40.2917||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:45:40.2917||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:45:40.3546||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:45:40.3546||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 64.7446ms 
+2023-08-16 09:45:55.2842||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:45:55.2842||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:45:55.3195||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:45:55.3195||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 35.4626ms 
+2023-08-16 09:46:10.2779||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:46:10.2779||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:46:10.3476||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:46:10.3476||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 69.8547ms 
+2023-08-16 09:46:25.2745||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:46:25.2745||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:46:25.2894||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:46:25.2894||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 14.9922ms 
+2023-08-16 09:46:40.2747||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:46:40.2747||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:46:40.3129||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:46:40.3129||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 38.6793ms 
+2023-08-16 09:46:55.2709||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:46:55.2709||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:46:55.3336||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:46:55.3336||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 63.1212ms 
+2023-08-16 09:47:10.2876||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:47:10.2876||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:47:10.3470||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:47:10.3470||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 59.7552ms 
+2023-08-16 09:47:25.2682||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:47:25.2682||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:47:25.3007||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:47:25.3007||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 32.7873ms 
+2023-08-16 09:47:40.2782||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:47:40.2782||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:47:40.3651||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:47:40.3651||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 87.6092ms 
+2023-08-16 09:47:55.2801||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:47:55.2801||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:47:55.2985||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:47:55.2985||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 19.0313ms 
+2023-08-16 09:48:10.2810||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:48:10.2810||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:48:10.3214||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:48:10.3229||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 41.8280ms 
+2023-08-16 09:48:25.2810||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:48:25.2810||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:48:25.3014||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:48:25.3014||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 20.5749ms 
+2023-08-16 09:48:40.2728||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:48:40.2728||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:48:40.2934||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:48:40.2934||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 21.0418ms 
+2023-08-16 09:48:55.2720||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:48:55.2720||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:48:55.2912||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:48:55.2912||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 19.4395ms 
+2023-08-16 09:49:10.2740||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:49:10.2740||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:49:10.2964||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:49:10.2964||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 22.5795ms 
+2023-08-16 09:49:25.2772||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:49:25.2772||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:49:25.2978||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:49:25.2978||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 20.7663ms 
+2023-08-16 09:49:40.2796||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:49:40.2796||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:49:40.2974||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:49:40.2974||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 17.8708ms 
+2023-08-16 09:49:55.2788||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:49:55.2788||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:49:55.2947||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:49:55.2947||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 16.0266ms 
+2023-08-16 09:50:10.2728||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:50:10.2728||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:50:10.2879||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:50:10.2879||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 15.4023ms 
+2023-08-16 09:50:25.2761||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:50:25.2761||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:50:25.2919||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:50:25.2920||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 15.8934ms 
+2023-08-16 09:50:40.2736||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:50:40.2736||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:50:40.2881||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:50:40.2881||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 14.5866ms 
+2023-08-16 09:50:55.2788||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:50:55.2788||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:50:55.3238||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:50:55.3238||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 45.3293ms 
+2023-08-16 09:51:10.2811||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:51:10.2811||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:51:10.3396||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:51:10.3396||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 58.8143ms 
+2023-08-16 09:51:25.2820||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:51:25.2820||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:51:25.3307||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:51:25.3307||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 49.0545ms 
+2023-08-16 09:51:40.2743||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:51:40.2743||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:51:40.2982||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:51:40.2982||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 23.9144ms 
+2023-08-16 09:51:55.2729||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:51:55.2729||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:51:55.3077||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:51:55.3077||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 34.8928ms 
+2023-08-16 09:52:10.2792||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:52:10.2792||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:52:10.3343||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:52:10.3343||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 55.2063ms 
+2023-08-16 09:52:25.2948||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:52:25.2948||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:52:25.3354||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:52:25.3354||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 40.9979ms 
+2023-08-16 09:52:40.2765||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:52:40.2765||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:52:40.2981||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:52:40.2981||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 22.9518ms 
+2023-08-16 09:52:55.2747||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:52:55.2747||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:52:55.3474||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:52:55.3474||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 72.9953ms 
+2023-08-16 09:53:10.2714||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:53:10.2714||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:53:10.3055||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:53:10.3055||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 34.3626ms 
+2023-08-16 09:53:25.2818||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:53:25.2818||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:53:25.3472||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:53:25.3472||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 66.1673ms 
+2023-08-16 09:53:40.2818||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:53:40.2818||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:53:40.3376||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:53:40.3376||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 55.8796ms 
+2023-08-16 09:53:55.2793||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:53:55.2793||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:53:55.3767||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:53:55.3767||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 97.6583ms 
+2023-08-16 09:54:10.2772||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:54:10.2772||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:54:10.3184||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:54:10.3184||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 41.4562ms 
+2023-08-16 09:54:25.2696||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:54:25.2696||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:54:25.2898||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:54:25.2898||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 20.7597ms 
+2023-08-16 09:54:40.2732||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:54:40.2732||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:54:40.3139||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:54:40.3139||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 41.1683ms 
+2023-08-16 09:54:55.2700||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:54:55.2700||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:54:55.3063||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:54:55.3080||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 37.8810ms 
+2023-08-16 09:55:10.2911||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:55:10.2911||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:55:10.3159||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:55:10.3159||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 25.1593ms 
+2023-08-16 09:55:25.2772||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:55:25.2772||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:55:25.3114||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:55:25.3114||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 34.3161ms 
+2023-08-16 09:55:40.2784||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:55:40.2784||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:55:40.3367||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:55:40.3367||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 58.5961ms 
+2023-08-16 09:55:55.2775||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:55:55.2775||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:55:55.3103||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:55:55.3103||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 33.8451ms 
+2023-08-16 09:56:10.2780||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:56:10.2780||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:56:10.3230||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:56:10.3230||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 45.3479ms 
+2023-08-16 09:56:25.2788||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:56:25.2788||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:56:25.3123||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:56:25.3123||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 33.8985ms 
+2023-08-16 09:56:40.2697||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:56:40.2697||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:56:40.2906||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:56:40.2906||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 21.5556ms 
+2023-08-16 09:56:55.2845||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:56:55.2845||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:56:55.3316||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:56:55.3316||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 47.3530ms 
+2023-08-16 09:57:10.2765||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:57:10.2765||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:57:10.3151||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:57:10.3151||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 39.1562ms 
+2023-08-16 09:57:25.2759||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:57:25.2759||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:57:25.3142||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:57:25.3142||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 38.5916ms 
+2023-08-16 09:57:40.2809||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:57:40.2809||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:57:40.3515||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:57:40.3515||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 70.7191ms 
+2023-08-16 09:57:55.2762||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:57:55.2762||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:57:55.3301||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:57:55.3301||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 54.3244ms 
+2023-08-16 09:58:10.2780||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:58:10.2780||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:58:10.3112||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:58:10.3112||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 33.7882ms 
+2023-08-16 09:58:25.2807||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:58:25.2807||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:58:25.3474||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:58:25.3474||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 67.1158ms 
+2023-08-16 09:58:40.2730||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:58:40.2730||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:58:40.3224||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:58:40.3224||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 49.7816ms 
+2023-08-16 09:58:55.2746||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:58:55.2746||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:58:55.2907||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:58:55.2907||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 16.5432ms 
+2023-08-16 09:59:10.2838||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:59:10.2838||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:59:10.3054||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:59:10.3054||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 22.8958ms 
+2023-08-16 09:59:25.2811||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:59:25.2811||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:59:25.3314||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:59:25.3314||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 50.7212ms 
+2023-08-16 09:59:40.2808||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:59:40.2808||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:59:40.3045||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:59:40.3045||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 24.2402ms 
+2023-08-16 09:59:55.2767||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 09:59:55.2767||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 09:59:55.3298||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 09:59:55.3298||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 53.3984ms 
+2023-08-16 10:00:10.2832||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:00:10.2832||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:00:10.3261||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:00:10.3261||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 43.1229ms 
+2023-08-16 10:00:25.2755||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:00:25.2757||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:00:25.2959||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:00:25.2959||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 20.9448ms 
+2023-08-16 10:00:40.2758||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:00:40.2758||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:00:40.2921||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:00:40.2921||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 16.7124ms 
+2023-08-16 10:00:55.2704||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:00:55.2704||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:00:55.2909||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:00:55.2913||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 20.9731ms 
+2023-08-16 10:01:10.2706||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:01:10.2706||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:01:10.2875||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:01:10.2875||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 17.0032ms 
+2023-08-16 10:01:25.2692||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:01:25.2692||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:01:25.2855||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:01:25.2855||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 16.3972ms 
+2023-08-16 10:01:40.2769||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:01:40.2769||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:01:40.3010||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:01:40.3010||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 24.7362ms 
+2023-08-16 10:01:55.2795||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:01:55.2795||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:01:55.2950||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:01:55.2950||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 15.6547ms 
+2023-08-16 10:02:10.2777||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:02:10.2777||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:02:10.2938||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:02:10.2938||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 16.2293ms 
+2023-08-16 10:02:25.2748||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:02:25.2748||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:02:25.2952||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:02:25.2952||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 20.4541ms 
+2023-08-16 10:02:40.2737||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:02:40.2737||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:02:40.2903||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:02:40.2903||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 16.7895ms 
+2023-08-16 10:02:55.2820||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:02:55.2820||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:02:55.3114||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:02:55.3114||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 29.8100ms 
+2023-08-16 10:03:10.2754||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:03:10.2760||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:03:10.3372||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:03:10.3372||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 62.3885ms 
+2023-08-16 10:03:25.2801||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:03:25.2801||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:03:25.3162||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:03:25.3162||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 36.3581ms 
+2023-08-16 10:03:40.2690||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:03:40.2690||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:03:40.3287||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:03:40.3287||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 60.0733ms 
+2023-08-16 10:03:55.2700||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:03:55.2700||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:03:55.2914||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:03:55.2914||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 21.5189ms 
+2023-08-16 10:04:10.2693||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:04:10.2693||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:04:10.3105||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:04:10.3105||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 41.4997ms 
+2023-08-16 10:04:25.2730||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:04:25.2730||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:04:25.2960||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:04:25.2960||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 23.5205ms 
+2023-08-16 10:04:40.2718||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:04:40.2718||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:04:40.3078||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:04:40.3078||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 36.2257ms 
+2023-08-16 10:04:55.2790||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:04:55.2790||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:04:55.2985||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:04:55.2985||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 20.2362ms 
+2023-08-16 10:05:10.2680||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:05:10.2680||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:05:10.3175||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:05:10.3175||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 49.7524ms 
+2023-08-16 10:05:25.2766||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:05:25.2766||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:05:25.3220||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:05:25.3220||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 46.0900ms 
+2023-08-16 10:05:40.2702||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:05:40.2702||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:05:40.2858||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:05:40.2858||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 15.8015ms 
+2023-08-16 10:05:55.2919||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:05:55.2919||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:05:55.3629||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:05:55.3629||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 71.3314ms 
+2023-08-16 10:06:10.2774||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:06:10.2774||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:06:10.3399||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:06:10.3399||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 62.8096ms 
+2023-08-16 10:06:25.2799||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:06:25.2799||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:06:25.3563||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:06:25.3563||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 76.6149ms 
+2023-08-16 10:06:40.2814||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:06:40.2814||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:06:40.3299||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:06:40.3299||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 48.8246ms 
+2023-08-16 10:06:55.2806||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:06:55.2806||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:06:55.3090||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:06:55.3090||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 28.7539ms 
+2023-08-16 10:07:10.2701||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:07:10.2701||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:07:10.3151||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:07:10.3151||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 45.2906ms 
+2023-08-16 10:07:25.2760||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:07:25.2760||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:07:25.3720||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:07:25.3720||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 96.1656ms 
+2023-08-16 10:07:40.2745||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:07:40.2745||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:07:40.3305||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:07:40.3305||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 56.4572ms 
+2023-08-16 10:07:55.2710||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:07:55.2710||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:07:55.3249||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:07:55.3249||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 54.1980ms 
+2023-08-16 10:08:10.2781||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:08:10.2781||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:08:10.3189||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:08:10.3189||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 41.3793ms 
+2023-08-16 10:08:25.2719||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:08:25.2719||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:08:25.2959||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:08:25.2959||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 24.0775ms 
+2023-08-16 10:08:40.2741||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:08:40.2741||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:08:40.2994||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:08:40.2994||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 25.4905ms 
+2023-08-16 10:08:55.2687||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:08:55.2687||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:08:55.3158||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:08:55.3158||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 47.4528ms 
+2023-08-16 10:09:10.2720||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:09:10.2720||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:09:10.3145||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:09:10.3145||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 42.7940ms 
+2023-08-16 10:09:25.2909||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:09:25.2909||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:09:25.3490||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:09:25.3490||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 58.3333ms 
+2023-08-16 10:09:40.2820||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:09:40.2820||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:09:40.3331||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:09:40.3331||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 51.8275ms 
+2023-08-16 10:09:55.2740||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:09:55.2740||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:09:55.3060||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:09:55.3060||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 32.4893ms 
+2023-08-16 10:10:10.2749||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:10:10.2749||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:10:10.3358||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:10:10.3358||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 61.1280ms 
+2023-08-16 10:10:25.2817||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:10:25.2817||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:10:25.3061||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:10:25.3061||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 24.8480ms 
+2023-08-16 10:10:40.2728||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:10:40.2728||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:10:40.3244||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:10:40.3244||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 51.7810ms 
+2023-08-16 10:10:55.2810||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:10:55.2810||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:10:55.3332||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:10:55.3332||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 52.4936ms 
+2023-08-16 10:11:10.2824||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:11:10.2824||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:11:10.3192||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:11:10.3192||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 37.1407ms 
+2023-08-16 10:11:25.2786||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:11:25.2786||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:11:25.3616||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:11:25.3616||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 83.3987ms 
+2023-08-16 10:11:40.2792||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:11:40.2792||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:11:40.3185||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:11:40.3185||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 40.6151ms 
+2023-08-16 10:11:55.2813||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:11:55.2813||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:11:55.3478||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:11:55.3478||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 67.3628ms 
+2023-08-16 10:12:10.2736||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:12:10.2736||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:12:10.3498||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:12:10.3498||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 76.6491ms 
+2023-08-16 10:12:25.2805||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:12:25.2805||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:12:25.3343||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:12:25.3343||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 54.0711ms 
+2023-08-16 10:12:40.2832||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:12:40.2832||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:12:40.3484||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:12:40.3484||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 65.8965ms 
+2023-08-16 10:12:55.2772||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:12:55.2772||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:12:55.3433||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:12:55.3433||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 66.8894ms 
+2023-08-16 10:13:10.2713||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:13:10.2713||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:13:10.3334||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:13:10.3334||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 62.4474ms 
+2023-08-16 10:13:25.2769||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:13:25.2769||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:13:25.3408||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:13:25.3408||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 65.5546ms 
+2023-08-16 10:13:40.2839||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:13:40.2839||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:13:40.3585||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:13:40.3585||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 75.4357ms 
+2023-08-16 10:13:55.2836||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:13:55.2836||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:13:55.3395||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:13:55.3395||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 56.6612ms 
+2023-08-16 10:14:10.2834||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:14:10.2834||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:14:10.3344||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:14:10.3344||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 51.7637ms 
+2023-08-16 10:14:25.2737||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:14:25.2737||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:14:25.3225||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:14:25.3225||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 49.0848ms 
+2023-08-16 10:14:40.2696||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:14:40.2696||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:14:40.3646||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:14:40.3646||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 95.3341ms 
+2023-08-16 10:14:55.2807||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7247/metrics - - 
+2023-08-16 10:14:55.2807||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Prometheus metrics' 
+2023-08-16 10:14:55.3633||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Prometheus metrics' 
+2023-08-16 10:14:55.3633||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7247/metrics - - - 200 - application/openmetrics-text;+version=1.0.0;+charset=utf-8 82.9894ms 

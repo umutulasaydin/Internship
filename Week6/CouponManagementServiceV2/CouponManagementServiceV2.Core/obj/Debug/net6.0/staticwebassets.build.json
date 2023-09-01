@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rrYiEhkDWfLj1kHfLGTy+f9bj1UgUkUmaL3AGJyGBV8=",
+  "Source": "CouponManagementServiceV2.Core",
+  "BasePath": "_content/CouponManagementServiceV2.Core",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
