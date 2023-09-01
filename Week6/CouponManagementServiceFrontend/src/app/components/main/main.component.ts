@@ -11,22 +11,20 @@ export class MainComponent implements OnInit{
   constructor(private router: Router)
   {}
 
+
   ngOnInit(): void {
     this.token = sessionStorage.getItem("token");
-    console.log(this.token);
     if (this.token == null)
     {
       this.router.navigate([""]);
     }
     else
     {
-      
+     
     }
   }
 
-  logout()
-  {
-    sessionStorage.clear();
-    this.router.navigate([""])
-  }
+
+
+
 }
