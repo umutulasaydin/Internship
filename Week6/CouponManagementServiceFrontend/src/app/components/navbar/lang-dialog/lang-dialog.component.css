@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    column-gap: 5px;
+    cursor: pointer;
+}
+
+.image {
+    float: right;
+    width: 105px;
+    display: block;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.text {
+    padding-top: 20px;
+    float: left;
+    text-align: center;
+}

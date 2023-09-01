@@ -6,12 +6,11 @@
     </h1>
   </a>
   <span class="spacer"></span>
-  <div class="lang-menu">
-    <div class="selected-lang">
-      English
-    </div>
+  <div (click)="openLangDialog()">
+    <mat-icon>language</mat-icon>
   </div>
-  <div href="">
+  
+  <div (click)="openProfileDialog()">
     <mat-icon>account_circle</mat-icon>
   </div>
   <div (click)="logout()">
