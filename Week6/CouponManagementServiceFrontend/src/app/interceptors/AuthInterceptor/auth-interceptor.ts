@@ -9,7 +9,7 @@ export class AuthInterceptor implements HttpInterceptor {
         let newReq = req.clone({headers: new HttpHeaders({
             "x-api-key":"12345"
         })});
-        
+ 
         if (req.url.includes("Auth") == false)
         {
             const token = sessionStorage.getItem("token");
