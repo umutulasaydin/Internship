@@ -57,10 +57,12 @@ body {
 
 .form-button:hover {
     background: #69c8e7;
+    cursor: pointer;
 }
 
 .form-button[disabled]{
     background: #6b8d99 ;
+    cursor: auto;
 }
 
 .form-header {

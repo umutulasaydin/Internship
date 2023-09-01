@@ -18,7 +18,7 @@ export class LoginComponent implements OnInit{
   ngOnInit(): void {
     if (sessionStorage.getItem("token") != null)
     {
-      this.router.navigate(["dashboard"])
+      this.router.navigate(["main"])
     }
   }
 
@@ -54,17 +54,14 @@ export class LoginComponent implements OnInit{
     var body = {
       username: this.username.value,
       password: this.password.value,
-      clientName: "string",
-      clientPos: "string",
     };
     this.webService.Login(body).subscribe(x=>{
-      console.log(x);
       if(x.statusCode == "1")
       {
         sessionStorage.setItem("token", x.result);
         this.message = x.result;
         this.successLogin.emit({loggedIn: true});
-        this.router.navigate(["/dashboard"]);
+        this.router.navigate(["/main"]);
       }
       else
       {
