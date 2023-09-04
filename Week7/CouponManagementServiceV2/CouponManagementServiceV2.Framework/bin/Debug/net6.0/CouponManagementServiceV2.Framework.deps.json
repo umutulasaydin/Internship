@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CouponManagementServiceV2.Framework/1.0.0": {
+        "runtime": {
+          "CouponManagementServiceV2.Framework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CouponManagementServiceV2.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<h1 mat-dialog-title>Choose Language</h1>
+<div mat-dialog-content>
+    <div class="container" *ngFor="let language of languages">
+        <div [mat-dialog-close]="language.code">
+            <div class="text">
+                <h3>
+                    {{language.name}}
+                </h3>
+            </div>
+            <img class="image" src="{{language.image}}">
+        </div>
+    </div>
+</div>

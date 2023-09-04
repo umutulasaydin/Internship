@@ -1,0 +1,297 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Business\\CouponManagementServiceV2.Core.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Business\\CouponManagementServiceV2.Core.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Business\\CouponManagementServiceV2.Core.Business.csproj",
+        "projectName": "CouponManagementServiceV2.Core.Business",
+        "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Business\\CouponManagementServiceV2.Core.Business.csproj",
+        "packagesPath": "C:\\Users\\umut2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\umut2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Data\\CouponManagementServiceV2.Core.Data.csproj": {
+                "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Data\\CouponManagementServiceV2.Core.Data.csproj"
+              },
+              "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Model\\CouponManagementServiceV2.Core.Model.csproj": {
+                "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Model\\CouponManagementServiceV2.Core.Model.csproj"
+              },
+              "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core\\CouponManagementServiceV2.Core.csproj": {
+                "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core\\CouponManagementServiceV2.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Data\\CouponManagementServiceV2.Core.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Data\\CouponManagementServiceV2.Core.Data.csproj",
+        "projectName": "CouponManagementServiceV2.Core.Data",
+        "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Data\\CouponManagementServiceV2.Core.Data.csproj",
+        "packagesPath": "C:\\Users\\umut2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\umut2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Model\\CouponManagementServiceV2.Core.Model.csproj": {
+                "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Model\\CouponManagementServiceV2.Core.Model.csproj"
+              },
+              "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core\\CouponManagementServiceV2.Core.csproj": {
+                "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core\\CouponManagementServiceV2.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Model\\CouponManagementServiceV2.Core.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Model\\CouponManagementServiceV2.Core.Model.csproj",
+        "projectName": "CouponManagementServiceV2.Core.Model",
+        "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Model\\CouponManagementServiceV2.Core.Model.csproj",
+        "packagesPath": "C:\\Users\\umut2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\umut2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.143, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.32.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core\\CouponManagementServiceV2.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core\\CouponManagementServiceV2.Core.csproj",
+        "projectName": "CouponManagementServiceV2.Core",
+        "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core\\CouponManagementServiceV2.Core.csproj",
+        "packagesPath": "C:\\Users\\umut2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\umut2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Model\\CouponManagementServiceV2.Core.Model.csproj": {
+                "projectPath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Core.Model\\CouponManagementServiceV2.Core.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
