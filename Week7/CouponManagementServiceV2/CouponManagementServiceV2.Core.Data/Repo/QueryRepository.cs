@@ -136,7 +136,28 @@ namespace CouponManagementServiceV2.Core.Data.Repo
                 var maxPage = await connection.QueryAsync<int>(query2, new { couponStatus = parameters.couponStatus, serieId = parameters.serieId, serieName = parameters.serieName, username = parameters.username, name = parameters.name, startDateStart = parameters.startDateStart, startDateEnd = parameters.startDateEnd, validDateStart = parameters.validDateStart, validDateEnd = parameters.validDateEnd });
                 return new PageInfo<IEnumerable<AllCouponResponse>>
                 {
-                    data = await connection.QueryAsync<AllCouponResponse>(query, new { PageNumber = parameters.pageNumber, RowsOfPage = parameters.rowsOfPage, couponStatus = parameters.couponStatus, serieId = parameters.serieId, serieName = parameters.serieName, username = parameters.username, name = parameters.name, startDateStart = parameters.startDateStart, startDateEnd = parameters.startDateEnd, startOrder = parameters.startOrder, validDateStart = parameters.validDateStart, validDateEnd = parameters.validDateEnd, validOrder = parameters.validOrder }),
+                    data = data,
+                    maxPage = maxPage.ToList()[0]
+                };
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        public async Task<PageInfo<IEnumerable<CouponSeries>>> GetAllSeries(AllSeriesReqeust parameters)
+        {
+            try
+            {
+                var query = "EXEC dbo.GetSeriesFilter @PageNumber, @RowsOfPage, @id, @serieId, @insStart, @insEnd, @insOrder";
+                var query2 = "EXEC dbo.GetSeriesLength @id, @serieId, @insStart, @insEnd, @insOrder";
+                using var connection = _dbConnect.Connect("Query");
+                var data = await connection.QueryAsync<CouponSeries>(query, new { PageNumber = parameters.pageNumber, RowsOfPage = parameters.rowsOfPage, id = parameters.id, serieId = parameters.serieId, insStart = parameters.insTimeStart, insEnd = parameters.insTimeEnd, insOrder = parameters.insOrder });
+                var maxPage = await connection.QueryAsync<int>(query2, new {id = parameters.id, serieId = parameters.serieId, insStart = parameters.insTimeStart, insEnd = parameters.insTimeEnd, insOrder = parameters.insOrder });
+                return new PageInfo<IEnumerable<CouponSeries>>
+                {
+                    data = data,
                     maxPage = maxPage.ToList()[0]
                 };
             }
@@ -200,5 +221,6 @@ namespace CouponManagementServiceV2.Core.Data.Repo
                 return null;
             }
         }
+
     }
 }

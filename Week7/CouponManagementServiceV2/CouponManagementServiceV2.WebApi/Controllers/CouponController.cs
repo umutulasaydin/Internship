@@ -110,6 +110,13 @@ namespace CouponManagementServiceV2.WebApi.Controllers
             return await _queryService.GetAllCouponsRequest(parameters);
         }
 
+        [HttpPost("GetAllSeries")]
+        public async Task<BaseResponse<PageInfo<IEnumerable<CouponSeries>>>> GetAllSeries(AllSeriesReqeust parameters)
+        {
+            _logger.Info("All series with parameters called");
+            return await _queryService.GetAllSeriesRequest(parameters);
+        }
+
         [HttpPost("GetAllCouponLogs")]
         public async Task<BaseResponse<PageInfo<IEnumerable<AllCouponLogResponse>>>> GetAllCouponLogs(AllCouponLogRequest parameters)
         {
@@ -130,6 +137,20 @@ namespace CouponManagementServiceV2.WebApi.Controllers
         {
             _logger.Info("Dashboard called");
             return await _queryService.DashboardRequest();
+        }
+
+        [HttpPost("Delete")]
+        public async Task<BaseResponse<string>> Delete(GetCoupon<int> request)
+        {
+            _logger.Info("Delete called");
+            return await _commandService.DeleteCouponRequest(request);
+        }
+
+        [HttpPost("DeleteSerie")]
+        public async Task<BaseResponse<string>> DeleteSerie(GetCoupon<int> request)
+        {
+            _logger.Info("Delete Serie called");
+            return await 
         }
 
     }

@@ -11,5 +11,7 @@ namespace CouponManagementServiceV2.Core.Data.Interfaces
         Task<int> RedeemCoupon(RedemptCoupon coupon, int uid);
         Task<int> VoidCoupon(RedemptCoupon coupon, int uid);
         Task<int> ChangeStatus(StatusCoupon coupon, int uid);
+        Task<int> DeleteCoupon(GetCoupon<int> coupon);
+        Task<int> DeleteSerie(GetCoupon<int> serie);
     }
 }

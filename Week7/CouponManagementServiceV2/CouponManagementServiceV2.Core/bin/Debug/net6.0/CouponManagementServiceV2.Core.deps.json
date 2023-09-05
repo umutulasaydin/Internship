@@ -244,8 +244,8 @@
           "en-US/CouponManagementServiceV2.Core.Model.resources.dll": {
             "locale": "en-US"
           },
-          "tr-TR/CouponManagementServiceV2.Core.Model.resources.dll": {
-            "locale": "tr-TR"
+          "tr/CouponManagementServiceV2.Core.Model.resources.dll": {
+            "locale": "tr"
           }
         }
       }

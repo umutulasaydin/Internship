@@ -216,6 +216,29 @@ namespace CouponManagementServiceV2.Core.Business.Services
             };
         }
 
+        public async Task<BaseResponse<PageInfo<IEnumerable<CouponSeries>>>> GetAllSeriesRequest(AllSeriesReqeust parameters)
+        {
+            var entity = await _queryRepository.GetAllSeries(parameters);
+            if (entity == null)
+            {
+                return new BaseResponse<PageInfo<IEnumerable<CouponSeries>>>
+                {
+                    isSucces = false,
+                    statusCode = _errorCodeLocalizer["NO_SERIE"],
+                    errorMessage = _errorLocalizer["NO_SERIE"],
+                    result = null
+                };
+            }
+
+            return new BaseResponse<PageInfo<IEnumerable<CouponSeries>>>
+            {
+                isSucces = true,
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
+                result = entity
+            };
+        }
+
         public async Task<BaseResponse<PageInfo<IEnumerable<AllCouponLogResponse>>>> GetAllCouponLogsRequest(AllCouponLogRequest parameters)
         {
             var entity = await _queryRepository.GetAllCouponLogs(parameters);
@@ -285,5 +308,6 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 result = entity
             };
         }
+
     }
 }

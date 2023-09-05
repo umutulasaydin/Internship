@@ -136,7 +136,7 @@
     <value>The coupon cannot be blocked.</value>
   </data>
   <data name="NO_COUPON" xml:space="preserve">
-    <value>There is no coupon in this parameters</value>
+    <value>There is no coupon in this parameters.</value>
   </data>
   <data name="NO_COUPON_ID" xml:space="preserve">
     <value>No coupon with this coupon id was found.</value>
@@ -155,6 +155,9 @@
   </data>
   <data name="NO_LIMIT" xml:space="preserve">
     <value>There are not enough limits to spend.</value>
+  </data>
+  <data name="NO_SERIE" xml:space="preserve">
+    <value>There is no serie in this parameters.</value>
   </data>
   <data name="NO_USED" xml:space="preserve">
     <value>Coupon cannot be converted to used status.</value>

@@ -156,6 +156,9 @@
   <data name="NO_LIMIT" xml:space="preserve">
     <value>-7</value>
   </data>
+  <data name="NO_SERIE" xml:space="preserve">
+    <value>-20</value>
+  </data>
   <data name="NO_USED" xml:space="preserve">
     <value>-12</value>
   </data>

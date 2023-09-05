@@ -9,6 +9,7 @@ namespace CouponManagementServiceV2.Core.Model.Data
         Used = 2,
         Blocked = 3,
         Draft = 4,
+        Expired = 5
     }
     public class Coupons : BaseRequest
     {
@@ -121,8 +122,8 @@ namespace CouponManagementServiceV2.Core.Model.Data
         public DateTime startDateStart { get; set; } = new DateTime(1970, 1, 1);
         public DateTime startDateEnd { get; set; } = new DateTime(1970, 1, 1);
         public string startOrder { get; set; } = "";
-        public DateTime validDateStart = new DateTime(1970, 1, 1);
-        public DateTime validDateEnd = new DateTime(1970, 1, 1);
+        public DateTime validDateStart { get; set; } = new DateTime(1970, 1, 1);
+        public DateTime validDateEnd { get; set; } = new DateTime(1970, 1, 1);
         public string validOrder { get; set; } = "";
 
     }
@@ -131,11 +132,19 @@ namespace CouponManagementServiceV2.Core.Model.Data
     {
         public DateTime cpnInsTime { get; set; }
         public DateTime cpnUpdTime { get; set; }
-        public int cpsID { get; set; }
         public string cpsSeriesId { get; set; }
         public string cpsSeriesName { get; set; }
+        public int cpsCount { get; set; }
+        public string cpsSeriesDesc { get; set; }
+        public DateTime cpsInsTime { get; set; }
+        public DateTime cpsUpdTime { get; set; }
         public string usUsername { get; set; }
         public string usName { get; set; }
+        public string usPhoneNum { get; set; }
+        public string usMail { get; set; }
+        
+
+
     }
 
 }

@@ -165,7 +165,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 {
                     isSucces = false,
                     statusCode = _errorCodeLocalizer["DRAFT_COUPON"],
-                    errorMessage = _errorCodeLocalizer["DRAFT_COUPON"],
+                    errorMessage = _errorLocalizer["DRAFT_COUPON"],
                     result = ""
                 };
             }
@@ -350,7 +350,46 @@ namespace CouponManagementServiceV2.Core.Business.Services
 
             
         }
+        
+        public async Task<BaseResponse<string>> DeleteCouponRequest(GetCoupon<int> coupon)
+        {
 
-       
+            var result = await _commandRepository.DeleteCoupon(coupon);
+
+            if (result == 0 || result == -1)
+            {
+                return new BaseResponse<string>
+                {
+                    isSucces = false,
+                    statusCode = _errorCodeLocalizer["NO_COUPON_ID"],
+                    errorMessage = _errorLocalizer["NO_COUPON_ID"],
+                    result = ""
+                };
+            }
+
+            else if (result == -2)
+            {
+                return new BaseResponse<string>
+                {
+                    isSucces = false,
+                    statusCode = _errorCodeLocalizer["PROCESS_FAIL"],
+                    errorMessage = _errorLocalizer["PROCESS_FAIL"],
+                    result = ""
+                };
+            }
+
+            return new BaseResponse<string>
+            {
+                isSucces = true,
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
+                result = "Coupon deleted!"
+            };
+        }
+
+        
+
+
+
     }
 }

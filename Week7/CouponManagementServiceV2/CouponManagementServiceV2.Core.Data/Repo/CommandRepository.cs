@@ -91,10 +91,10 @@ namespace CouponManagementServiceV2.Core.Data.Repo
                 try
                 {
                     var cpnId = 0;
-                    var cpsId = await connection.QueryFirstAsync<int>(query1, new { serieId = series.cpsSeriesId, serieName = series.cpsSerieName, serieDesc = series.cpsSerieDesc, count = series.cpsSerieCount }, transaction);
+                    var cpsId = await connection.QueryFirstAsync<int>(query1, new { serieId = series.cpsSeriesId, serieName = series.cpsSeriesName, serieDesc = series.cpsSeriesDesc, count = series.cpsCount }, transaction);
                     
 
-                    for (int i = 0; i< series.cpsSerieCount; i++)
+                    for (int i = 0; i< series.cpsCount; i++)
                     {
                         string code = Guid.NewGuid().ToString();
                         
@@ -208,6 +208,48 @@ namespace CouponManagementServiceV2.Core.Data.Repo
                     transaction.Rollback();
                     return -5;
                 }
+            }
+        }
+
+        public async Task<int> DeleteCoupon(GetCoupon<int> coupon)
+        {
+            int result;
+            try
+            {
+                var query = "DELETE FROM Coupons WHERE cpnId = @id";
+                using var connection = _dbConnect.Connect("Command");
+
+                result = await connection.ExecuteAsync(query, new { id = coupon.input });
+
+                return result;
+            }
+            catch
+            {
+                return -2;
+            }
+            
+
+        }
+
+        public async Task<int> DeleteSerie(GetCoupon<int> serie)
+        {
+            int result;
+            var query = "DELETE FROM Coupons WHERE cpnSerieId = @id";
+            var query2 = "DELETE FROM CouponSeries WHERE cpsId=@id";
+
+            using var connection = _dbConnect.Connect("Command");
+
+
+            try
+            {
+
+                result = await connection.ExecuteAsync(query, new { id = serie.input });
+                result = await connection.ExecuteAsync(query2, new { id = serie.input });
+                return result;
+            }
+            catch
+            {
+                return -2;
             }
         }
 

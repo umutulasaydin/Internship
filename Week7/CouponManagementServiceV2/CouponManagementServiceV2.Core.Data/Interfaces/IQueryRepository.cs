@@ -17,6 +17,7 @@ namespace CouponManagementServiceV2.Core.Data.Interfaces
         Task<IEnumerable<CouponLogResponse>> GetCouponInfoByUserId(int id);
         Task<IEnumerable<CouponResponse>> GetValidCoupons();
         Task<PageInfo<IEnumerable<AllCouponResponse>>> GetAllCoupons(AllCouponReqeust parameters);
+        Task<PageInfo<IEnumerable<CouponSeries>>> GetAllSeries(AllSeriesReqeust parameters);
         Task<PageInfo<IEnumerable<AllCouponLogResponse>>> GetAllCouponLogs(AllCouponLogRequest parameters);
         Task<Users> GetUserInfo(int id);
         Task<Dashboard> Dashboard();

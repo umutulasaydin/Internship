@@ -19,6 +19,7 @@ namespace CouponManagementServiceV2.Core.Business.Interfaces
         Task<BaseResponse<IEnumerable<CouponResponse>>> GetValidCouponsRequest();
         Task<BaseResponse<PageInfo<IEnumerable<AllCouponResponse>>>> GetAllCouponsRequest(AllCouponReqeust parameters);
         Task<BaseResponse<PageInfo<IEnumerable<AllCouponLogResponse>>>> GetAllCouponLogsRequest(AllCouponLogRequest parameters);
+        Task<BaseResponse<PageInfo<IEnumerable<CouponSeries>>>> GetAllSeriesRequest(AllSeriesReqeust parameters);
         Task<BaseResponse<Users>> GetUserInfoRequest(string token);
         Task<BaseResponse<Dashboard>> DashboardRequest();
     }

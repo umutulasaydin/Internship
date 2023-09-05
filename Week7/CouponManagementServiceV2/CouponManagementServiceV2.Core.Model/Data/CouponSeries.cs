@@ -13,9 +13,9 @@ namespace CouponManagementServiceV2.Core.Model.Data
         public int cpsId { get; set; } = -1;
         public int cpsUserId { get; set; }
         public string cpsSeriesId { get; set; }
-        public string cpsSerieName { get; set; }
-        public string cpsSerieDesc { get; set; }
-        public int cpsSerieCount { get; set; }
+        public string cpsSeriesName { get; set; }
+        public string cpsSeriesDesc { get; set; }
+        public int cpsCount { get; set; }
         public DateTime cpsInsTime { get; set; } = DateTime.Now;
         public DateTime cpsUpdTime { get; set; } = DateTime.Now;
         public int cpsStatus { get; set; } = (int)Status.Active;
@@ -38,7 +38,7 @@ namespace CouponManagementServiceV2.Core.Model.Data
 
             RuleFor(x => x.cpsSeriesId).NotEmpty().NotNull().WithMessage("Series Id cannot be empty");
 
-            RuleFor(x => x.cpsSerieName).NotEmpty().NotNull().WithMessage("Series Name cannot be empty");
+            RuleFor(x => x.cpsSeriesName).NotEmpty().NotNull().WithMessage("Series Name cannot be empty");
 
             RuleFor(x => x.ClientName).NotEmpty().NotNull().WithMessage("Client Name cannot be empty");
 
@@ -46,6 +46,19 @@ namespace CouponManagementServiceV2.Core.Model.Data
         }
     }
 
+
+    public class AllSeriesReqeust : BaseRequest
+    {
+        public int pageNumber { get; set; }
+        public int rowsOfPage { get; set; }
+        
+        public int id { get; set; } = 0;
+        public string serieId { get; set; } = "";
+        public DateTime insTimeStart { get; set; } = new DateTime(1970, 1, 1);
+        public DateTime insTimeEnd { get; set; } = new DateTime(1970, 1, 1);
+        public string insOrder { get; set; } = "";
+
+    }
 
 
 

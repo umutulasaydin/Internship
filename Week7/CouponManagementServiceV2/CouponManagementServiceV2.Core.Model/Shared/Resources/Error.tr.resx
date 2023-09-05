@@ -156,6 +156,9 @@
   <data name="NO_LIMIT" xml:space="preserve">
     <value>Harcamak için yeterli limit yok.</value>
   </data>
+  <data name="NO_SERIE" xml:space="preserve">
+    <value>Bu parametrelerde serie bulunamadı.</value>
+  </data>
   <data name="NO_USED" xml:space="preserve">
     <value>Kupon kullanılmış duruma çevrilemez</value>
   </data>

@@ -17,5 +17,6 @@ namespace CouponManagementServiceV2.Core.Business.Interfaces
         Task<BaseResponse<string>> RedeemCouponRequest(RedemptCoupon coupon, string token);
         Task<BaseResponse<string>> VoidCouponRequest(RedemptCoupon coupon, string token);
         Task<BaseResponse<string>> ChangeStatusRequest(StatusCoupon coupon, string token);
+        Task<BaseResponse<string>> DeleteCouponRequest(GetCoupon<int> coupon);
     }
 }

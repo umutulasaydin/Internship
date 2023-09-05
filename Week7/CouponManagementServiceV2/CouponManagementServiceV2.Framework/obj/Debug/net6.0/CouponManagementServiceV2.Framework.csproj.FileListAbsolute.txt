@@ -58,3 +58,15 @@ C:\Users\umut2\OneDrive\Masaüstü\Internship\Week6\CouponManagementServiceV2\Co
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week6\CouponManagementServiceV2\CouponManagementServiceV2.Framework\obj\Debug\net6.0\refint\CouponManagementServiceV2.Framework.dll
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week6\CouponManagementServiceV2\CouponManagementServiceV2.Framework\obj\Debug\net6.0\CouponManagementServiceV2.Framework.pdb
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week6\CouponManagementServiceV2\CouponManagementServiceV2.Framework\obj\Debug\net6.0\ref\CouponManagementServiceV2.Framework.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Framework\bin\Debug\net6.0\CouponManagementServiceV2.Framework.deps.json
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Framework\bin\Debug\net6.0\CouponManagementServiceV2.Framework.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Framework\bin\Debug\net6.0\CouponManagementServiceV2.Framework.pdb
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Framework\obj\Debug\net6.0\CouponManagementServiceV2.Framework.csproj.AssemblyReference.cache
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Framework\obj\Debug\net6.0\CouponManagementServiceV2.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Framework\obj\Debug\net6.0\CouponManagementServiceV2.Framework.AssemblyInfoInputs.cache
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Framework\obj\Debug\net6.0\CouponManagementServiceV2.Framework.AssemblyInfo.cs
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Framework\obj\Debug\net6.0\CouponManagementServiceV2.Framework.csproj.CoreCompileInputs.cache
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Framework\obj\Debug\net6.0\CouponManagementServiceV2.Framework.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Framework\obj\Debug\net6.0\refint\CouponManagementServiceV2.Framework.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Framework\obj\Debug\net6.0\CouponManagementServiceV2.Framework.pdb
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Framework\obj\Debug\net6.0\ref\CouponManagementServiceV2.Framework.dll
