@@ -1,7 +1,6 @@
 ﻿using CouponManagementServiceV2.Core.Business.Interfaces;
 using CouponManagementServiceV2.Core.Model.Data;
 using CouponManagementServiceV2.Core.Model.Shared;
-using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;

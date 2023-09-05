@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p4xp8z+j9S4MbYHOJOcA5WKa2KbT0pxzrL/lUchs74nbXZo9lvfd+F3qpYhArtiAxMbvRurUGAsMzpnMAkY5qw==",
+  "dgSpecHash": "vmyXQ7n+hTgKJEf37/OJkJDgml/XO/pwHuYguBHuG/Td7mH8d1R4iB1yVRpV2R9JkypCaydz0ciB098EEdR+Kw==",
   "success": true,
   "projectFilePath": "C:\\Users\\umut2\\OneDrive\\Masaüstü\\Internship\\Week7\\CouponManagementServiceV2\\CouponManagementServiceV2.Starter\\CouponManagementServiceV2.Starter.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,10 @@
     "C:\\Users\\umut2\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\umut2\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\6.0.0\\microsoft.extensions.diagnostics.healthchecks.6.0.0.nupkg.sha512",
+    "C:\\Users\\umut2\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\6.0.0\\microsoft.extensions.diagnostics.healthchecks.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\umut2\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\umut2\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\6.0.0\\microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\microsoft.extensions.http\\3.1.0\\microsoft.extensions.http.3.1.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
@@ -38,6 +42,9 @@
     "C:\\Users\\umut2\\.nuget\\packages\\prometheus-net\\8.0.1\\prometheus-net.8.0.1.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\prometheus-net.aspnetcore\\8.0.1\\prometheus-net.aspnetcore.8.0.1.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\quartz\\3.7.0\\quartz.3.7.0.nupkg.sha512",
+    "C:\\Users\\umut2\\.nuget\\packages\\quartz.aspnetcore\\3.7.0\\quartz.aspnetcore.3.7.0.nupkg.sha512",
+    "C:\\Users\\umut2\\.nuget\\packages\\quartz.extensions.dependencyinjection\\3.7.0\\quartz.extensions.dependencyinjection.3.7.0.nupkg.sha512",
+    "C:\\Users\\umut2\\.nuget\\packages\\quartz.extensions.hosting\\3.7.0\\quartz.extensions.hosting.3.7.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\umut2\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

@@ -53,6 +53,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -261,6 +267,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Quartz.AspNetCore": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -432,7 +442,7 @@
               "target": "Package",
               "version": "[5.3.3, )"
             },
-            "Quartz": {
+            "Quartz.AspNetCore": {
               "target": "Package",
               "version": "[3.7.0, )"
             },

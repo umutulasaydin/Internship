@@ -5,6 +5,7 @@ using CouponManagementServiceV2.Core.Model.Shared;
 using CouponManagementServiceV2.Core.Model.Shared.Resources;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Localization;
+using NLog;
 
 namespace CouponManagementServiceV2.Core.Business.Services
 {
@@ -15,7 +16,8 @@ namespace CouponManagementServiceV2.Core.Business.Services
         private readonly IConfiguration _configuration;
         private readonly IStringLocalizer<Error> _errorLocalizer;
         private readonly IStringLocalizer<ErrorCode> _errorCodeLocalizer;
- 
+        private readonly Logger _logger;
+
 
         public CommandService(ICommandRepository commandRepository, IConfiguration configuration, IStringLocalizer<ErrorCode> errorCodeLocalizer, IStringLocalizer<Error> errorLocalizer)
         {
@@ -24,6 +26,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
             _configuration = configuration;
             _errorLocalizer = errorLocalizer;
             _errorCodeLocalizer = errorCodeLocalizer;
+            _logger = LogManager.GetCurrentClassLogger();
         }
         public async Task<BaseResponse<string>> SignUpRequest(Users item)
         {
@@ -421,6 +424,20 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 errorMessage = _errorLocalizer["SUCCESS"],
                 result = "Coupon deleted!"
             };
+        }
+
+        public async Task CheckCouponRequest()
+        {
+            var result = await _commandRepository.CheckCoupons();
+
+            if (result == -1 || result == -2)
+            {
+                _logger.Error("Error Check Coupon didn't work well");
+            }
+            else if (result >= 0)
+            {
+                _logger.Info(result.ToString()+" coupons status changed to expired");
+            }
         }
 
 

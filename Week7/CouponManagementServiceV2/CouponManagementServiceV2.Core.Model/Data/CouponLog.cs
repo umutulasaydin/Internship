@@ -15,7 +15,8 @@ namespace CouponManagementServiceV2.Core.Model.Data
         Block = 3,
         Draft = 4,
         Activate = 5,
-        Used = 6
+        Used = 6,
+        Expired = 7
     }
     public class CouponLog : BaseRequest
     {
@@ -38,7 +39,7 @@ namespace CouponManagementServiceV2.Core.Model.Data
             RuleFor(x => x.cplUserId).NotEmpty().NotNull().WithMessage("User Id cannot be empty");
 
             RuleFor(x => x.cplOperation).NotEmpty().NotNull().WithMessage("Operation type cannot be empty");
-            RuleFor(x => x.cplOperation).InclusiveBetween(0, 5);
+            RuleFor(x => x.cplOperation).InclusiveBetween(1, 7);
 
             RuleFor(x => x.cplInsTime).NotEmpty().NotNull().WithMessage("Instant Date cannot be empty");
 

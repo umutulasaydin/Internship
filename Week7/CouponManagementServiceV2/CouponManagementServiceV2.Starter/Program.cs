@@ -16,6 +16,9 @@ using Microsoft.Extensions.Options;
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Cors;
+using Quartz;
+using CouponManagementServiceV2.Core.Schedules;
+using Quartz.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 var logger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
@@ -76,6 +79,25 @@ builder.Services.AddCors(options =>
         .AllowAnyOrigin()
         .AllowAnyHeader()
         .AllowAnyMethod());
+});
+
+
+builder.Services.AddQuartz(q=>
+{
+    q.UseMicrosoftDependencyInjectionJobFactory();
+    var jobKey = new JobKey("CheckExpire");
+    q.AddJob<CheckExpire>(opts => opts.WithIdentity(jobKey));
+
+    q.AddTrigger(opts => opts
+        .ForJob(jobKey)
+        .WithIdentity("CheckExpire-trigger")
+        .WithCronSchedule("0 0/1 * 1/1 * ? *")
+    );
+});
+
+builder.Services.AddQuartzServer(options =>
+{
+    options.WaitForJobsToComplete = true;
 });
 
 

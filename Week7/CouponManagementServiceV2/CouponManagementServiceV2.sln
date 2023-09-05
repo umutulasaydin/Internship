@@ -11,33 +11,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Core", "3-Core", "{6CD9CE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Framework", "4-Framework", "{C053D602-1A8C-41A6-BA09-5BBDE41B9825}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementServiceV2.Starter", "CouponManagementServiceV2.Starter\CouponManagementServiceV2.Starter.csproj", "{D2F9C345-9254-4373-BD18-6499E9560C82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CouponManagementServiceV2.Starter", "CouponManagementServiceV2.Starter\CouponManagementServiceV2.Starter.csproj", "{D2F9C345-9254-4373-BD18-6499E9560C82}"
 	ProjectSection(ProjectDependencies) = postProject
 		{7C580301-8B0F-400B-81CB-777AA4E3206F} = {7C580301-8B0F-400B-81CB-777AA4E3206F}
 		{9572582E-B4A6-4EBE-9C17-50B405E523FF} = {9572582E-B4A6-4EBE-9C17-50B405E523FF}
 		{99456B1E-2276-474C-A693-E920C35470FF} = {99456B1E-2276-474C-A693-E920C35470FF}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementServiceV2.WebApi", "CouponManagementServiceV2.WebApi\CouponManagementServiceV2.WebApi.csproj", "{9572582E-B4A6-4EBE-9C17-50B405E523FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CouponManagementServiceV2.WebApi", "CouponManagementServiceV2.WebApi\CouponManagementServiceV2.WebApi.csproj", "{9572582E-B4A6-4EBE-9C17-50B405E523FF}"
 	ProjectSection(ProjectDependencies) = postProject
 		{98DDF16A-3903-4115-A932-62D7981D69E5} = {98DDF16A-3903-4115-A932-62D7981D69E5}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementServiceV2.Core", "CouponManagementServiceV2.Core\CouponManagementServiceV2.Core.csproj", "{370C30DA-79BF-4990-B383-96040373A046}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CouponManagementServiceV2.Core", "CouponManagementServiceV2.Core\CouponManagementServiceV2.Core.csproj", "{370C30DA-79BF-4990-B383-96040373A046}"
 	ProjectSection(ProjectDependencies) = postProject
 		{98DDF16A-3903-4115-A932-62D7981D69E5} = {98DDF16A-3903-4115-A932-62D7981D69E5}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementServiceV2.Core.Business", "CouponManagementServiceV2.Core.Business\CouponManagementServiceV2.Core.Business.csproj", "{7C580301-8B0F-400B-81CB-777AA4E3206F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CouponManagementServiceV2.Core.Business", "CouponManagementServiceV2.Core.Business\CouponManagementServiceV2.Core.Business.csproj", "{7C580301-8B0F-400B-81CB-777AA4E3206F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementServiceV2.Core.Data", "CouponManagementServiceV2.Core.Data\CouponManagementServiceV2.Core.Data.csproj", "{99456B1E-2276-474C-A693-E920C35470FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CouponManagementServiceV2.Core.Data", "CouponManagementServiceV2.Core.Data\CouponManagementServiceV2.Core.Data.csproj", "{99456B1E-2276-474C-A693-E920C35470FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementServiceV2.Core.Model", "CouponManagementServiceV2.Core.Model\CouponManagementServiceV2.Core.Model.csproj", "{2A4C7880-FEB5-4E12-897D-49A7F17F8D59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CouponManagementServiceV2.Core.Model", "CouponManagementServiceV2.Core.Model\CouponManagementServiceV2.Core.Model.csproj", "{2A4C7880-FEB5-4E12-897D-49A7F17F8D59}"
 	ProjectSection(ProjectDependencies) = postProject
 		{98DDF16A-3903-4115-A932-62D7981D69E5} = {98DDF16A-3903-4115-A932-62D7981D69E5}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponManagementServiceV2.Framework", "CouponManagementServiceV2.Framework\CouponManagementServiceV2.Framework.csproj", "{98DDF16A-3903-4115-A932-62D7981D69E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CouponManagementServiceV2.Framework", "CouponManagementServiceV2.Framework\CouponManagementServiceV2.Framework.csproj", "{98DDF16A-3903-4115-A932-62D7981D69E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

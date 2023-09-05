@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NLog" Version="5.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CouponManagementServiceV2.Core.Data\CouponManagementServiceV2.Core.Data.csproj" />
     <ProjectReference Include="..\CouponManagementServiceV2.Core.Model\CouponManagementServiceV2.Core.Model.csproj" />
     <ProjectReference Include="..\CouponManagementServiceV2.Core\CouponManagementServiceV2.Core.csproj" />

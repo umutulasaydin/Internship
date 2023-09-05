@@ -253,6 +253,23 @@ namespace CouponManagementServiceV2.Core.Data.Repo
             }
         }
 
+        public async Task<int> CheckCoupons()
+        {
+            int result;
+            var query = "UPDATE Coupons SET cpnStatus=5 WHERE (cpnStatus = 1 OR cpnStatus = 3 OR cpnStatus = 4) AND CURRENT_TIMESTAMP > cpnValidDate";
+            using var connection = _dbConnect.Connect("Command");
+
+            try
+            {
+                result = await connection.ExecuteAsync(query);
+                return result;
+            }
+            catch
+            {
+                return -2;
+            }
+        }
+
 
     }
 }
