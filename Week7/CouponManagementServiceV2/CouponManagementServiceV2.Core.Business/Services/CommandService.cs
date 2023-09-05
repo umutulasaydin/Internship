@@ -387,7 +387,43 @@ namespace CouponManagementServiceV2.Core.Business.Services
             };
         }
 
-        
+        public async Task<BaseResponse<string>> DeleteSerieRequest(GetCoupon<int> serie)
+        {
+
+            var result = await _commandRepository.DeleteSerie(serie);
+
+            if (result == 0 || result == -1)
+            {
+                return new BaseResponse<string>
+                {
+                    isSucces = false,
+                    statusCode = _errorCodeLocalizer["NO_SERIE_ID"],
+                    errorMessage = _errorLocalizer["NO_SERIE_ID"],
+                    result = ""
+                };
+            }
+
+            else if (result == -2)
+            {
+                return new BaseResponse<string>
+                {
+                    isSucces = false,
+                    statusCode = _errorCodeLocalizer["PROCESS_FAIL"],
+                    errorMessage = _errorLocalizer["PROCESS_FAIL"],
+                    result = ""
+                };
+            }
+
+            return new BaseResponse<string>
+            {
+                isSucces = true,
+                statusCode = _errorCodeLocalizer["SUCCESS"],
+                errorMessage = _errorLocalizer["SUCCESS"],
+                result = "Coupon deleted!"
+            };
+        }
+
+
 
 
 

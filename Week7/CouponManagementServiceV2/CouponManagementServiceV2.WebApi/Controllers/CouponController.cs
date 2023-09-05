@@ -150,7 +150,7 @@ namespace CouponManagementServiceV2.WebApi.Controllers
         public async Task<BaseResponse<string>> DeleteSerie(GetCoupon<int> request)
         {
             _logger.Info("Delete Serie called");
-            return await 
+            return await _commandService.DeleteSerieRequest(request);
         }
 
     }
