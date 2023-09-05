@@ -76,7 +76,7 @@ namespace CouponManagementServiceV2.Core.Data.Repo
             
         }
 
-        public async Task<List<CouponResponse>> CreateSeriesCoupon(CouponSeries series)
+        public async Task<int> CreateSeriesCoupon(CouponSeries series)
         {
             int result = 0;
             List<CouponResponse> coupons = new List<CouponResponse>();
@@ -107,27 +107,16 @@ namespace CouponManagementServiceV2.Core.Data.Repo
                             throw new Exception(); ;
                         }
                         
-                        coupons.Add(new CouponResponse()
-                        {
-                            cpnId = cpnId,
-                            cpnSerieId = cpsId,
-                            cpnCreatorId = series.cpsUserId,
-                            cpnCode = code,
-                            cpnStatus = series.cpsStatus,
-                            cpnStartDate = series.cpsStartDate,
-                            cpnValidDate = series.cpsValidDate,
-                            cpnRedemptionLimit = series.cpsRedemptionLimit,
-                            cpnCurrentRedemptValue = series.cpsRedemptionLimit,
-                        });
+                        
                     }
                     transaction.Commit();
-                    return coupons;
+                    return result;
 
                 }
                 catch
                 {
                     transaction.Rollback();
-                    return null;
+                    return -2;
                 }
             }
         }
@@ -256,7 +245,8 @@ namespace CouponManagementServiceV2.Core.Data.Repo
         public async Task<int> CheckCoupons()
         {
             int result;
-            var query = "UPDATE Coupons SET cpnStatus=5 WHERE (cpnStatus = 1 OR cpnStatus = 3 OR cpnStatus = 4) AND CURRENT_TIMESTAMP > cpnValidDate";
+            var query = "EXEC dbo.CheckExpire 0";
+            
             using var connection = _dbConnect.Connect("Command");
 
             try

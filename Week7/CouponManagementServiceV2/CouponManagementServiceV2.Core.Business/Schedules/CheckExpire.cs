@@ -14,10 +14,9 @@ namespace CouponManagementServiceV2.Core.Schedules
 
         public Task Execute(IJobExecutionContext context)
         {
-            /*
+            
             _commandService.CheckCouponRequest();
-            */
-            Console.Write(DateTime.Now.ToString());
+            
             return Task.FromResult(true);
         }
     }

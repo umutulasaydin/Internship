@@ -207,11 +207,11 @@ namespace CouponManagementServiceV2.Core.Data.Repo
         {
             try
             {
-                var query = "EXEC dbo.Dashboard @TotalCoupon, @TotalSerie, @ValidCoupon, @Active, @Blocked, @Draft, @Used";
+                var query = "EXEC dbo.Dashboard @TotalCoupon, @TotalSerie, @ValidCoupon, @Active, @Blocked, @Draft, @Used, @Expired";
                 var query2 = "SELECT cpsSeriesId, cpsCount FROM CouponSeries";
                 using var connection = _dbConnect.Connect("Query");
                 
-                var dashboard = await connection.QueryAsync<Dashboard>(query, new { TotalCoupon = 0, TotalSerie = 0, ValidCoupon = 0, Active = 0, Blocked = 0, Draft = 0, Used = 0});
+                var dashboard = await connection.QueryAsync<Dashboard>(query, new { TotalCoupon = 0, TotalSerie = 0, ValidCoupon = 0, Active = 0, Blocked = 0, Draft = 0, Used = 0, Expired=0});
                 var series = await connection.QueryAsync<series>(query2);
                 dashboard.First().series = series;
                 return dashboard.First();

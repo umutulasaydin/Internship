@@ -99,7 +99,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
             };
         }
 
-        public async Task<BaseResponse<List<CouponResponse>>> CreateSerieCouponRequest(CouponSeries serie, string token)
+        public async Task<BaseResponse<string>> CreateSerieCouponRequest(CouponSeries serie, string token)
         {
             serie.cpsUserId = _crypte.GetUserIdFromToken(token, _configuration["Jwt:Key"], _configuration["Jwt:Audience"], _configuration["Jwt:Issuer"]);
 
@@ -107,7 +107,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
 
             if (result == null)
             {
-                return new BaseResponse<List<CouponResponse>>
+                return new BaseResponse<string>
                 {
                     isSucces = false,
                     statusCode = _errorCodeLocalizer["PROCESS_FAIL"],
@@ -116,12 +116,12 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 };
             }
 
-            return new BaseResponse<List<CouponResponse>>
+            return new BaseResponse<string>
             {
                 isSucces = true,
                 statusCode = _errorCodeLocalizer["SUCCESS"],
                 errorMessage = _errorLocalizer["SUCCESS"],
-                result = result
+                result = "Serie created"
             };
         }
 
@@ -430,9 +430,13 @@ namespace CouponManagementServiceV2.Core.Business.Services
         {
             var result = await _commandRepository.CheckCoupons();
 
-            if (result == -1 || result == -2)
+            if (result == -2)
             {
                 _logger.Error("Error Check Coupon didn't work well");
+            }
+            else if (result == -1)
+            {
+                _logger.Info("There is no coupon changing expired");
             }
             else if (result >= 0)
             {

@@ -20,6 +20,7 @@ namespace CouponManagementServiceV2.Core.Model.Data
         public int Blocked { get; set; }
         public int Draft { get; set; }
         public int Used { get; set; }
+        public int Expired { get; set; }
         public IEnumerable<series> series { get; set; } = null;
        
     }

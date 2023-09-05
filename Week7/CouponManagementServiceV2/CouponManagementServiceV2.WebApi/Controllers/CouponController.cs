@@ -34,7 +34,7 @@ namespace CouponManagementServiceV2.WebApi.Controllers
         }
 
         [HttpPost("Serie")]
-        public async Task<BaseResponse<List<CouponResponse>>> CreateSerieCoupon(CouponSeries serie)
+        public async Task<BaseResponse<string>> CreateSerieCoupon(CouponSeries serie)
         {
             _logger.Info("Create serie coupon called");
             Request.Headers.TryGetValue("token", out StringValues token);
