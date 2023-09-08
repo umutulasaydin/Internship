@@ -28,6 +28,8 @@ namespace CouponManagementServiceV2.Core.Model.Data
 
     }
 
+
+
     public class CouponLogValidator : AbstractValidator<CouponLog>
     {
         public CouponLogValidator()
@@ -65,13 +67,16 @@ namespace CouponManagementServiceV2.Core.Model.Data
     {
         public int pageNumber { get; set; }
         public int rowsOfPage { get; set; }
-        public int couponId { get; set; } = 0;
-        public int operation { get; set; } = 0;
+        public int cplId { get; set; }
+        public int cplCouponId { get; set; }
+        public int cplOperation { get; set; }
         public string username { get; set; } = "";
         public string name { get; set; } = "";
         public DateTime startDate { get; set; } = new DateTime(1970, 1, 1);
         public DateTime endDate { get; set; } = new DateTime(1970, 1, 1);
         public string dateOrder { get; set; } = "";
+        public string cplClientName { get; set; }
+        public string cplClientPos { get; set;}
     }
 
     public class AllCouponLogResponse : CouponLogResponse

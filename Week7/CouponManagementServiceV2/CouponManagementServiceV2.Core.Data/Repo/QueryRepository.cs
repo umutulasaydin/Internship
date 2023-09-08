@@ -171,13 +171,14 @@ namespace CouponManagementServiceV2.Core.Data.Repo
         {
             try
             {
-                var query = "EXEC dbo.GetLogsFilterSort @PageNumber, @RowsOfPage, @couponId, @operation, @username, @name, @startDate, @endDate, @dateOrder, @clientName, @clientPos";
+                var query = "EXEC dbo.GetLogsFilterSort @PageNumber, @RowsOfPage, @cplId, @couponId, @operation, @username, @name, @startDate, @endDate, @dateOrder, @clientName, @clientPos";
+                var query2 = "EXEC dbo.GetLogsLength @cplId, @couponId, @operation, @username, @name, @startDate, @endDate, @dateOrder, @clientName, @clientPos";
                 using var connection = _dbConnect.Connect("Query");
-                var data = await connection.QueryAsync<AllCouponLogResponse>(query, new { PageNumber = parameters.pageNumber, RowsOfPage = parameters.rowsOfPage, couponId = parameters.couponId, operation = parameters.operation, username = parameters.username, name = parameters.name, startDate = parameters.startDate, endDate = parameters.endDate, dateOrder = parameters.dateOrder, clientName = parameters.ClientName, clientPos = parameters.ClientPos });
-                var maxPage = await connection.QueryAsync<int>("SELECT (COUNT(*) FROM CouponLog");
+                var data = await connection.QueryAsync<AllCouponLogResponse>(query, new { PageNumber = parameters.pageNumber, RowsOfPage = parameters.rowsOfPage, cplId = parameters.cplId, couponId = parameters.cplCouponId, operation = parameters.cplOperation, username = parameters.username, name = parameters.name, startDate = parameters.startDate, endDate = parameters.endDate, dateOrder = parameters.dateOrder, clientName = parameters.cplClientName, clientPos = parameters.cplClientPos });
+                var maxPage = await connection.QueryAsync<int>(query2, new { cplId = parameters.cplId, couponId = parameters.cplCouponId, operation = parameters.cplOperation, username = parameters.username, name = parameters.name, startDate = parameters.startDate, endDate = parameters.endDate, dateOrder = parameters.dateOrder, clientName = parameters.cplClientName, clientPos = parameters.cplClientPos });
                 return new PageInfo<IEnumerable<AllCouponLogResponse>>
                 {
-                    data = await connection.QueryAsync<AllCouponLogResponse>(query, new { PageNumber = parameters.pageNumber, RowsOfPage = parameters.rowsOfPage, couponId = parameters.couponId, operation = parameters.operation, username = parameters.username, name = parameters.name, startDate = parameters.startDate, endDate = parameters.endDate, dateOrder = parameters.dateOrder, clientName = parameters.ClientName, clientPos = parameters.ClientPos }),
+                    data = data,
                     maxPage = maxPage.ToList()[0]
                 };                
             }

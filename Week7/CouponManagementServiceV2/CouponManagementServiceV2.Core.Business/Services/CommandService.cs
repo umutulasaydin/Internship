@@ -440,7 +440,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
             }
             else if (result >= 0)
             {
-                _logger.Info(result.ToString()+" coupons status changed to expired");
+                _logger.Info((result/2).ToString()+" coupons status changed to expired");
             }
         }
 
