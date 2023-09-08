@@ -1,7 +1,7 @@
-<h1 mat-dialog-title>Choose Language</h1>
+<h1 i18n mat-dialog-title>Choose Language</h1>
 <div mat-dialog-content>
     <div class="container" *ngFor="let language of languages">
-        <div [mat-dialog-close]="language.code">
+        <div [matDialogClose]="language.code">
             <div class="text">
                 <h3>
                     {{language.name}}

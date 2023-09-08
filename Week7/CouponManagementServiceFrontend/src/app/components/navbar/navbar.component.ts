@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
+import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 
 import { LangDialogComponent } from './lang-dialog/lang-dialog.component';
 import { ProfileDialogComponent } from './profile-dialog/profile-dialog.component';
+
 
 
 @Component({
@@ -17,20 +18,24 @@ export class NavbarComponent {
   current_language: string;
   constructor(private router: Router, private dialog: MatDialog)
   {
-    this.current_language = navigator.language;
   }
   
   logout()
   {
     sessionStorage.clear();
-    this.router.navigate([""]);
+    window.location.reload();
   }
 
   openLangDialog()
   {
     let dialogRef = this.dialog.open(LangDialogComponent);
     dialogRef.afterClosed().subscribe(result => {
-      this.current_language = result;
+      if (result != null || result != undefined)
+      {
+        sessionStorage.setItem("lang", result);
+      window.location.href = `/${result}`;
+      }
+      
     }); 
   }
 

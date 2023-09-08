@@ -1,27 +1,28 @@
-<mat-dialog-content>
-    <mat-toolbar color="accent" style="background-color: darkblue;">
+<mat-dialog-content >
+    <mat-toolbar i18n color="accent" style="background-color: darkblue;">
         User Details
     </mat-toolbar>
+    {{message}}
     <br>
     <table>
         <tr>
-            <th> Id </th>
+            <th i18n> Id </th>
             <td> {{profile.usId}}</td>
         </tr>
         <tr>
-            <th> Username </th>
+            <th i18n> Username </th>
             <td> {{profile.usUsername}}</td>
         </tr>
         <tr>
-            <th> Name </th>
+            <th i18n> Name </th>
             <td> {{profile.usName}}</td>
         </tr>
         <tr>
-            <th> E-mail </th>
+            <th i18n> E-mail </th>
             <td> {{profile.usMail}}</td>
         </tr>
         <tr>
-            <th> Phone </th>
+            <th i18n> Phone </th>
             <td> {{profile.usPhoneNum}}</td>
         </tr>
     </table>

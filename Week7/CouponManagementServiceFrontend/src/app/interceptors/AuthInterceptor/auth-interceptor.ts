@@ -6,21 +6,15 @@ import { Observable } from 'rxjs';
 export class AuthInterceptor implements HttpInterceptor {
 
     intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
+        const token = sessionStorage.getItem("token");
+        const lang = sessionStorage.getItem("lang") == "tr" ? "tr-TR" : "";
         let newReq = req.clone({headers: new HttpHeaders({
-            "x-api-key":"12345"
+            "x-api-key":"12345",
+            "Accept-Language":lang,
+            "token":`Bearer ${token}`
         })});
  
-        if (req.url.includes("Auth") == false)
-        {
-            const token = sessionStorage.getItem("token");
-            if (token != null)
-            {
-                newReq = req.clone({headers: new HttpHeaders({
-                    "x-api-key":"12345",
-                    "token":`Bearer ${token}`
-                })});
-            }
-        }
+
         return next.handle(newReq);
     }
 }

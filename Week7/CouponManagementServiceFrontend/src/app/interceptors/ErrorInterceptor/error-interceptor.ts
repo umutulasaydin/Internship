@@ -11,10 +11,11 @@ export class ErrorInterceptor implements HttpInterceptor{
         return next.handle(req).pipe(catchError(err =>{
             if ([401,403,429].includes(err.status) && sessionStorage.getItem("token") != null)
             {
+            
                 sessionStorage.clear();
             }
             const error = err.error?.message ||err.statusText;
-            console.error(err);
+            console.error(error);
             return throwError(() => new Error(err));
         }))
     }
