@@ -1,71 +1,103 @@
 <div style="margin: 10px;">
-    <button mat-button style="border: 2px solid;" (click)="createCoupon()">Create Coupon</button>
+  <button i18n mat-button style="border: 2px solid;" (click)="createCoupon()">Create Coupon</button>
+  <h2>{{message}}</h2>
 </div>
 
-<h1 style="text-align: center;">Coupon Table</h1>
+<h1 i18n style="text-align: center;">Coupon Table</h1>
 <br>
-<kendo-grid
-    [data]="gridView"
-    [pageSize]="body.rowsOfPage"
-    [skip]="skip"
-    [pageable]="true"
-    (pageChange)="pageChange($event)"
+<kendo-grid [data]="gridView" [pageSize]="body.rowsOfPage" [skip]="skip" [pageable]="true"
+  (pageChange)="pageChange($event)" [sortable]="true" [sort]="sort" (sortChange)="sortChange($event)"
+  [filterable]="true" [filter]="filter" (filterChange)="filterChange($event)" [resizable]="true">
+  <kendo-grid-column field="cpnId" title="ID" editor="numeric" [filterable]="false"
+    [sortable]="false"></kendo-grid-column>
+  <kendo-grid-column field="cpnCode" title="Code" [filterable]="false" [width]="120"
+    [sortable]="false" i18n-title></kendo-grid-column >
+  <kendo-grid-column field="cpnStatus" title="Status" [width]="120" [sortable]="false" i18n-title>
 
-    [sortable]="true"
-    [sort]="sort"
-    (sortChange)="sortChange($event)"
+    <ng-template kendoGridFilterCellTemplate let-dataItem>
 
-    [filterable]="true"
-    [filter]="filter"
-    (filterChange)="filterChange($event)"
-    [resizable]="true"
->
 
-    <kendo-grid-column field="cpnId" title="ID" editor="numeric" [filterable]="false" [width]="100"></kendo-grid-column>
-    <kendo-grid-column field="cpnCode" title="Coupon Code" [filterable]="false" [width]="120"></kendo-grid-column>
-    <kendo-grid-column field="cpnStatus" title="Coupon Status" [width]="120"></kendo-grid-column>
-    <kendo-grid-column field="cpnStartDate" title="Start Date" editor="date" filter="date" [width]="300">
 
-        <ng-template kendoGridFilterCellTemplate let-filter>
-        
-          <kendo-daterange>
-            <kendo-dateinput class="rangefilter" kendoDateRangeStartInput [value]="start" (valueChange)="startdateChange($event, end)" style="width:120px">
-            </kendo-dateinput>
-            -
-            <kendo-dateinput class="rangefilter" kendoDateRangeEndInput [value]="end" (valueChange)="startdateChange(start, $event)" style="width:120px">
-            </kendo-dateinput>
-        </kendo-daterange>
-        <button *ngIf="dateCheck" kendoButton title="Clear" (click)="startdateChange(null, null)"></button>
-        
-        </ng-template>
-        
-      </kendo-grid-column>
-    
-      <kendo-grid-column field="cpnValidDate" title="Valid Date" editor="date" filter="date" [width]="300">
-    
-        <ng-template kendoGridFilterCellTemplate let-filter>
-          <kendo-daterange>
-            <kendo-dateinput
-            kendoDateRangeStartInput
-            [value] = "validStart"
-            (valueChange)="validdateChange($event, validEnd)">
-            </kendo-dateinput>
-          - 
-          <kendo-dateinput
-          kendoDateRangeEndInput
-          [value] = "validEnd"
-          (valueChange)="validdateChange(validStart, $event)">
-          </kendo-dateinput>
-          </kendo-daterange>
-          <button *ngIf="validCheck" kendoButton title="Clear" (click)="validdateChange(null, null)"></button>
-        </ng-template>
-      </kendo-grid-column>
-    <kendo-grid-column field="cpnRedemptionLimit" title="Limit Value" editor="numeric" [filterable]="false" [width]="120"></kendo-grid-column>
-    <kendo-grid-column field="cpnCurrentRedemptValue" title="Current Value" editor="numeric" [filterable]="false" [width]="120"></kendo-grid-column>
-    <kendo-grid-column field="cpnInsTime" title="Created At" editor="date" [filterable]="false" [width]="200"></kendo-grid-column>
-    <kendo-grid-column field="cpnUpdTime" title="Last Update" editor="date" [filterable]="false" [width]="200"></kendo-grid-column>
-    <kendo-grid-column field="cpnCreatorId" title="Creator Id" [width]="100"></kendo-grid-column>
-    <kendo-grid-column field="cpnSerieId" title="Series Id" [width]="100"></kendo-grid-column>
-    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex"></ng-template>
+      <kendo-dropdownlist [data]="status" (valueChange)="statusChange($event)">
+      </kendo-dropdownlist>
+
+    </ng-template>
+  </kendo-grid-column>
+  <kendo-grid-column field="cpnStartDate" title="Start Date" editor="date" filter="date" i18n-title>
+
+    <ng-template kendoGridCellTemplate let-dataItem>
+      {{ FormatDate(dataItem.cpnStartDate) }}
+    </ng-template>
+
+    <ng-template kendoGridFilterCellTemplate let-filter>
+
+      <kendo-daterange>
+        <kendo-dateinput class="rangefilter" kendoDateRangeStartInput [value]="start"
+          (valueChange)="startdateChange($event, end)" style="width:120px">
+        </kendo-dateinput>
+        -
+        <kendo-dateinput class="rangefilter" kendoDateRangeEndInput [value]="end"
+          (valueChange)="startdateChange(start, $event)" style="width:120px">
+        </kendo-dateinput>
+        <mat-icon *ngIf="dateCheck" kendoButton title="Clear" (click)="startdateChange(null, null)"
+          style="width: 20px; cursor: pointer;">close</mat-icon>
+      </kendo-daterange>
+
+
+    </ng-template>
+
+  </kendo-grid-column>
+
+  <kendo-grid-column field="cpnValidDate" title="Valid Date" editor="date" filter="date" i18n-title>
+    <ng-template kendoGridCellTemplate let-dataItem>
+      {{ FormatDate(dataItem.cpnValidDate) }}
+  </ng-template>
+
+    <ng-template kendoGridFilterCellTemplate let-filter>
+      <kendo-daterange>
+        <kendo-dateinput class="rangefilter" kendoDateRangeStartInput [value]="validStart"
+          (valueChange)="validdateChange($event, validEnd)" style="width: 120px;">
+        </kendo-dateinput>
+        -
+        <kendo-dateinput class="rangefilter" kendoDateRangeEndInput [value]="validEnd"
+          (valueChange)="validdateChange(validStart, $event)" style="width: 120px;">
+        </kendo-dateinput>
+        <mat-icon *ngIf="validCheck" kendoButton title="Clear" (click)="validdateChange(null, null)"
+          style="width: 20px; cursor: pointer;">close</mat-icon>
+      </kendo-daterange>
+    </ng-template>
+  </kendo-grid-column>
+  <kendo-grid-column title="Current/Limit" editor="numeric" [filterable]="false"
+    [sortable]="false" i18n-title>
+    <ng-template kendoGridCellTemplate let-dataItem>
+      {{dataItem.cpnCurrentRedemptValue}} / {{dataItem.cpnRedemptionLimit}}
+    </ng-template>
+  </kendo-grid-column>
+  <kendo-grid-column field="cpnInsTime" title="Created At" editor="date" [filterable]="false" i18n-title
+    [sortable]="false">
+    <ng-template kendoGridCellTemplate let-dataItem>
+      {{ FormatDate(dataItem.cpnInsTime) }}
+  </ng-template></kendo-grid-column>
+  <kendo-grid-column field="usUsername" title="Username" [sortable]="false" i18n-title></kendo-grid-column>
+  <kendo-grid-column field="cpsSeriesId" title="Series Id" [sortable]="false" i18n-title></kendo-grid-column>
+  <kendo-grid-column [width]="160" title="Options" [sortable]="false" i18n-title>
+    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex" >
+     
+        <mat-icon (click)="Info(dataItem)" [ngStyle]="{'color':'grey'}" style="cursor: pointer">help_outline</mat-icon>
+        <mat-icon (click)="Redeem(dataItem.cpnId)" [ngStyle]="{'color': 'red'}"
+          style="cursor: pointer">add_circle_outline </mat-icon>
+   
+
+      
+        <mat-icon (click)="Void(dataItem.cpnId)" [ngStyle]="{'color': 'green'}"
+          style="cursor: pointer">remove_circle_outline</mat-icon>
+        <mat-icon (click)="Delete(dataItem.cpnId)" [ngStyle]="{'color': 'blue'}"
+          style="cursor: pointer">clear</mat-icon>
+      
+      <mat-icon (click)="Edit(dataItem.cpnId, dataItem.cpnStatus)" [ngStyle]="{'color': 'grey'}"
+        style="cursor: pointer">edit</mat-icon>
+    </ng-template>
+  </kendo-grid-column>
+
 
 </kendo-grid>

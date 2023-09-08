@@ -1,16 +1,17 @@
 <app-navbar></app-navbar>
 
-<mat-tab-group>
-    <mat-tab label="Dashboard">
+
+<mat-tab-group dynamicHeight>
+    <mat-tab i18n-label label="Dashboard">
+        <app-dashboard></app-dashboard>
+    </mat-tab>
+    <mat-tab i18n-label label="Coupon">
         <app-coupons></app-coupons>
     </mat-tab>
-    <mat-tab label="Coupon">
-
+    <mat-tab i18n-label label="Series">
+        <app-series></app-series>
     </mat-tab>
-    <mat-tab label="Series">
-
-    </mat-tab>
-    <mat-tab label="Logs">
-
+    <mat-tab i18n-label label="Logs">
+        <app-logs></app-logs>
     </mat-tab>
 </mat-tab-group>

@@ -1,0 +1,24 @@
+<h1 i18n mat-dialog-title style="text-align: center;">Change Status</h1>
+<br *ngIf="!message">
+<h4 style="text-align: center;">{{message}}</h4>
+<mat-dialog-content i18n style="margin: auto; text-align: center;">
+
+
+        ID: {{config.id}}
+        <br>
+        <br>
+        Current Status: {{config.status}}
+        <br>
+        <br>
+        <mat-form-field >
+            <mat-label >Select an option</mat-label>
+            <mat-select [(value)]="selected">
+              <mat-option value=1>Activate</mat-option>
+              <mat-option value=3>Blocked</mat-option>
+            </mat-select>
+          </mat-form-field>
+        <br>
+        <button mat-button (click)="changeStatus()">Change</button>
+    
+
+</mat-dialog-content>

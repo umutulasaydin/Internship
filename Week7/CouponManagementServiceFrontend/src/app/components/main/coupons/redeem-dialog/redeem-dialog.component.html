@@ -1,0 +1,24 @@
+<mat-dialog-content >
+    <mat-toolbar i18n color="accent" style="background-color: darkblue;">
+        Redeem
+    </mat-toolbar>
+    <br>
+    <br *ngIf="!message">
+    
+    <mat-dialog-content *ngIf="message">
+        {{message}}
+    </mat-dialog-content>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <mat-form-field>
+            <input matInput  type="number"  formControlName="value" placeholder="Redemption Limit" i18n-placeholder>
+        </mat-form-field>
+        <br>
+        <mat-form-field>
+            <input matInput type="number" [disabled]="true" [placeholder]="config.id">
+        </mat-form-field>
+        <br>
+        
+        <button i18n mat-button [disabled]="form.invalid">Redeem</button>
+    
+    </form>
+</mat-dialog-content>

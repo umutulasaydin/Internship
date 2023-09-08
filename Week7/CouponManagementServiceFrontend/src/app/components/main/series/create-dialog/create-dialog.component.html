@@ -1,0 +1,42 @@
+<h1 i18n mat-dialog-title style="text-align: center;">Create Serie</h1>
+<br *ngIf="!message">
+<h4 style="text-align: center;">{{message}}</h4>
+<mat-dialog-content style=" text-align: center;">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <mat-form-field>
+            <input matInput type="text" formControlName="cpsSeriesId" placeholder="Serie Id" i18n-placeholder>
+        </mat-form-field>
+        <br>
+        <mat-form-field>
+            <input matInput type="text" formControlName="cpsSeriesName" placeholder="Serie Name" i18n-placeholder>
+        </mat-form-field>
+        <br>
+        <mat-form-field>
+            <input matInput type="text" formControlName="cpsSeriesDesc" placeholder="Serie Description" i18n-placeholder>
+        </mat-form-field>
+        <br>
+        <mat-form-field>
+            <input matInput type="number" formControlName="cpsCount" placeholder="Serie Count" i18n-placeholder>
+        </mat-form-field>
+        <br>
+        <mat-form-field>
+            <input matInput type="number" formControlName="cpsRedemptionLimit" placeholder="Redemption Limit" i18n-placeholder>
+        </mat-form-field>
+        <br>
+        <mat-form-field appearance="fill">
+            <mat-label i18n>Enter a date range</mat-label>
+            <mat-date-range-input [rangePicker]="picker1" required matInput>
+                <input matStartDate placeholder="Start date" formControlName="cpsStartDate" i18n-placeholder> 
+                <input matEndDate placeholder="End date" formControlName="cpsValidDate" i18n-placeholder>
+            </mat-date-range-input>
+            <mat-datepicker-toggle matSuffix [for]="picker1">
+            </mat-datepicker-toggle>
+            <mat-date-range-picker #picker1></mat-date-range-picker>
+        </mat-form-field>
+        <br>
+        <mat-slide-toggle i18n formControlName="cpsStatus">Save as Draft</mat-slide-toggle>
+        <br><br>
+        <button mat-button i18n [disabled]="form.invalid">Create</button>
+
+    </form>
+</mat-dialog-content>

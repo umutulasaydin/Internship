@@ -11,14 +11,12 @@ import { WebService } from 'src/app/services/web/web.service';
 export class LoginComponent implements OnInit{
 
 
-  @Output() successLogin: EventEmitter<any> = new EventEmitter();
-
   constructor(private webService: WebService, private router: Router){}
   
   ngOnInit(): void {
     if (sessionStorage.getItem("token") != null)
     {
-      this.router.navigate(["main"])
+      this.router.navigate([""])
     }
   }
 
@@ -60,8 +58,8 @@ export class LoginComponent implements OnInit{
       {
         sessionStorage.setItem("token", x.result);
         this.message = x.result;
-        this.successLogin.emit({loggedIn: true});
-        this.router.navigate(["/main"]);
+
+        window.location.reload();
       }
       else
       {

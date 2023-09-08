@@ -1,0 +1,64 @@
+<mat-dialog-content >
+    <mat-toolbar i18n color="accent" style="background-color: darkblue;">
+        User Details
+    </mat-toolbar>
+    <br>
+    <table>
+        <tr>
+            <th i18n> Id </th>
+            <td> {{profile.cpnCreatorId}}</td>
+        </tr>
+        <tr>
+            <th i18n> Username </th>
+            <td> {{profile.usUsername}}</td>
+        </tr>
+        <tr>
+            <th i18n> Name </th>
+            <td> {{profile.usName}}</td>
+        </tr>
+        <tr>
+            <th i18n> E-mail </th>
+            <td> {{profile.usMail}}</td>
+        </tr>
+        <tr>
+            <th i18n> Phone </th>
+            <td> {{profile.usPhoneNum}}</td>
+        </tr>
+    </table>
+</mat-dialog-content>
+<mat-dialog-content *ngIf="profile.cpnSerieId != -1">
+    <mat-toolbar i18n color="accent" style="background-color: darkblue;">
+        Serie Details
+    </mat-toolbar>
+    <br>
+    <table>
+        <tr>
+            <th i18n> Id </th>
+            <td> {{profile.cpnSerieId}}</td>
+        </tr>
+        <tr>
+            <th i18n> Serie Id </th>
+            <td> {{profile.cpsSeriesId}}</td>
+        </tr>
+        <tr>
+            <th i18n> Name </th>
+            <td> {{profile.cpsSeriesName}}</td>
+        </tr>
+        <tr>
+            <th i18n> Count </th>
+            <td> {{profile.cpsCount}}</td>
+        </tr>
+        <tr>
+            <th i18n> Description </th>
+            <td> {{profile.cpsSeriesDesc}}</td>
+        </tr>
+        <tr>
+            <th i18n> Created At </th>
+            <td> {{profile.cpsInsTime | date}}</td>
+        </tr>
+        <tr>
+            <th i18n> Last Update </th>
+            <td> {{profile.cpsUpdTime | date}}</td>
+        </tr>
+    </table>
+</mat-dialog-content>

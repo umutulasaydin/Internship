@@ -1,0 +1,50 @@
+<h1 i18n style="text-align: center;">Log Table</h1>
+<br>
+<kendo-grid [data]="gridView" [pageSize]="body.rowsOfPage" [skip]="skip" [pageable]="true"
+  (pageChange)="pageChange($event)" [sortable]="true" [sort]="sort" (sortChange)="sortChange($event)"
+  [filterable]="true" [filter]="filter" (filterChange)="filterChange($event)" [resizable]="true">
+    <kendo-grid-column field="cplId" title="ID" editor="numeric"
+    [sortable]="false" [width]="120" i18n-title></kendo-grid-column>
+    <kendo-grid-column field="cplCouponId" title="Coupon ID" editor="numeric"
+    [sortable]="false" [width]="120" i18n-title></kendo-grid-column>
+    <kendo-grid-column field="cplOperation" title="Status" [width]="120" [sortable]="false" i18n-title>
+
+        <ng-template kendoGridFilterCellTemplate let-dataItem>
+    
+    
+    
+          <kendo-dropdownlist [data]="operation" (valueChange)="operationChange($event)">
+          </kendo-dropdownlist>
+    
+        </ng-template>
+    </kendo-grid-column>
+
+    <kendo-grid-column field="cplInsTime" title="Created At" editor="date" filter="date" i18n-title>
+
+        <ng-template kendoGridCellTemplate let-dataItem>
+          {{ FormatDate(dataItem.cplInsTime) }}
+        </ng-template>
+    
+        <ng-template kendoGridFilterCellTemplate let-filter>
+    
+          <kendo-daterange>
+            <kendo-dateinput class="rangefilter" kendoDateRangeStartInput [value]="start"
+              (valueChange)="startdateChange($event, end)" style="width:120px">
+            </kendo-dateinput>
+            -
+            <kendo-dateinput class="rangefilter" kendoDateRangeEndInput [value]="end"
+              (valueChange)="startdateChange(start, $event)" style="width:120px">
+            </kendo-dateinput>
+            <mat-icon *ngIf="dateCheck" kendoButton title="Clear" (click)="startdateChange(null, null)"
+              style="width: 20px; cursor: pointer;">close</mat-icon>
+          </kendo-daterange>
+    
+    
+        </ng-template>
+    
+      </kendo-grid-column>
+      <kendo-grid-column field="usUsername" title="Username" [sortable]="false" i18n-title></kendo-grid-column>
+      <kendo-grid-column field="usName" title="Name" [sortable]="false" i18n-title></kendo-grid-column>
+      <kendo-grid-column field="cplClientName" title="Client" [sortable]="false" i18n-title></kendo-grid-column>
+      <kendo-grid-column field="cplClientPos" title="Pos" [sortable]="false" i18n-title></kendo-grid-column>
+</kendo-grid>

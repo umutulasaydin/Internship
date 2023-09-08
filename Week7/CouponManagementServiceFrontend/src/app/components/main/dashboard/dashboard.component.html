@@ -1,5 +1,9 @@
-<div class="grid-container">
-  <h1 class="mat-h1">Dashboard</h1>
+
+<div  class="grid-container">
+  <h1 i18n class="mat-h1">Dashboard
+    <mat-icon (click)="refresh()" style="cursor: pointer; float: right; margin-right: 40px;">refresh</mat-icon>
+  </h1>
+  
   <mat-grid-list cols="2" rowHeight="500px">
     <mat-grid-tile *ngFor="let card of cards | async; let i=index" [colspan]="card.cols" [rowspan]="card.rows">
       <mat-card class="dashboard-card">
@@ -11,7 +15,7 @@
         <mat-card-content class="dashboard-card-content">
           <div *ngIf="i==0 ">
             <h1>{{this.error}}</h1>
-            <div *ngIf="dashboard" style="text-align: center; margin-top: auto;">
+            <div i18n *ngIf="dashboard" style="text-align: center; margin-top: auto;">
                 <h3>Total Coupons: {{dashboard.totalCoupon}}</h3>
                 <h3>Valid Coupons: {{dashboard.validCoupon}}</h3>
                 <h3>Total Series: {{dashboard.totalSerie}}</h3>
@@ -41,16 +45,14 @@
           <div *ngIf="i==2">
             <kendo-chart>
               <kendo-chart-tooltip> </kendo-chart-tooltip>
-              <kendo-chart-category-axis>
-                <kendo-chart-category-axis-item [categories]="categories">                  
-                </kendo-chart-category-axis-item>
-              </kendo-chart-category-axis>
               <kendo-chart-series>
                 <kendo-chart-series-item
-                  type="bar"
+                  type="column"
                   [gap]="2"
                   [spacing]="0.25"
-                  [data]="counts">
+                  [data]="series"
+                  field="cpsCount"
+                  categoryField="cpsSeriesId">
                 </kendo-chart-series-item>
               </kendo-chart-series>
             </kendo-chart>

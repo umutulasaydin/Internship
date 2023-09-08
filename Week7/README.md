@@ -6,20 +6,29 @@
 # Tuesday
 
 ## General Terms
-- Bounded Context
+- Quartz
+
+## Implementations
+- Series Page
+- Login Page
 
 # Wednesday
 
 ## General Terms
-- Aggregates
-- Tactical Patterns
+- Clean DDD
+
+## Implementations
+- Document About Quartz
 
 # Thursday
 
 ## Implementations
-- Dashboard page 
+- Memory Monitor (Grafana)
+- Logs Page
 
 # Friday
 
 ## Implementations
-- Coupon Page
+- Build
+- Multi Language Support
+- Single Page Application

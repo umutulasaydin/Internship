@@ -1,0 +1,46 @@
+<div style="margin: 10px;">
+    <button i18n mat-button style="border: 2px solid;" (click)="createSerie()">Create Serie</button>
+    <h2>{{message}}</h2>
+</div>
+
+<h1 i18n style="text-align: center;">Serie Table</h1>
+
+<br>
+<kendo-grid [data]="gridView" [pageSize]="body.rowsOfPage" [skip]="skip" [pageable]="true"
+    (pageChange)="pageChange($event)" [sortable]="true" [sort]="sort" (sortChange)="sortChange($event)"
+    [filterable]="true" [filter]="filter" (filterChange)="filterChange($event)" [resizable]="true">
+
+    <kendo-grid-column field="cpsId" title="ID" editor="numeric" [sortable]="false" i18n-title></kendo-grid-column>
+    <kendo-grid-column field="cpsSeriesId" title="Serie ID" [sortable]="false" i18n-title></kendo-grid-column>
+    <kendo-grid-column field="cpsSeriesName" title="Name" [sortable]="false" [filterable]="false" i18n-title></kendo-grid-column>
+    <kendo-grid-column field="cpsSeriesDesc" title="Description" [sortable]="false" [filterable]="false" i18n-title></kendo-grid-column>
+    <kendo-grid-column field="cpsInsTime" title="Created At" [sortable]="true" editor="date" filter="date" i18n-title>
+        <ng-template kendoGridCellTemplate let-dataItem>
+            {{ FormatDate(dataItem.cpsInsTime) }}
+        </ng-template>
+
+        <ng-template kendoGridFilterCellTemplate let-filter>
+
+            <kendo-daterange>
+                <kendo-dateinput class="rangefilter" kendoDateRangeStartInput [value]="start"
+                    (valueChange)="startdateChange($event, end)" style="width:120px">
+                </kendo-dateinput>
+                -
+                <kendo-dateinput class="rangefilter" kendoDateRangeEndInput [value]="end"
+                    (valueChange)="startdateChange(start, $event)" style="width:120px">
+                </kendo-dateinput>
+                <mat-icon *ngIf="dateCheck" kendoButton title="Clear" (click)="startdateChange(null, null)"
+                    style="width: 20px; cursor: pointer;">close</mat-icon>
+            </kendo-daterange>
+
+
+        </ng-template>
+    </kendo-grid-column>
+    <kendo-grid-column field="cpsCount" title="Count" [sortable]="false" [filterable]="false" i18n-title></kendo-grid-column>
+    <kendo-grid-column [width]="160" title="Options" [sortable]="false" i18n-title>
+        <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex" >
+            <mat-icon (click)="Delete(dataItem.cpsId)" [ngStyle]="{'color': 'blue'}"
+          style="cursor: pointer">clear</mat-icon>
+        </ng-template>
+    </kendo-grid-column>
+</kendo-grid>

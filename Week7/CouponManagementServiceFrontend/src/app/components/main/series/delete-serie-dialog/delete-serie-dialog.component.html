@@ -1,0 +1,15 @@
+<mat-dialog-content >
+    <mat-toolbar i18n color="accent" style="background-color: darkblue;">
+        Delete
+    </mat-toolbar>
+    <br *ngIf="!message">
+    
+    <mat-dialog-content *ngIf="message">
+        {{message}}
+    </mat-dialog-content>
+    <mat-dialog-content i18n>
+        Are you sure deleting serie with coupons?
+        ID: {{config.id}}
+    </mat-dialog-content>
+    <button i18n mat-raised-button (click)="deleteCoupon()">Yes</button>
+</mat-dialog-content>

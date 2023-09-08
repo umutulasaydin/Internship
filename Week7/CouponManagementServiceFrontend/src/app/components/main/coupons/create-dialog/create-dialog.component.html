@@ -1,26 +1,26 @@
-<h1 mat-dialog-title style="text-align: center;">Create Coupon</h1>
+<h1 i18n mat-dialog-title style="text-align: center;">Create Coupon</h1>
 <br *ngIf="!message">
 <h4 style="text-align: center;">{{message}}</h4>
 <mat-dialog-content style="margin: auto; text-align: center;">
 <form [formGroup]="form" (ngSubmit)="onSubmit()">
         <mat-form-field #limit>
-            <input matInput  type="number"  formControlName="cpnRedemptionLimit">
+            <input matInput  type="number"  formControlName="cpnRedemptionLimit" placeholder="Redemption Limit" i18n-placeholder>
         </mat-form-field>
         <br>
         <mat-form-field appearance="fill">
-            <mat-label>Enter a date range</mat-label>
+            <mat-label i18n>Enter a date range</mat-label>
             <mat-date-range-input [rangePicker]="picker1" required matInput>
-                <input matStartDate placeholder="Start date" formControlName="cpnStartDate">
-                <input matEndDate placeholder="End date" formControlName="cpnEndDate">
+                <input matStartDate placeholder="Start date" formControlName="cpnStartDate" i18n-placeholder>
+                <input matEndDate placeholder="End date" formControlName="cpnEndDate" i18n-placeholder>
             </mat-date-range-input>
             <mat-datepicker-toggle matSuffix [for]="picker1">
                 </mat-datepicker-toggle>
             <mat-date-range-picker #picker1></mat-date-range-picker>
         </mat-form-field>
         <br>
-        <mat-slide-toggle formControlName="cpnStatus">Save as Draft</mat-slide-toggle>
+        <mat-slide-toggle i18n formControlName="cpnStatus">Save as Draft</mat-slide-toggle>
         <br><br>
-        <button mat-button [disabled]="form.invalid">Create</button>
+        <button i18n mat-button [disabled]="form.invalid">Create</button>
     
     </form>
 </mat-dialog-content>

@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { WebService } from 'src/app/services/web/web.service';
-import { SeriesLabelsContentArgs } from "@progress/kendo-angular-charts";
 import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
 import { map } from 'rxjs/operators';
+import '@progress/kendo-angular-intl/locales/tr/all';
 
 @Component({
   selector: 'app-dashboard',
@@ -18,10 +18,8 @@ export class DashboardComponent implements OnInit{
 
   pieCoupon;
   pieStatus;
-  categories = [];
-  counts = [];
   series: [];
-
+  
   constructor(private breakpointObserver: BreakpointObserver, private webService: WebService)
   {
   }
@@ -34,22 +32,18 @@ export class DashboardComponent implements OnInit{
           
           this.dashboard = result.result;
           this.series = this.dashboard.series;
-          for (let i = 0; i < this.series.length; i++)
-          {
-            this.categories.push(this.series[i]["cpsSeriesId"]);
-            this.counts.push(this.series[i]["cpsCount"]);
-    
-          }
-          console.log(this.dashboard);
+
+
           this.pieCoupon = [
-            {category: "Valid Coupon", value: this.dashboard.validCoupon},
-            {category: "Unvalid Coupon", value: this.dashboard.totalCoupon-this.dashboard.validCoupon}
+            {category: $localize`Valid Coupon`, value: this.dashboard.validCoupon},
+            {category: $localize`Unvalid Coupon`, value: this.dashboard.totalCoupon-this.dashboard.validCoupon}
           ];
           this.pieStatus = [
-            {category: "Active Coupon", value: this.dashboard.active},
-            {category: "Blocked Coupon", value: this.dashboard.blocked},
-            {category: "Used Coupon", value: this.dashboard.used},
-            {category: "Draft Coupon", value: this.dashboard.draft}
+            {category: $localize`Active Coupon`, value: this.dashboard.active},
+            {category: $localize`Blocked Coupon`, value: this.dashboard.blocked},
+            {category: $localize`Used Coupon`, value: this.dashboard.used},
+            {category: $localize`Draft Coupon`, value: this.dashboard.draft},
+            {category: $localize`Expired Coupon`, value: this.dashboard.expired}
           ];
           
         }
@@ -65,11 +59,16 @@ export class DashboardComponent implements OnInit{
     map(({ matches }) => {
       
       return [
-        { title: 'General Statistics', cols: 1, rows: 1 },
-        { title: 'Valid Coupon / Total Coupon', cols: 1, rows: 1 },
-        { title: 'Series Info', cols: 1, rows: 1 },
-        { title: 'Coupon Status', cols: 1, rows: 1 }
+        { title: $localize`General Statistics`, cols: 1, rows: 1 },
+        { title: $localize`Valid Coupon / Total Coupon`, cols: 1, rows: 1 },
+        { title: $localize`Series Info`, cols: 1, rows: 1 },
+        { title: $localize`Coupon Status`, cols: 1, rows: 1 }
       ];
     })
   );
+
+  refresh()
+  {
+    this.ngOnInit();
+  }
 }

@@ -4,6 +4,10 @@
   "newProjectRoot": "projects",
   "projects": {
     "CouponManagementServiceFrontend": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {"tr": "src/locale/messages.tr.xlf"}
+      },
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize" : ["tr"],
             "outputPath": "dist/coupon-management-service-frontend",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -39,7 +44,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "10mb"
                 },
                 {
                   "type": "anyComponentStyle",

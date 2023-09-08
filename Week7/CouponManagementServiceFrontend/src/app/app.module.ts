@@ -19,10 +19,15 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { LangDialogComponent } from './components/navbar/lang-dialog/lang-dialog.component';
 import { ProfileDialogComponent } from './components/navbar/profile-dialog/profile-dialog.component';
 import { DashboardComponent } from './components/main/dashboard/dashboard.component';
+import { InfoDialogComponent } from './components/main/coupons/info-dialog/info-dialog.component';
+import { RedeemDialogComponent } from './components/main/coupons/redeem-dialog/redeem-dialog.component';
+import { VoidDialogComponent } from './components/main/coupons/void-dialog/void-dialog.component';
+import { DeleteDialogComponent } from './components/main/coupons/delete-dialog/delete-dialog.component';
+import { EditDialogComponent } from './components/main/coupons/edit-dialog/edit-dialog.component';
 
 import { ChartsModule } from '@progress/kendo-angular-charts';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 import 'hammerjs';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
@@ -42,6 +47,13 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatTabsModule } from '@angular/material/tabs';
 import { GridModule } from '@progress/kendo-angular-grid';
 import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
+import { DropDownsModule } from '@progress/kendo-angular-dropdowns';
+import { MatSelectModule } from '@angular/material/select';
+import { SeriesComponent } from './components/main/series/series.component';
+import { LogsComponent } from './components/main/logs/logs.component';
+import { CreateDialogComponent2 } from './components/main/series/create-dialog/create-dialog.component';
+import { DeleteSerieDialogComponent } from './components/main/series/delete-serie-dialog/delete-serie-dialog.component';
+
 
 
 
@@ -57,7 +69,16 @@ import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
     ProfileDialogComponent,
     DashboardComponent,
     CouponsComponent,
-    CreateDialogComponent
+    CreateDialogComponent,
+    InfoDialogComponent,
+    RedeemDialogComponent,
+    VoidDialogComponent,
+    DeleteDialogComponent,
+    EditDialogComponent,
+    SeriesComponent,
+    LogsComponent,
+    CreateDialogComponent2,
+    DeleteSerieDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -84,7 +105,9 @@ import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
     MatNativeDateModule,
     MatSlideToggleModule,
     GridModule,
-    DateInputsModule
+    DateInputsModule,
+    DropDownsModule,
+    MatSelectModule
   ],
   providers: [
     {provide: HTTP_INTERCEPTORS, useClass: LoadInterceptor, multi: true},
