@@ -117,11 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ACTIVATE" xml:space="preserve">
+    <value>Coupon Status: Active</value>
+  </data>
+  <data name="BLOCKED" xml:space="preserve">
+    <value>Coupon Status: Blocked</value>
+  </data>
   <data name="BLOCK_COUPON" xml:space="preserve">
     <value>The coupon is blocked.</value>
   </data>
   <data name="DATE_EXPIRED" xml:space="preserve">
     <value>The coupon has expired.</value>
+  </data>
+  <data name="DELETE" xml:space="preserve">
+    <value>Deleted</value>
   </data>
   <data name="DRAFT_COUPON" xml:space="preserve">
     <value>The coupon is in draft state.</value>
@@ -171,6 +180,12 @@
   <data name="PROCESS_FAIL" xml:space="preserve">
     <value>A problem was encountered while executing the command.</value>
   </data>
+  <data name="REDEEM_CPN" xml:space="preserve">
+    <value>Coupon Redeemed</value>
+  </data>
+  <data name="SERIE_SUCCESS" xml:space="preserve">
+    <value>Seri Created</value>
+  </data>
   <data name="SUCCESS" xml:space="preserve">
     <value />
   </data>
@@ -179,5 +194,8 @@
   </data>
   <data name="USER_EXIST" xml:space="preserve">
     <value>There is a user with this username.</value>
+  </data>
+  <data name="VOID_CPN" xml:space="preserve">
+    <value>Coupon Voided</value>
   </data>
 </root>

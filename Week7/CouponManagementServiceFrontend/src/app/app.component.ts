@@ -36,6 +36,7 @@ export class AppComponent implements OnInit{
         window.location.href = `/${this.default_lang}`
       }
     }
+
     
     
     if (sessionStorage.getItem("token") != null)

@@ -38,7 +38,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                     isSucces = false,
                     statusCode = _errorCodeLocalizer["USER_EXIST"],
                     errorMessage = _errorLocalizer["USER_EXIST"],
-                    result = "Signup Failed!"
+                    result = ""
                 };
             }
             else if (result == -2)
@@ -48,7 +48,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                     isSucces = false,
                     statusCode = _errorCodeLocalizer["PROCESS_FAIL"],
                     errorMessage = _errorLocalizer["PROCESS_FAIL"],
-                    result = "Signup Failed!"
+                    result = ""
                 };
             }
 
@@ -121,7 +121,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 isSucces = true,
                 statusCode = _errorCodeLocalizer["SUCCESS"],
                 errorMessage = _errorLocalizer["SUCCESS"],
-                result = "Serie created"
+                result = _errorLocalizer["SERIE_SUCCESS"]
             };
         }
 
@@ -198,7 +198,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 isSucces = true,
                 statusCode = _errorCodeLocalizer["SUCCESS"],
                 errorMessage = _errorLocalizer["SUCCESS"],
-                result = "Coupon redeemed"
+                result = _errorLocalizer["REDEEM_CPN"]
             };
         }
         public async Task<BaseResponse<string>> VoidCouponRequest(RedemptCoupon coupon, string token)
@@ -274,7 +274,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 isSucces = true,
                 statusCode = _errorCodeLocalizer["SUCCESS"],
                 errorMessage = _errorLocalizer["SUCCESS"],
-                result = "Coupon voided"
+                result = _errorLocalizer["VOID_CPN"]
             };
         }
 
@@ -287,12 +287,22 @@ namespace CouponManagementServiceV2.Core.Business.Services
 
             if (result == 1)
             {
+                if ((Status)coupon.status == Status.Active)
+                {
+                    return new BaseResponse<string>
+                    {
+                        isSucces = true,
+                        statusCode = _errorCodeLocalizer["SUCCESS"],
+                        errorMessage = _errorLocalizer["SUCCESS"],
+                        result = _errorLocalizer["ACTIVATE"]
+                    };
+                }
                 return new BaseResponse<string>
                 {
                     isSucces = true,
                     statusCode = _errorCodeLocalizer["SUCCESS"],
                     errorMessage = _errorLocalizer["SUCCESS"],
-                    result = "Coupon status: " + ((Status)coupon.status).ToString()
+                    result = _errorLocalizer["BLOCKED"]
                 };
             }
 
@@ -386,7 +396,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 isSucces = true,
                 statusCode = _errorCodeLocalizer["SUCCESS"],
                 errorMessage = _errorLocalizer["SUCCESS"],
-                result = "Coupon deleted!"
+                result = _errorLocalizer["DELETE"]
             };
         }
 
@@ -422,7 +432,7 @@ namespace CouponManagementServiceV2.Core.Business.Services
                 isSucces = true,
                 statusCode = _errorCodeLocalizer["SUCCESS"],
                 errorMessage = _errorLocalizer["SUCCESS"],
-                result = "Coupon deleted!"
+                result = _errorLocalizer["DELETE"]
             };
         }
 

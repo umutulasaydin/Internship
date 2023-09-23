@@ -35,6 +35,7 @@ export class CouponsComponent implements OnInit{
   body = {
     pageNumber: 1,
     rowsOfPage: 20,
+    cpnId: 0,
     couponStatus: 0,
     serieId: "",
     serieName: "",
@@ -156,7 +157,11 @@ export class CouponsComponent implements OnInit{
     
     if (missing.length >0)
     {
-      if (missing[0].field == "usUsername")
+      if (missing[0].field = "cpnId")
+      {
+        this.body.cpnId = 0;
+      }
+      else if (missing[0].field == "usUsername")
       {
         this.body.username = "";
       }
@@ -176,6 +181,10 @@ export class CouponsComponent implements OnInit{
       else if (filters[i].field == "cpsSeriesId")
       {
         this.body.serieId = filters[i].value;
+      }
+      else if (filters[i].field == "cpnId")
+      {
+        this.body.cpnId = filters[i].value;
       }
     }
     this.filter = filter;

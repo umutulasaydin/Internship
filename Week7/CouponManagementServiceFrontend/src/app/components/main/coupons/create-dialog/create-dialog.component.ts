@@ -29,7 +29,7 @@ export class CreateDialogComponent {
       {
         if (result.statusCode == 1)
         {
-          this.message = "Here is your coupon code: "+result.result.cpnCode;
+          this.message = result.result.cpnCode;
         }
         else
         {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7b3N7gkJR29NxcVzFjogqDCas0ciN/8jdTW24F4pwxU=",
+  "Hash": "NfqYGYeCxiIFg4ABz9YRBC+trrAO4F9pYmwyvy8cw70=",
   "Source": "CouponManagementServiceV2.WebApi",
   "BasePath": "_content/CouponManagementServiceV2.WebApi",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "CouponManagementServiceV2.Core",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],

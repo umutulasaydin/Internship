@@ -114,6 +114,7 @@ namespace CouponManagementServiceV2.Core.Model.Data
     {
         public int pageNumber { get; set;}
         public int rowsOfPage { get; set; }
+        public int cpnId { get; set;}
         public int couponStatus { get; set; } = 0;
         public string serieId { get; set; } = "";
         public string serieName { get; set; } = "";

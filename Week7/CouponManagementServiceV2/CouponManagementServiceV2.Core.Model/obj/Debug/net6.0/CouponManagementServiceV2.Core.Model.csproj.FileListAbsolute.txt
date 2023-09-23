@@ -102,3 +102,5 @@ C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\Co
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Core.Model\obj\Debug\net6.0\refint\CouponManagementServiceV2.Core.Model.dll
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Core.Model\obj\Debug\net6.0\CouponManagementServiceV2.Core.Model.pdb
 C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Core.Model\obj\Debug\net6.0\ref\CouponManagementServiceV2.Core.Model.dll
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Core.Model\obj\Debug\net6.0\en-US\CouponManagementServiceV2.Core.Model.resources.cs
+C:\Users\umut2\OneDrive\Masaüstü\Internship\Week7\CouponManagementServiceV2\CouponManagementServiceV2.Core.Model\obj\Debug\net6.0\tr\CouponManagementServiceV2.Core.Model.resources.cs

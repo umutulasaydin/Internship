@@ -8,9 +8,9 @@
 <kendo-grid [data]="gridView" [pageSize]="body.rowsOfPage" [skip]="skip" [pageable]="true"
   (pageChange)="pageChange($event)" [sortable]="true" [sort]="sort" (sortChange)="sortChange($event)"
   [filterable]="true" [filter]="filter" (filterChange)="filterChange($event)" [resizable]="true">
-  <kendo-grid-column field="cpnId" title="ID" editor="numeric" [filterable]="false"
+  <kendo-grid-column field="cpnId" title="ID" editor="numeric"
     [sortable]="false"></kendo-grid-column>
-  <kendo-grid-column field="cpnCode" title="Code" [filterable]="false" [width]="120"
+  <kendo-grid-column field="cpnCode" title="Code" [filterable]="false" [width]="150"
     [sortable]="false" i18n-title></kendo-grid-column >
   <kendo-grid-column field="cpnStatus" title="Status" [width]="120" [sortable]="false" i18n-title>
 

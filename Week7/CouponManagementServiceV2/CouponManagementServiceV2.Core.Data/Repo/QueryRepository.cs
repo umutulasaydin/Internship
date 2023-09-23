@@ -129,11 +129,11 @@ namespace CouponManagementServiceV2.Core.Data.Repo
         {
             try
             {
-                var query = "EXEC dbo.GetCouponsFilterSort @PageNumber, @RowsOfPage, @couponStatus, @serieId, @serieName, @username, @name, @startDateStart, @startDateEnd, @startOrder, @validDateStart, @validDateEnd, @validOrder";
-                var query2 = "EXEC dbo.GetCouponLength @couponStatus, @serieId, @serieName, @username, @name, @startDateStart, @startDateEnd, @validDateStart, @validDateEnd";
+                var query = "EXEC dbo.GetCouponsFilterSort @PageNumber, @RowsOfPage, @cpnId,@couponStatus, @serieId, @serieName, @username, @name, @startDateStart, @startDateEnd, @startOrder, @validDateStart, @validDateEnd, @validOrder";
+                var query2 = "EXEC dbo.GetCouponLength @cpnId, @couponStatus, @serieId, @serieName, @username, @name, @startDateStart, @startDateEnd, @validDateStart, @validDateEnd";
                 using var connection = _dbConnect.Connect("Query");
-                var data = await connection.QueryAsync<AllCouponResponse>(query, new { PageNumber = parameters.pageNumber, RowsOfPage = parameters.rowsOfPage, couponStatus = parameters.couponStatus, serieId = parameters.serieId, serieName = parameters.serieName, username = parameters.username, name = parameters.name, startDateStart = parameters.startDateStart, startDateEnd = parameters.startDateEnd, startOrder = parameters.startOrder, validDateStart = parameters.validDateStart, validDateEnd = parameters.validDateEnd, validOrder = parameters.validOrder });
-                var maxPage = await connection.QueryAsync<int>(query2, new { couponStatus = parameters.couponStatus, serieId = parameters.serieId, serieName = parameters.serieName, username = parameters.username, name = parameters.name, startDateStart = parameters.startDateStart, startDateEnd = parameters.startDateEnd, validDateStart = parameters.validDateStart, validDateEnd = parameters.validDateEnd });
+                var data = await connection.QueryAsync<AllCouponResponse>(query, new { PageNumber = parameters.pageNumber, RowsOfPage = parameters.rowsOfPage, cpnId = parameters.cpnId, couponStatus = parameters.couponStatus, serieId = parameters.serieId, serieName = parameters.serieName, username = parameters.username, name = parameters.name, startDateStart = parameters.startDateStart, startDateEnd = parameters.startDateEnd, startOrder = parameters.startOrder, validDateStart = parameters.validDateStart, validDateEnd = parameters.validDateEnd, validOrder = parameters.validOrder });
+                var maxPage = await connection.QueryAsync<int>(query2, new { cpnId = parameters.cpnId, couponStatus = parameters.couponStatus, serieId = parameters.serieId, serieName = parameters.serieName, username = parameters.username, name = parameters.name, startDateStart = parameters.startDateStart, startDateEnd = parameters.startDateEnd, validDateStart = parameters.validDateStart, validDateEnd = parameters.validDateEnd });
                 return new PageInfo<IEnumerable<AllCouponResponse>>
                 {
                     data = data,
@@ -171,6 +171,7 @@ namespace CouponManagementServiceV2.Core.Data.Repo
         {
             try
             {
+       
                 var query = "EXEC dbo.GetLogsFilterSort @PageNumber, @RowsOfPage, @cplId, @couponId, @operation, @username, @name, @startDate, @endDate, @dateOrder, @clientName, @clientPos";
                 var query2 = "EXEC dbo.GetLogsLength @cplId, @couponId, @operation, @username, @name, @startDate, @endDate, @dateOrder, @clientName, @clientPos";
                 using var connection = _dbConnect.Connect("Query");

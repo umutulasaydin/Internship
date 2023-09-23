@@ -31,7 +31,7 @@ export class CreateDialogComponent2 {
     this.webService.CreateSerie(body).subscribe(result => {
       if (result.statusCode == 1)
         {
-          this.message = "Serie created!";
+          this.message = result.result;
         }
         else
         {

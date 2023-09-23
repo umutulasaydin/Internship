@@ -22,8 +22,8 @@ export class NavbarComponent {
   
   logout()
   {
-    sessionStorage.clear();
-    window.location.reload();
+    sessionStorage.removeItem("token");
+    window.location.href = `/${sessionStorage.getItem('lang')}`;
   }
 
   openLangDialog()
